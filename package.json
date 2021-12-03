@@ -1,7 +1,7 @@
 {
     "name": "CILA2S_ESP_Rubiales_Recharged_Ultra",
-    "description": "MONOPOZO 15\"",
-    "version": "2.0.0",
+    "description": "Pantalla 10\"",
+    "version": "1.0.0",
     "dependencies": {
         "node-red-contrib-finite-statemachine": "2.1.1",
         "node-red-contrib-modbus": "5.15.0",
