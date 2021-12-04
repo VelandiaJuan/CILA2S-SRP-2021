@@ -13039,7 +13039,7 @@
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "name": "",
-        "label": "Referencia (Hz)",
+        "label": "Referencia (SPM)",
         "tooltip": "",
         "group": "e5ec1549.1923c8",
         "order": 5,
@@ -13049,7 +13049,8 @@
         "mode": "number",
         "delay": "300",
         "topic": "",
-        "x": 880,
+        "topicType": "str",
+        "x": 890,
         "y": 80,
         "wires": [
             [
@@ -86889,7 +86890,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1080,
+        "x": 1100,
         "y": 80,
         "wires": [
             []
