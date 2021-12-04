@@ -21,13 +21,6 @@
         "info": ""
     },
     {
-        "id": "ebaf6b5134c2a666",
-        "type": "tab",
-        "label": "Control PID",
-        "disabled": true,
-        "info": ""
-    },
-    {
         "id": "9941a439.4b17c8",
         "type": "tab",
         "label": "Protecciones",
@@ -39,6 +32,13 @@
         "type": "tab",
         "label": "Configuración VSD",
         "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ebaf6b5134c2a666",
+        "type": "tab",
+        "label": "Control PID",
+        "disabled": true,
         "info": ""
     },
     {
@@ -1169,7 +1169,9 @@
             "c41a251e.427c98"
         ],
         "x": -2,
-        "y": 1033
+        "y": 1033,
+        "w": 1584,
+        "h": 334
     },
     {
         "id": "43bab036.712ca",
@@ -1184,7 +1186,9 @@
             "e9d2f5f0.86a518"
         ],
         "x": -2,
-        "y": 521
+        "y": 521,
+        "w": 1564,
+        "h": 506
     },
     {
         "id": "54254b6e.789ca4",
@@ -1210,7 +1214,9 @@
             "16c036a47724813c"
         ],
         "x": 64,
-        "y": 1399
+        "y": 1399,
+        "w": 682,
+        "h": 282
     },
     {
         "id": "68e6bb30.d1fce4",
@@ -1225,7 +1231,9 @@
             "a7e99088.c8108"
         ],
         "x": -2,
-        "y": 133
+        "y": 133,
+        "w": 1564,
+        "h": 374
     },
     {
         "id": "8a04702.34fd29",
@@ -1242,7 +1250,9 @@
             "49534500.cd9cdc"
         ],
         "x": 804,
-        "y": 1399
+        "y": 1399,
+        "w": 290,
+        "h": 122
     },
     {
         "id": "d689e3de.7d569",
@@ -1494,9 +1504,7 @@
             "996a9142c814ab39"
         ],
         "x": 24,
-        "y": 429,
-        "w": 712,
-        "h": 242
+        "y": 429
     },
     {
         "id": "6abd418f.d175b",
@@ -1511,9 +1519,7 @@
             "b2f2659a.67f648"
         ],
         "x": 18,
-        "y": 23,
-        "w": 1754,
-        "h": 404
+        "y": 23
     },
     {
         "id": "8c207e440fb46f33",
@@ -1529,9 +1535,7 @@
             "9f77b0d829ad914b"
         ],
         "x": 514,
-        "y": 769,
-        "w": 282,
-        "h": 82
+        "y": 769
     },
     {
         "id": "38940f8.c9c27f",
@@ -1694,7 +1698,9 @@
             "98ca0b1c.cda4f8"
         ],
         "x": 34,
-        "y": 29
+        "y": 29,
+        "w": 962,
+        "h": 212
     },
     {
         "id": "57eba231.4d56dc",
@@ -1714,7 +1720,9 @@
             "e9e93a2c.deeb18"
         ],
         "x": 28,
-        "y": 253
+        "y": 253,
+        "w": 494,
+        "h": 304
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -2020,7 +2028,9 @@
             "675af0d1.a9fc4"
         ],
         "x": 22,
-        "y": 27
+        "y": 27,
+        "w": 1186,
+        "h": 846
     },
     {
         "id": "3a4b00b6e7d09e3a",
@@ -2076,7 +2086,9 @@
             "7c0eb170.c43d1"
         ],
         "x": 1234,
-        "y": 149
+        "y": 149,
+        "w": 1452,
+        "h": 632
     },
     {
         "id": "e3aa057d.09fb18",
@@ -2109,7 +2121,9 @@
             "6625e1db09743bc3"
         ],
         "x": 18,
-        "y": 2343
+        "y": 2343,
+        "w": 1504,
+        "h": 294
     },
     {
         "id": "e1e65313b5eaa836",
@@ -2187,10 +2201,6 @@
             "3beb2e16.d977e2",
             "d8c3331e.ce174",
             "6ba5b0f.631cf5",
-            "2d5cd8ff.c3ed88",
-            "1a514d1e.aa2be3",
-            "44bb5770.e48438",
-            "2c549c27.8f7a24",
             "d819c89.12f6638",
             "565805a7.6b4eec",
             "4f86c81.221cf38",
@@ -2201,13 +2211,9 @@
             "a5507750.6b4748",
             "5a370780.070d78",
             "d0882460.0dcf78",
-            "f796f5cc.fb7898",
             "7d229a445e26240e",
             "27642c12f77a13e3",
             "2fa174f43f9aa092",
-            "0bfc0884740c4779",
-            "4ea2e1987f3b3d50",
-            "e1b2eae20714df85",
             "aa49b3720341c633",
             "ef45fa052227c233",
             "e6b6ff7d.8a7e4",
@@ -2228,7 +2234,10 @@
             "28f9623a0f710b9d",
             "c4ca92f3df7aa2b1",
             "64b7b9d400f004f1",
-            "d7dc9ff21b38929e"
+            "d7dc9ff21b38929e",
+            "7c05d282b01e63fd",
+            "e1381b61b358cc15",
+            "59cbfb98b9b20670"
         ],
         "x": 44,
         "y": -1,
@@ -2377,7 +2386,9 @@
             "8a8fcb5375e06087"
         ],
         "x": 14,
-        "y": 2649
+        "y": 2649,
+        "w": 682,
+        "h": 122
     },
     {
         "id": "23c99fd.b16886",
@@ -2461,9 +2472,7 @@
             "b88575ca75fdb4f5"
         ],
         "x": 754,
-        "y": 429,
-        "w": 922,
-        "h": 82
+        "y": 429
     },
     {
         "id": "d175fb986dc9e991",
@@ -2483,9 +2492,7 @@
             "36c70d85dac8cd26"
         ],
         "x": 754,
-        "y": 519,
-        "w": 922,
-        "h": 82
+        "y": 519
     },
     {
         "id": "62fac95632266b01",
@@ -2522,7 +2529,9 @@
             "afcd8222.ca23b"
         ],
         "x": 18,
-        "y": 23
+        "y": 23,
+        "w": 2204,
+        "h": 1014
     },
     {
         "id": "b97e1be50a47bba6",
@@ -2627,7 +2636,9 @@
             "84bfece350ba2b6c"
         ],
         "x": 84,
-        "y": 1699
+        "y": 1699,
+        "w": 972,
+        "h": 582
     },
     {
         "id": "ec31a094.c373c",
@@ -2647,7 +2658,9 @@
             "9f627758.670cd8"
         ],
         "x": 3358,
-        "y": 93
+        "y": 93,
+        "w": 1534,
+        "h": 1614
     },
     {
         "id": "ab42d2fa.9240c",
@@ -2667,7 +2680,9 @@
             "82264d68.0b05a"
         ],
         "x": 3358,
-        "y": 1713
+        "y": 1713,
+        "w": 1334,
+        "h": 624
     },
     {
         "id": "96490ad3.d81618",
@@ -2687,7 +2702,9 @@
             "df7bb8.e05eb448"
         ],
         "x": 3364,
-        "y": 2349
+        "y": 2349,
+        "w": 752,
+        "h": 122
     },
     {
         "id": "bd17e5b9.9261f8",
@@ -2707,7 +2724,9 @@
             "aa730b91.5646d8"
         ],
         "x": 3364,
-        "y": 2479
+        "y": 2479,
+        "w": 752,
+        "h": 122
     },
     {
         "id": "6939ff44.377fa",
@@ -2745,7 +2764,9 @@
             "21cbefa5b43914e1"
         ],
         "x": 3364,
-        "y": 2609
+        "y": 2609,
+        "w": 952,
+        "h": 362
     },
     {
         "id": "365d864c.8c19ca",
@@ -2768,10 +2789,13 @@
             "9bb5d411.271d48",
             "dad86215.ed79c",
             "dd0fb9ab.f737f8",
-            "e032b1f4.a8be7"
+            "e032b1f4.a8be7",
+            "f0485acb0ac24bc7"
         ],
-        "x": 1634,
-        "y": 97
+        "x": 1604,
+        "y": 97,
+        "w": 1714,
+        "h": 4196
     },
     {
         "id": "096b837a3a33f58b",
@@ -3007,7 +3031,9 @@
             "fec937a86891d165"
         ],
         "x": 94,
-        "y": 2809
+        "y": 2809,
+        "w": 542,
+        "h": 162
     },
     {
         "id": "b404dcea03126424",
@@ -3040,7 +3066,9 @@
             "766cfa87ec44f683"
         ],
         "x": 1394,
-        "y": 89
+        "y": 89,
+        "w": 662,
+        "h": 272
     },
     {
         "id": "f2ce71497366a377",
@@ -3118,7 +3146,9 @@
             "84a9ae90398dbd2d"
         ],
         "x": 34,
-        "y": 393
+        "y": 393,
+        "w": 1988,
+        "h": 848
     },
     {
         "id": "99b24e0896cf0f0c",
@@ -3137,7 +3167,9 @@
             "1c4e319074fb108b"
         ],
         "x": 34,
-        "y": 59
+        "y": 59,
+        "w": 592,
+        "h": 142
     },
     {
         "id": "03502219e91ec6ae",
@@ -3182,7 +3214,9 @@
             "f8f18ac4d264c97b"
         ],
         "x": 64,
-        "y": 399
+        "y": 399,
+        "w": 882,
+        "h": 162
     },
     {
         "id": "610861a3f96d22bd",
@@ -3207,7 +3241,9 @@
             "391bfdae0921e15a"
         ],
         "x": 634,
-        "y": 59
+        "y": 59,
+        "w": 672,
+        "h": 222
     },
     {
         "id": "86af7867dc10f4a8",
@@ -3375,7 +3411,9 @@
             "4b2d01032ad01b5f"
         ],
         "x": 904,
-        "y": 1059
+        "y": 1059,
+        "w": 652,
+        "h": 282
     },
     {
         "id": "c41a251e.427c98",
@@ -3405,7 +3443,9 @@
             "43ef002844a8d559"
         ],
         "x": 24,
-        "y": 1059
+        "y": 1059,
+        "w": 862,
+        "h": 202
     },
     {
         "id": "27c43941.e9e0c6",
@@ -3453,7 +3493,9 @@
             "dca73cd4fedaaabc"
         ],
         "x": 24,
-        "y": 549
+        "y": 549,
+        "w": 772,
+        "h": 452
     },
     {
         "id": "e9d2f5f0.86a518",
@@ -3486,7 +3528,9 @@
             "8307ca17.c4d5b8"
         ],
         "x": 804,
-        "y": 547
+        "y": 547,
+        "w": 732,
+        "h": 404
     },
     {
         "id": "6cdd72bc.8124cc",
@@ -3516,7 +3560,9 @@
             "154f8bca3ba4d547"
         ],
         "x": 24,
-        "y": 159
+        "y": 159,
+        "w": 752,
+        "h": 202
     },
     {
         "id": "a7e99088.c8108",
@@ -3547,7 +3593,9 @@
             "aa882bcf32d6610f"
         ],
         "x": 784,
-        "y": 159
+        "y": 159,
+        "w": 752,
+        "h": 322
     },
     {
         "id": "31895ea6.22f372",
@@ -3687,9 +3735,7 @@
             "c30439cc.4bcb68"
         ],
         "x": 44,
-        "y": 49,
-        "w": 1422,
-        "h": 212
+        "y": 49
     },
     {
         "id": "b2f2659a.67f648",
@@ -3718,9 +3764,7 @@
             "2c9d8d63e1dd0fbe"
         ],
         "x": 44,
-        "y": 269,
-        "w": 1702,
-        "h": 132
+        "y": 269
     },
     {
         "id": "70a63b74.44894c",
@@ -3797,7 +3841,9 @@
             "ad87cee4.7dbb5"
         ],
         "x": 54,
-        "y": 279
+        "y": 279,
+        "w": 322,
+        "h": 82
     },
     {
         "id": "e9e93a2c.deeb18",
@@ -3819,7 +3865,9 @@
             "14241d8711ae8590"
         ],
         "x": 54,
-        "y": 369
+        "y": 369,
+        "w": 442,
+        "h": 162
     },
     {
         "id": "675af0d1.a9fc4",
@@ -3836,7 +3884,9 @@
             "9bdf522.eba6db"
         ],
         "x": 48,
-        "y": 53
+        "y": 53,
+        "w": 1134,
+        "h": 794
     },
     {
         "id": "dad84feb.d4773",
@@ -4055,7 +4105,9 @@
             "c7ce33ac338a9db9"
         ],
         "x": 44,
-        "y": 2369
+        "y": 2369,
+        "w": 1452,
+        "h": 242
     },
     {
         "id": "ef45fa052227c233",
@@ -4176,7 +4228,9 @@
             "dd4ef7f.6489508"
         ],
         "x": 44,
-        "y": 49
+        "y": 49,
+        "w": 2152,
+        "h": 962
     },
     {
         "id": "afcd8222.ca23b",
@@ -4208,7 +4262,9 @@
             "25037f6e145deee9"
         ],
         "x": 44,
-        "y": 649
+        "y": 649,
+        "w": 1152,
+        "h": 292
     },
     {
         "id": "487b4f399a10404b",
@@ -4485,7 +4541,9 @@
             "3d1af80d.d5b9c8"
         ],
         "x": 3384,
-        "y": 119
+        "y": 119,
+        "w": 832,
+        "h": 1562
     },
     {
         "id": "9f627758.670cd8",
@@ -4557,7 +4615,9 @@
             "487147d15f5c304a"
         ],
         "x": 4224,
-        "y": 119
+        "y": 119,
+        "w": 642,
+        "h": 562
     },
     {
         "id": "78a8be83.7018c",
@@ -4588,7 +4648,9 @@
             "3f3a83c71b2f5a67"
         ],
         "x": 3394,
-        "y": 1829
+        "y": 1829,
+        "w": 1272,
+        "h": 482
     },
     {
         "id": "82264d68.0b05a",
@@ -4608,7 +4670,9 @@
             "84631e96.4b794"
         ],
         "x": 3384,
-        "y": 1739
+        "y": 1739,
+        "w": 682,
+        "h": 82
     },
     {
         "id": "8ac2b187.14625",
@@ -4629,7 +4693,9 @@
             "efe6d3f.f10193"
         ],
         "x": 1838,
-        "y": 2793
+        "y": 2793,
+        "w": 1434,
+        "h": 414
     },
     {
         "id": "9bb5d411.271d48",
@@ -4650,7 +4716,9 @@
             "44ee5bb3.49b264"
         ],
         "x": 1828,
-        "y": 1853
+        "y": 1853,
+        "w": 1454,
+        "h": 894
     },
     {
         "id": "dad86215.ed79c",
@@ -4671,7 +4739,9 @@
             "baaa353b.511268"
         ],
         "x": 1848,
-        "y": 3613
+        "y": 3613,
+        "w": 1444,
+        "h": 654
     },
     {
         "id": "dd0fb9ab.f737f8",
@@ -4692,7 +4762,9 @@
             "de31a457.a923c8"
         ],
         "x": 1838,
-        "y": 3233
+        "y": 3233,
+        "w": 1434,
+        "h": 374
     },
     {
         "id": "e032b1f4.a8be7",
@@ -4713,7 +4785,9 @@
             "e5ce125e.59232"
         ],
         "x": 1858,
-        "y": 123
+        "y": 123,
+        "w": 1424,
+        "h": 1624
     },
     {
         "id": "22196749d13fa9b3",
@@ -5122,7 +5196,9 @@
             "b3215b121cbfbf66"
         ],
         "x": 1324,
-        "y": 419
+        "y": 419,
+        "w": 672,
+        "h": 202
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -5259,7 +5335,9 @@
             "d0a19b38.893ab8"
         ],
         "x": 74,
-        "y": 79
+        "y": 79,
+        "w": 1042,
+        "h": 162
     },
     {
         "id": "9bdf522.eba6db",
@@ -5307,7 +5385,9 @@
             "0a4336ec53039171"
         ],
         "x": 114,
-        "y": 249
+        "y": 249,
+        "w": 1042,
+        "h": 572
     },
     {
         "id": "65994a87.9d5eb4",
@@ -5357,7 +5437,9 @@
             "7af9ff4dabd191fb"
         ],
         "x": 1394,
-        "y": 389
+        "y": 389,
+        "w": 632,
+        "h": 222
     },
     {
         "id": "37d2bc6e.615114",
@@ -5396,7 +5478,9 @@
             "a3e0cd32.96432"
         ],
         "x": 1864,
-        "y": 2819
+        "y": 2819,
+        "w": 722,
+        "h": 362
     },
     {
         "id": "efe6d3f.f10193",
@@ -5432,7 +5516,9 @@
             "55372f1ea71702ea"
         ],
         "x": 2594,
-        "y": 2839
+        "y": 2839,
+        "w": 652,
+        "h": 202
     },
     {
         "id": "16097ef1.129291",
@@ -5507,7 +5593,9 @@
             "773ceaee.f160b4"
         ],
         "x": 1854,
-        "y": 1879
+        "y": 1879,
+        "w": 742,
+        "h": 842
     },
     {
         "id": "44ee5bb3.49b264",
@@ -5567,7 +5655,9 @@
             "6271ec419c9975fc"
         ],
         "x": 2604,
-        "y": 1899
+        "y": 1899,
+        "w": 652,
+        "h": 442
     },
     {
         "id": "372b998e.a167c6",
@@ -5624,7 +5714,9 @@
             "f06a3f08.5a752"
         ],
         "x": 1874,
-        "y": 3639
+        "y": 3639,
+        "w": 722,
+        "h": 602
     },
     {
         "id": "baaa353b.511268",
@@ -5672,7 +5764,9 @@
             "e3c99a130078517c"
         ],
         "x": 2614,
-        "y": 3659
+        "y": 3659,
+        "w": 652,
+        "h": 322
     },
     {
         "id": "826b087f.5615a8",
@@ -5704,7 +5798,9 @@
             "7cda2e346e20ca45"
         ],
         "x": 2594,
-        "y": 3259
+        "y": 3259,
+        "w": 652,
+        "h": 162
     },
     {
         "id": "de31a457.a923c8",
@@ -5740,7 +5836,9 @@
             "741d0ef6.6e951"
         ],
         "x": 1864,
-        "y": 3259
+        "y": 3259,
+        "w": 722,
+        "h": 322
     },
     {
         "id": "4a1410ce.7057a",
@@ -5848,7 +5946,9 @@
             "f92e2d6e5b16c38b"
         ],
         "x": 1884,
-        "y": 149
+        "y": 149,
+        "w": 712,
+        "h": 1572
     },
     {
         "id": "e5ce125e.59232",
@@ -5925,7 +6025,9 @@
             "22341ae01ccb0b7c"
         ],
         "x": 2604,
-        "y": 149
+        "y": 149,
+        "w": 652,
+        "h": 642
     },
     {
         "id": "c2478f1687e8ccc7",
@@ -6507,6 +6609,30 @@
         ],
         "x": 1384,
         "y": 3959
+    },
+    {
+        "id": "7c05d282b01e63fd",
+        "type": "group",
+        "z": "902fc438.e5d758",
+        "g": "6202107f.ed9aa",
+        "name": "Navegacion Ventana Principal",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2d5cd8ff.c3ed88",
+            "1a514d1e.aa2be3",
+            "44bb5770.e48438",
+            "2c549c27.8f7a24",
+            "f796f5cc.fb7898",
+            "0bfc0884740c4779",
+            "4ea2e1987f3b3d50",
+            "e1b2eae20714df85"
+        ],
+        "x": 1034,
+        "y": 399,
+        "w": 632,
+        "h": 172
     },
     {
         "id": "d25d405a.19cff",
@@ -7143,7 +7269,6 @@
         "address": "192.168.2.10",
         "port": "44818",
         "userouting": false,
-        "routingbuf": "[1,0]",
         "cycletime": "500",
         "timeout": "1500",
         "name": "PowerFlex755T_Read",
@@ -7264,7 +7389,6 @@
         "serialStopbits": "1",
         "serialParity": "none",
         "serialConnectionDelay": "100",
-        "serialAsciiResponseStartDelimiter": "",
         "unit_id": 5,
         "commandDelay": 1,
         "clientTimeout": 1000,
@@ -7290,7 +7414,6 @@
         "serialStopbits": "1",
         "serialParity": "none",
         "serialConnectionDelay": "100",
-        "serialAsciiResponseStartDelimiter": "",
         "unit_id": 1,
         "commandDelay": 1,
         "clientTimeout": 1000,
@@ -7326,7 +7449,6 @@
         "serialStopbits": "1",
         "serialParity": "none",
         "serialConnectionDelay": "100",
-        "serialAsciiResponseStartDelimiter": "",
         "unit_id": 1,
         "commandDelay": 1,
         "clientTimeout": 3000,
@@ -7388,7 +7510,6 @@
         "address": "192.168.2.10",
         "port": "44818",
         "userouting": false,
-        "routingbuf": "[1,0]",
         "cycletime": "500",
         "timeout": "1500",
         "name": "PowerFlex755T_Write",
@@ -13039,7 +13160,8 @@
             ],
             [
                 "c1cf35bd.94c428",
-                "c4ca92f3df7aa2b1"
+                "c4ca92f3df7aa2b1",
+                "e1381b61b358cc15"
             ]
         ]
     },
@@ -13234,7 +13356,7 @@
             "4372d5a0.d338dc"
         ],
         "x": 985,
-        "y": 290,
+        "y": 360,
         "wires": [
             [
                 "1606c10f.56a83f"
@@ -13260,7 +13382,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1070,
-        "y": 290,
+        "y": 360,
         "wires": [
             [
                 "7d35cec3.ade78"
@@ -13281,7 +13403,7 @@
         "format": " {{msg.payload}}",
         "layout": "row-spread",
         "x": 1390,
-        "y": 290,
+        "y": 360,
         "wires": []
     },
     {
@@ -13296,7 +13418,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1240,
-        "y": 290,
+        "y": 360,
         "wires": [
             [
                 "dd55fa16.314248"
@@ -13315,7 +13437,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1010,
-        "y": 250,
+        "y": 320,
         "wires": [
             [
                 "16923a95.e45025"
@@ -13338,7 +13460,7 @@
         "topic": "Modo de control",
         "name": "",
         "x": 1150,
-        "y": 250,
+        "y": 320,
         "wires": [
             [
                 "a82882b.f096f8"
@@ -13357,7 +13479,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1340,
-        "y": 250,
+        "y": 320,
         "wires": [
             [
                 "7d35cec3.ade78",
@@ -13440,7 +13562,7 @@
         "id": "2d5cd8ff.c3ed88",
         "type": "ui_button",
         "z": "902fc438.e5d758",
-        "g": "6202107f.ed9aa",
+        "g": "7c05d282b01e63fd",
         "name": "Escalonado",
         "group": "e5ec1549.1923c8",
         "order": 7,
@@ -13455,8 +13577,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 1110,
-        "y": 360,
+        "x": 1150,
+        "y": 440,
         "wires": [
             [
                 "44bb5770.e48438"
@@ -13467,7 +13589,7 @@
         "id": "1a514d1e.aa2be3",
         "type": "ui_button",
         "z": "902fc438.e5d758",
-        "g": "6202107f.ed9aa",
+        "g": "7c05d282b01e63fd",
         "name": "Ref prolongada",
         "group": "e5ec1549.1923c8",
         "order": 11,
@@ -13482,8 +13604,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 1220,
-        "y": 420,
+        "x": 1140,
+        "y": 500,
         "wires": [
             [
                 "0bfc0884740c4779"
@@ -13494,7 +13616,7 @@
         "id": "44bb5770.e48438",
         "type": "change",
         "z": "902fc438.e5d758",
-        "g": "6202107f.ed9aa",
+        "g": "7c05d282b01e63fd",
         "name": "start change",
         "rules": [
             {
@@ -13510,8 +13632,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1590,
-        "y": 360,
+        "x": 1510,
+        "y": 440,
         "wires": [
             [
                 "f796f5cc.fb7898"
@@ -13522,7 +13644,7 @@
         "id": "2c549c27.8f7a24",
         "type": "change",
         "z": "902fc438.e5d758",
-        "g": "6202107f.ed9aa",
+        "g": "7c05d282b01e63fd",
         "name": "start change",
         "rules": [
             {
@@ -13538,8 +13660,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1590,
-        "y": 400,
+        "x": 1510,
+        "y": 480,
         "wires": [
             [
                 "f796f5cc.fb7898"
@@ -13787,14 +13909,14 @@
         "id": "f796f5cc.fb7898",
         "type": "link out",
         "z": "902fc438.e5d758",
-        "g": "6202107f.ed9aa",
+        "g": "7c05d282b01e63fd",
         "name": "",
         "links": [
             "236c6c92.d31584",
             "501b4196.e2e16"
         ],
-        "x": 1705,
-        "y": 360,
+        "x": 1625,
+        "y": 440,
         "wires": []
     },
     {
@@ -13860,7 +13982,7 @@
         "id": "0bfc0884740c4779",
         "type": "switch",
         "z": "902fc438.e5d758",
-        "g": "6202107f.ed9aa",
+        "g": "7c05d282b01e63fd",
         "name": "At Speed?",
         "property": "#:(memoryOnly)::C2S.Drive_Status.At_Setpt_Spd",
         "propertyType": "global",
@@ -13877,8 +13999,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1400,
-        "y": 420,
+        "x": 1320,
+        "y": 500,
         "wires": [
             [
                 "2c549c27.8f7a24"
@@ -13892,20 +14014,20 @@
         "id": "4ea2e1987f3b3d50",
         "type": "link out",
         "z": "902fc438.e5d758",
-        "g": "6202107f.ed9aa",
+        "g": "7c05d282b01e63fd",
         "name": "",
         "links": [
             "52f1e35a6b450a62"
         ],
-        "x": 1705,
-        "y": 450,
+        "x": 1625,
+        "y": 530,
         "wires": []
     },
     {
         "id": "e1b2eae20714df85",
         "type": "change",
         "z": "902fc438.e5d758",
-        "g": "6202107f.ed9aa",
+        "g": "7c05d282b01e63fd",
         "name": "notif",
         "rules": [
             {
@@ -13921,8 +14043,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1610,
-        "y": 450,
+        "x": 1530,
+        "y": 530,
         "wires": [
             [
                 "4ea2e1987f3b3d50"
@@ -14789,7 +14911,7 @@
             "ed742163861f3de5"
         ],
         "x": 1485,
-        "y": 220,
+        "y": 290,
         "wires": []
     },
     {
@@ -24882,10 +25004,11 @@
         "order": 1,
         "width": 4,
         "height": 1,
-        "passthru": false,
+        "passthru": true,
         "mode": "number",
         "delay": "300",
         "topic": "Accel",
+        "topicType": "str",
         "x": 480,
         "y": 590,
         "wires": [
@@ -24906,10 +25029,11 @@
         "order": 2,
         "width": 4,
         "height": 1,
-        "passthru": false,
+        "passthru": true,
         "mode": "number",
         "delay": "300",
         "topic": "Accel",
+        "topicType": "str",
         "x": 480,
         "y": 630,
         "wires": [
@@ -24930,10 +25054,11 @@
         "order": 3,
         "width": 4,
         "height": 1,
-        "passthru": false,
+        "passthru": true,
         "mode": "number",
         "delay": "300",
         "topic": "Accel",
+        "topicType": "str",
         "x": 490,
         "y": 670,
         "wires": [
@@ -24954,10 +25079,11 @@
         "order": 4,
         "width": 4,
         "height": 1,
-        "passthru": false,
+        "passthru": true,
         "mode": "number",
         "delay": "300",
         "topic": "Accel",
+        "topicType": "str",
         "x": 500,
         "y": 710,
         "wires": [
@@ -24978,10 +25104,11 @@
         "order": 5,
         "width": 4,
         "height": 1,
-        "passthru": false,
+        "passthru": true,
         "mode": "number",
         "delay": "300",
         "topic": "Accel",
+        "topicType": "str",
         "x": 470,
         "y": 750,
         "wires": [
@@ -25002,10 +25129,11 @@
         "order": 6,
         "width": 4,
         "height": 1,
-        "passthru": false,
+        "passthru": true,
         "mode": "number",
         "delay": "300",
         "topic": "Accel",
+        "topicType": "str",
         "x": 460,
         "y": 790,
         "wires": [
@@ -25853,7 +25981,7 @@
         "order": 8,
         "width": 4,
         "height": 1,
-        "passthru": false,
+        "passthru": true,
         "multiple": false,
         "options": [
             {
@@ -25869,6 +25997,7 @@
         ],
         "payload": "",
         "topic": "",
+        "topicType": "str",
         "x": 510,
         "y": 830,
         "wires": [
@@ -34720,7 +34849,6 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "className": "",
         "x": 340,
         "y": 1480,
         "wires": [
@@ -42300,7 +42428,6 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "className": "",
         "x": 490,
         "y": 1990,
         "wires": [
@@ -55193,6 +55320,7 @@
         "mode": "number",
         "delay": "300",
         "topic": "",
+        "topicType": "str",
         "x": 2210,
         "y": 1190,
         "wires": [
@@ -55594,7 +55722,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "Motor_Control.PMM.Mtr_NL_Voltage",
+                "p": "C2S.Motor_Control.PMM.Mtr_NL_Voltage",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -55620,7 +55748,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "Motor_Control.Nameplate.Hertz",
+                "p": "C2S.Motor_Control.Nameplate.Hertz",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -55646,7 +55774,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "Motor_Control.Nameplate.Amps",
+                "p": "C2S.Motor_Control.Nameplate.Amps",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -55672,7 +55800,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "Motor_Control.Nameplate.RPM",
+                "p": "C2S.Motor_Control.Nameplate.RPM",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -55698,7 +55826,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "Motor_Control.PMM.Mtr_FL_Voltage",
+                "p": "C2S.Motor_Control.PMM.Mtr_FL_Voltage",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -55724,7 +55852,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "Motor_Control.Nameplate.Poles",
+                "p": "C2S.Motor_Control.Nameplate.Poles",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -55750,7 +55878,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "Motor_Control.Nameplate.Power",
+                "p": "C2S.Motor_Control.Nameplate.Power",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -55776,7 +55904,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "Motor_Control.Nameplate.Power_Units",
+                "p": "C2S.Motor_Control.Nameplate.Power_Units",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -56099,7 +56227,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "Motor_Control.Nameplate.LoopControl",
+                "p": "C2S.Motor_Control.Nameplate.LoopControl",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -56185,7 +56313,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Motor_Control.Nameplate.LoopControl",
+                "to": "C2S.Motor_Control.Nameplate.LoopControl",
                 "tot": "global"
             }
         ],
@@ -56213,7 +56341,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Motor_Control.Nameplate.Power_Units",
+                "to": "C2S.Motor_Control.Nameplate.Power_Units",
                 "tot": "global"
             }
         ],
@@ -56241,7 +56369,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Motor_Control.Nameplate.Power",
+                "to": "C2S.Motor_Control.Nameplate.Power",
                 "tot": "global"
             }
         ],
@@ -56269,7 +56397,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Motor_Control.Nameplate.Poles",
+                "to": "C2S.Motor_Control.Nameplate.Poles",
                 "tot": "global"
             }
         ],
@@ -56297,7 +56425,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Motor_Control.PMM.Mtr_FL_Voltage",
+                "to": "C2S.Motor_Control.PMM.Mtr_FL_Voltage",
                 "tot": "global"
             }
         ],
@@ -56325,7 +56453,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Motor_Control.Nameplate.RPM",
+                "to": "C2S.Motor_Control.Nameplate.RPM",
                 "tot": "global"
             }
         ],
@@ -56353,7 +56481,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Motor_Control.Nameplate.Amps",
+                "to": "C2S.Motor_Control.Nameplate.Amps",
                 "tot": "global"
             }
         ],
@@ -56381,7 +56509,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Motor_Control.Nameplate.Hertz",
+                "to": "C2S.Motor_Control.Nameplate.Hertz",
                 "tot": "global"
             }
         ],
@@ -56409,7 +56537,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Motor_Control.PMM.Mtr_NL_Voltage",
+                "to": "C2S.Motor_Control.PMM.Mtr_NL_Voltage",
                 "tot": "global"
             }
         ],
@@ -56526,7 +56654,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "Motor_Control.PMM.Total_kgm2",
+                "p": "C2S.Motor_Control.PMM.Total_kgm2",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -56552,7 +56680,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "Motor_Control.PMM.Stator_Resistance",
+                "p": "C2S.Motor_Control.PMM.Stator_Resistance",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -56599,7 +56727,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Motor_Control.PMM.Total_kgm2",
+                "to": "C2S.Motor_Control.PMM.Total_kgm2",
                 "tot": "global"
             }
         ],
@@ -56701,7 +56829,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Motor_Control.PMM.Stator_Resistance",
+                "to": "C2S.Motor_Control.PMM.Stator_Resistance",
                 "tot": "global"
             }
         ],
@@ -56782,7 +56910,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "Motor_Control.PMM.Mtr_Efficiency",
+                "p": "C2S.Motor_Control.PMM.Mtr_Efficiency",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -56824,7 +56952,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Motor_Control.PMM.Mtr_Efficiency",
+                "to": "C2S.Motor_Control.PMM.Mtr_Efficiency",
                 "tot": "global"
             }
         ],
@@ -86295,12 +86423,10 @@
         "order": 6,
         "width": 4,
         "height": 1,
-        "passthru": false,
+        "passthru": true,
         "mode": "number",
         "delay": "300",
         "topic": "Accel",
-        "sendOnBlur": true,
-        "className": "",
         "topicType": "str",
         "x": 500,
         "y": 880,
@@ -86376,12 +86502,10 @@
         "order": 6,
         "width": 4,
         "height": 1,
-        "passthru": false,
+        "passthru": true,
         "mode": "number",
         "delay": "300",
         "topic": "Accel",
-        "sendOnBlur": true,
-        "className": "",
         "topicType": "str",
         "x": 480,
         "y": 920,
@@ -86457,12 +86581,10 @@
         "order": 6,
         "width": 4,
         "height": 1,
-        "passthru": false,
+        "passthru": true,
         "mode": "number",
         "delay": "300",
         "topic": "Accel",
-        "sendOnBlur": true,
-        "className": "",
         "topicType": "str",
         "x": 480,
         "y": 960,
@@ -86676,8 +86798,6 @@
         "mode": "number",
         "delay": "300",
         "topic": "",
-        "sendOnBlur": true,
-        "className": "",
         "topicType": "str",
         "x": 2240,
         "y": 1600,
@@ -86703,8 +86823,6 @@
         "mode": "number",
         "delay": "300",
         "topic": "",
-        "sendOnBlur": true,
-        "className": "",
         "topicType": "str",
         "x": 2220,
         "y": 1640,
@@ -86730,8 +86848,6 @@
         "mode": "number",
         "delay": "300",
         "topic": "",
-        "sendOnBlur": true,
-        "className": "",
         "topicType": "str",
         "x": 2220,
         "y": 1680,
@@ -86805,8 +86921,78 @@
         "y": 200,
         "wires": [
             [
-                "c4ca92f3df7aa2b1"
+                "c4ca92f3df7aa2b1",
+                "e1381b61b358cc15"
             ]
         ]
+    },
+    {
+        "id": "f0485acb0ac24bc7",
+        "type": "inject",
+        "z": "43b51d90.0b47f4",
+        "g": "365d864c.8c19ca",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1710,
+        "y": 1140,
+        "wires": [
+            [
+                "e4edf7a1.385598"
+            ]
+        ]
+    },
+    {
+        "id": "e1381b61b358cc15",
+        "type": "function",
+        "z": "902fc438.e5d758",
+        "g": "6202107f.ed9aa",
+        "name": "AlertSPM",
+        "func": "var Dc = global.get(\"C2S.Motor_Control.Nameplate.Dc\")||0;\nvar nPolosMotor = global.get(\"C2S.Motor_Control.Nameplate.Poles\")||0;\nvar Dm = global.get(\"C2S.Motor_Control.Nameplate.Dm\")||0;\nvar rgb = global.get(\"C2S.Motor_Control.Nameplate.RGB\")||0;//RELACION DEL GEAR\nvar Reference = global.get(\"Input.Operation.Reference\" ,\"memoryOnly\")||0;\n// context.set(\"Dc\", Dc,\"memoryOnly\")\n// context.set(\"spm\", spm,\"memoryOnly\")\n// context.set(\"nPolosMotor\", nPolosMotor,\"memoryOnly\")\n// context.set(\"rgb\", rgb,\"memoryOnly\")\n// context.set(\"Dm\", Dm,\"memoryOnly\")\n// // condicion que valida que esten creadas todas las variables\nif (Dc != 0 && Dm != 0 && rgb != 0 && nPolosMotor != 0){\n    node.status({ fill: \"green\", shape: \"dot\", text: \"Configurado\"});\n}else{\n    msg.topic = \"SRP No Configurado\";\n    msg.payload = \"Configure el motor en Config. VSD\";\n    node.status({ fill: \"red\", shape: \"dot\", text: \"NoConfigurado\"});\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 260,
+        "wires": [
+            [
+                "59cbfb98b9b20670"
+            ]
+        ]
+    },
+    {
+        "id": "59cbfb98b9b20670",
+        "type": "ui_toast",
+        "z": "902fc438.e5d758",
+        "g": "6202107f.ed9aa",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "SPM No Configurada",
+        "x": 1380,
+        "y": 260,
+        "wires": []
     }
 ]
