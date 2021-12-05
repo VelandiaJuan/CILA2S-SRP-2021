@@ -1045,9 +1045,7 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 19,
-        "w": 432,
-        "h": 149.5
+        "y": 19
     },
     {
         "id": "d929d138.3b512",
@@ -1065,9 +1063,7 @@
             "ebd2954e5785409e"
         ],
         "x": 484,
-        "y": 19,
-        "w": 542,
-        "h": 122
+        "y": 19
     },
     {
         "id": "fcb3da61.429db8",
@@ -1137,7 +1133,6 @@
             "1ef50e743f40cd2a",
             "b966cb015fc7f719",
             "4a7db122c2dc8b89",
-            "b7a03936d2600029",
             "fcfcecb7d9991531",
             "1685514ca67b1e7b",
             "f1f7bfacfe0754bf",
@@ -1155,8 +1150,6 @@
             "fbc4689af451cab4",
             "7f7ba2b6b2295aa8",
             "61c02e812fb48b72",
-            "dd63ba6d.b10768",
-            "a6a55c6001e65244",
             "b269ff5b6732d608"
         ],
         "x": 494,
@@ -1194,7 +1187,9 @@
             "c41a251e.427c98"
         ],
         "x": -2,
-        "y": 1033
+        "y": 1033,
+        "w": 1584,
+        "h": 334
     },
     {
         "id": "43bab036.712ca",
@@ -1209,7 +1204,9 @@
             "e9d2f5f0.86a518"
         ],
         "x": -2,
-        "y": 521
+        "y": 521,
+        "w": 1564,
+        "h": 506
     },
     {
         "id": "54254b6e.789ca4",
@@ -1235,7 +1232,9 @@
             "16c036a47724813c"
         ],
         "x": 64,
-        "y": 1399
+        "y": 1399,
+        "w": 682,
+        "h": 282
     },
     {
         "id": "68e6bb30.d1fce4",
@@ -1250,7 +1249,9 @@
             "a7e99088.c8108"
         ],
         "x": -2,
-        "y": 133
+        "y": 133,
+        "w": 1564,
+        "h": 374
     },
     {
         "id": "8a04702.34fd29",
@@ -1267,7 +1268,9 @@
             "49534500.cd9cdc"
         ],
         "x": 804,
-        "y": 1399
+        "y": 1399,
+        "w": 291,
+        "h": 122
     },
     {
         "id": "d689e3de.7d569",
@@ -1291,9 +1294,7 @@
             "b5972fd3.3aeb7"
         ],
         "x": 24,
-        "y": 479,
-        "w": 602,
-        "h": 202
+        "y": 479
     },
     {
         "id": "9132da2c.b8c6b8",
@@ -1318,9 +1319,7 @@
             "8c4c4846.6ea308"
         ],
         "x": 34,
-        "y": 699,
-        "w": 602,
-        "h": 242
+        "y": 699
     },
     {
         "id": "9b538856.60fb38",
@@ -1471,9 +1470,7 @@
             "eb91dac5.690838"
         ],
         "x": -12,
-        "y": 13,
-        "w": 1664,
-        "h": 1200
+        "y": 13
     },
     {
         "id": "e98dc6a9.24ece8",
@@ -1501,9 +1498,7 @@
             "312d9def.84df32"
         ],
         "x": 34,
-        "y": 959,
-        "w": 702,
-        "h": 242
+        "y": 959
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1527,7 +1522,9 @@
             "996a9142c814ab39"
         ],
         "x": 24,
-        "y": 429
+        "y": 429,
+        "w": 712,
+        "h": 242
     },
     {
         "id": "6abd418f.d175b",
@@ -1542,7 +1539,9 @@
             "b2f2659a.67f648"
         ],
         "x": 18,
-        "y": 23
+        "y": 23,
+        "w": 1754,
+        "h": 404
     },
     {
         "id": "8c207e440fb46f33",
@@ -1558,7 +1557,9 @@
             "9f77b0d829ad914b"
         ],
         "x": 514,
-        "y": 769
+        "y": 769,
+        "w": 282,
+        "h": 82
     },
     {
         "id": "38940f8.c9c27f",
@@ -1665,9 +1666,7 @@
             "8978c0c9.4411"
         ],
         "x": 1534,
-        "y": 359,
-        "w": 1192,
-        "h": 732
+        "y": 359
     },
     {
         "id": "99671f60976b1d2a",
@@ -1700,9 +1699,7 @@
             "8978504839e7eede"
         ],
         "x": 1544,
-        "y": 29,
-        "w": 1482,
-        "h": 292
+        "y": 29
     },
     {
         "id": "95daead77be77494",
@@ -1749,9 +1746,7 @@
             "0990c77b15bde411"
         ],
         "x": 994,
-        "y": 649,
-        "w": 532,
-        "h": 732
+        "y": 649
     },
     {
         "id": "87fca62744442ad4",
@@ -1790,9 +1785,7 @@
             "19a66bb9.eaa504"
         ],
         "x": 44,
-        "y": 409,
-        "w": 702,
-        "h": 272
+        "y": 409
     },
     {
         "id": "a7f58aaec292b159",
@@ -1835,9 +1828,7 @@
             "30359a42be66cafb"
         ],
         "x": 44,
-        "y": 689,
-        "w": 812,
-        "h": 272
+        "y": 689
     },
     {
         "id": "37b64a70f39dda06",
@@ -1876,9 +1867,7 @@
             "e0a3fe6a.f68a1"
         ],
         "x": 44,
-        "y": 969,
-        "w": 742,
-        "h": 272
+        "y": 969
     },
     {
         "id": "ee5753bdd6eedb72",
@@ -1903,9 +1892,7 @@
             "ddc7c55f2c0f73c9"
         ],
         "x": 44,
-        "y": 219,
-        "w": 812,
-        "h": 182
+        "y": 219
     },
     {
         "id": "931b0370.afc1b",
@@ -1929,9 +1916,7 @@
             "c22e3c27600ab315"
         ],
         "x": 794,
-        "y": 179,
-        "w": 612,
-        "h": 242
+        "y": 179
     },
     {
         "id": "d84615.919209e8",
@@ -1946,9 +1931,7 @@
             "675af0d1.a9fc4"
         ],
         "x": 22,
-        "y": 27,
-        "w": 1186,
-        "h": 846
+        "y": 27
     },
     {
         "id": "3a4b00b6e7d09e3a",
@@ -2004,9 +1987,7 @@
             "7c0eb170.c43d1"
         ],
         "x": 1234,
-        "y": 149,
-        "w": 1452,
-        "h": 632
+        "y": 149
     },
     {
         "id": "e3aa057d.09fb18",
@@ -2023,9 +2004,7 @@
             "b9df7528.923398"
         ],
         "x": 28,
-        "y": 23,
-        "w": 2970,
-        "h": 1062
+        "y": 23
     },
     {
         "id": "83483662ea05d247",
@@ -2041,7 +2020,9 @@
             "6625e1db09743bc3"
         ],
         "x": 18,
-        "y": 2343
+        "y": 2343,
+        "w": 1504,
+        "h": 294
     },
     {
         "id": "e1e65313b5eaa836",
@@ -2064,9 +2045,7 @@
             "c2e9d16562516ea4"
         ],
         "x": 34,
-        "y": 1229,
-        "w": 792,
-        "h": 212
+        "y": 1229
     },
     {
         "id": "06c0dbf1bffe1e21",
@@ -2217,9 +2196,6 @@
         "nodes": [
             "daa89a01.910de8",
             "9523c57c.c9b468",
-            "4c8f5a04.095bc4",
-            "abd0a82a.ab2348",
-            "933f301f.fcef1",
             "24868425.cac96c",
             "9b0b3358.5ac42",
             "6c6bc8b9.ccf248",
@@ -2303,7 +2279,9 @@
             "8a8fcb5375e06087"
         ],
         "x": 14,
-        "y": 2649
+        "y": 2649,
+        "w": 682,
+        "h": 122
     },
     {
         "id": "23c99fd.b16886",
@@ -2387,7 +2365,9 @@
             "b88575ca75fdb4f5"
         ],
         "x": 754,
-        "y": 429
+        "y": 429,
+        "w": 922,
+        "h": 82
     },
     {
         "id": "d175fb986dc9e991",
@@ -2407,7 +2387,9 @@
             "36c70d85dac8cd26"
         ],
         "x": 754,
-        "y": 519
+        "y": 519,
+        "w": 922,
+        "h": 82
     },
     {
         "id": "b97e1be50a47bba6",
@@ -2512,7 +2494,9 @@
             "84bfece350ba2b6c"
         ],
         "x": 84,
-        "y": 1699
+        "y": 1699,
+        "w": 972,
+        "h": 582
     },
     {
         "id": "ec31a094.c373c",
@@ -2532,7 +2516,9 @@
             "9f627758.670cd8"
         ],
         "x": 3358,
-        "y": 93
+        "y": 93,
+        "w": 1534,
+        "h": 1614
     },
     {
         "id": "ab42d2fa.9240c",
@@ -2552,7 +2538,9 @@
             "82264d68.0b05a"
         ],
         "x": 3358,
-        "y": 1713
+        "y": 1713,
+        "w": 1334,
+        "h": 624
     },
     {
         "id": "96490ad3.d81618",
@@ -2572,7 +2560,9 @@
             "df7bb8.e05eb448"
         ],
         "x": 3364,
-        "y": 2349
+        "y": 2349,
+        "w": 752,
+        "h": 122
     },
     {
         "id": "bd17e5b9.9261f8",
@@ -2592,7 +2582,9 @@
             "aa730b91.5646d8"
         ],
         "x": 3364,
-        "y": 2479
+        "y": 2479,
+        "w": 752,
+        "h": 122
     },
     {
         "id": "6939ff44.377fa",
@@ -2630,7 +2622,9 @@
             "21cbefa5b43914e1"
         ],
         "x": 3364,
-        "y": 2609
+        "y": 2609,
+        "w": 952,
+        "h": 362
     },
     {
         "id": "365d864c.8c19ca",
@@ -2657,7 +2651,9 @@
             "f0485acb0ac24bc7"
         ],
         "x": 1604,
-        "y": 97
+        "y": 97,
+        "w": 1714,
+        "h": 4196
     },
     {
         "id": "096b837a3a33f58b",
@@ -2852,9 +2848,7 @@
             "236c6c92.d31584"
         ],
         "x": 14,
-        "y": 179,
-        "w": 762,
-        "h": 292
+        "y": 179
     },
     {
         "id": "82531c262cad7a91",
@@ -2875,7 +2869,9 @@
             "fec937a86891d165"
         ],
         "x": 94,
-        "y": 2809
+        "y": 2809,
+        "w": 542,
+        "h": 162
     },
     {
         "id": "b404dcea03126424",
@@ -3028,9 +3024,7 @@
             "0d38acc234ba861f"
         ],
         "x": 794,
-        "y": 479,
-        "w": 642,
-        "h": 162
+        "y": 479
     },
     {
         "id": "ca0533739c948120",
@@ -3143,9 +3137,7 @@
             "3f59808d6a892b13"
         ],
         "x": 614,
-        "y": 239,
-        "w": 652,
-        "h": 242
+        "y": 239
     },
     {
         "id": "535ea85babd47e44",
@@ -3166,9 +3158,7 @@
             "6f994e137afcc579"
         ],
         "x": 14,
-        "y": 239,
-        "w": 532,
-        "h": 162
+        "y": 239
     },
     {
         "id": "6dd764e87e0c06d5",
@@ -3183,9 +3173,7 @@
             "694c2f965e146ffe"
         ],
         "x": 14,
-        "y": 579,
-        "w": 152,
-        "h": 82
+        "y": 579
     },
     {
         "id": "8330e7a653863e55",
@@ -3203,9 +3191,7 @@
             "8b3d9fac296bfda2"
         ],
         "x": 14,
-        "y": 419,
-        "w": 482,
-        "h": 142
+        "y": 419
     },
     {
         "id": "b1331148614d9c76",
@@ -3226,9 +3212,7 @@
             "14d8b1dac83383c6"
         ],
         "x": 14,
-        "y": 59,
-        "w": 582,
-        "h": 162
+        "y": 59
     },
     {
         "id": "6c6732761a2613b5",
@@ -3446,9 +3430,7 @@
             "da50d52e29d86bbc"
         ],
         "x": 34,
-        "y": 1619,
-        "w": 582,
-        "h": 182
+        "y": 1619
     },
     {
         "id": "1e240d9dc44a9691",
@@ -3469,9 +3451,25 @@
             "1983c02b0b940cde"
         ],
         "x": 34,
-        "y": 1819,
-        "w": 582,
-        "h": 182
+        "y": 1819
+    },
+    {
+        "id": "fb3b22eda340148b",
+        "type": "group",
+        "z": "902fc438.e5d758",
+        "name": "Tendencia Principal",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1a6e5e4c8450ec6f",
+            "230c1efb688de958",
+            "5017aa8c7a43b98d"
+        ],
+        "x": 494,
+        "y": 2119,
+        "w": 532,
+        "h": 82
     },
     {
         "id": "b079c206d161b62c",
@@ -3572,7 +3570,9 @@
             "4b2d01032ad01b5f"
         ],
         "x": 904,
-        "y": 1059
+        "y": 1059,
+        "w": 652,
+        "h": 282
     },
     {
         "id": "c41a251e.427c98",
@@ -3602,7 +3602,9 @@
             "43ef002844a8d559"
         ],
         "x": 24,
-        "y": 1059
+        "y": 1059,
+        "w": 862,
+        "h": 202
     },
     {
         "id": "27c43941.e9e0c6",
@@ -3650,7 +3652,9 @@
             "dca73cd4fedaaabc"
         ],
         "x": 24,
-        "y": 549
+        "y": 549,
+        "w": 772,
+        "h": 452
     },
     {
         "id": "e9d2f5f0.86a518",
@@ -3683,7 +3687,9 @@
             "8307ca17.c4d5b8"
         ],
         "x": 804,
-        "y": 547
+        "y": 547,
+        "w": 732,
+        "h": 404
     },
     {
         "id": "6cdd72bc.8124cc",
@@ -3713,7 +3719,9 @@
             "154f8bca3ba4d547"
         ],
         "x": 24,
-        "y": 159
+        "y": 159,
+        "w": 752,
+        "h": 202
     },
     {
         "id": "a7e99088.c8108",
@@ -3744,7 +3752,9 @@
             "aa882bcf32d6610f"
         ],
         "x": 784,
-        "y": 159
+        "y": 159,
+        "w": 752,
+        "h": 322
     },
     {
         "id": "31895ea6.22f372",
@@ -3797,9 +3807,7 @@
             "b045615539735b86"
         ],
         "x": 14,
-        "y": 463,
-        "w": 958,
-        "h": 724
+        "y": 463
     },
     {
         "id": "eb91dac5.690838",
@@ -3853,9 +3861,7 @@
             "e9b1c7933c86ffa9"
         ],
         "x": 44,
-        "y": 39,
-        "w": 1582,
-        "h": 402
+        "y": 39
     },
     {
         "id": "8ed62712.fe2018",
@@ -3888,7 +3894,9 @@
             "c30439cc.4bcb68"
         ],
         "x": 44,
-        "y": 49
+        "y": 49,
+        "w": 1422,
+        "h": 212
     },
     {
         "id": "b2f2659a.67f648",
@@ -3917,7 +3925,9 @@
             "2c9d8d63e1dd0fbe"
         ],
         "x": 44,
-        "y": 269
+        "y": 269,
+        "w": 1702,
+        "h": 132
     },
     {
         "id": "70a63b74.44894c",
@@ -4033,9 +4043,7 @@
             "9bdf522.eba6db"
         ],
         "x": 48,
-        "y": 53,
-        "w": 1134,
-        "h": 794
+        "y": 53
     },
     {
         "id": "dad84feb.d4773",
@@ -4113,9 +4121,7 @@
             "a5e1205e8fe1feed"
         ],
         "x": 54,
-        "y": 359,
-        "w": 1832,
-        "h": 700
+        "y": 359
     },
     {
         "id": "7aad629d.de652c",
@@ -4179,9 +4185,7 @@
             "b4c9b17bde2f220c"
         ],
         "x": 54,
-        "y": 49,
-        "w": 2762,
-        "h": 302
+        "y": 49
     },
     {
         "id": "8f8a192b.bb2ef8",
@@ -4209,9 +4213,7 @@
             "4e19cfd4.3982f"
         ],
         "x": 1894,
-        "y": 439,
-        "w": 1062,
-        "h": 232
+        "y": 439
     },
     {
         "id": "b9df7528.923398",
@@ -4227,9 +4229,7 @@
             "65994a87.9d5eb4"
         ],
         "x": 1898,
-        "y": 683,
-        "w": 1074,
-        "h": 134
+        "y": 683
     },
     {
         "id": "6625e1db09743bc3",
@@ -4262,7 +4262,9 @@
             "c7ce33ac338a9db9"
         ],
         "x": 44,
-        "y": 2369
+        "y": 2369,
+        "w": 1452,
+        "h": 242
     },
     {
         "id": "ef45fa052227c233",
@@ -4562,7 +4564,9 @@
             "3d1af80d.d5b9c8"
         ],
         "x": 3384,
-        "y": 119
+        "y": 119,
+        "w": 832,
+        "h": 1562
     },
     {
         "id": "9f627758.670cd8",
@@ -4634,7 +4638,9 @@
             "487147d15f5c304a"
         ],
         "x": 4224,
-        "y": 119
+        "y": 119,
+        "w": 642,
+        "h": 562
     },
     {
         "id": "78a8be83.7018c",
@@ -4665,7 +4671,9 @@
             "3f3a83c71b2f5a67"
         ],
         "x": 3394,
-        "y": 1829
+        "y": 1829,
+        "w": 1272,
+        "h": 482
     },
     {
         "id": "82264d68.0b05a",
@@ -4685,7 +4693,9 @@
             "84631e96.4b794"
         ],
         "x": 3384,
-        "y": 1739
+        "y": 1739,
+        "w": 682,
+        "h": 82
     },
     {
         "id": "8ac2b187.14625",
@@ -4706,7 +4716,9 @@
             "efe6d3f.f10193"
         ],
         "x": 1838,
-        "y": 2793
+        "y": 2793,
+        "w": 1434,
+        "h": 414
     },
     {
         "id": "9bb5d411.271d48",
@@ -4727,7 +4739,9 @@
             "44ee5bb3.49b264"
         ],
         "x": 1828,
-        "y": 1853
+        "y": 1853,
+        "w": 1454,
+        "h": 894
     },
     {
         "id": "dad86215.ed79c",
@@ -4748,7 +4762,9 @@
             "baaa353b.511268"
         ],
         "x": 1848,
-        "y": 3613
+        "y": 3613,
+        "w": 1444,
+        "h": 654
     },
     {
         "id": "dd0fb9ab.f737f8",
@@ -4769,7 +4785,9 @@
             "de31a457.a923c8"
         ],
         "x": 1838,
-        "y": 3233
+        "y": 3233,
+        "w": 1434,
+        "h": 374
     },
     {
         "id": "e032b1f4.a8be7",
@@ -4790,7 +4808,9 @@
             "e5ce125e.59232"
         ],
         "x": 1858,
-        "y": 123
+        "y": 123,
+        "w": 1424,
+        "h": 1624
     },
     {
         "id": "22196749d13fa9b3",
@@ -5175,9 +5195,7 @@
             "ecd73acb6f9a9a0a"
         ],
         "x": 584,
-        "y": 959,
-        "w": 362,
-        "h": 202
+        "y": 959
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -5197,9 +5215,7 @@
             "c1672804cba19e98"
         ],
         "x": 574,
-        "y": 489,
-        "w": 172,
-        "h": 212
+        "y": 489
     },
     {
         "id": "be55ea76.ed4478",
@@ -5220,9 +5236,7 @@
             "41b82348a8ab40a8"
         ],
         "x": 564,
-        "y": 719,
-        "w": 372,
-        "h": 202
+        "y": 719
     },
     {
         "id": "1d477816.993308",
@@ -5241,9 +5255,7 @@
             "d0a19b38.893ab8"
         ],
         "x": 74,
-        "y": 79,
-        "w": 1042,
-        "h": 162
+        "y": 79
     },
     {
         "id": "9bdf522.eba6db",
@@ -5291,9 +5303,7 @@
             "0a4336ec53039171"
         ],
         "x": 114,
-        "y": 249,
-        "w": 1042,
-        "h": 572
+        "y": 249
     },
     {
         "id": "65994a87.9d5eb4",
@@ -5312,9 +5322,7 @@
             "f4363e16.f1813"
         ],
         "x": 1924,
-        "y": 709,
-        "w": 1022,
-        "h": 82
+        "y": 709
     },
     {
         "id": "37d2bc6e.615114",
@@ -5353,7 +5361,9 @@
             "a3e0cd32.96432"
         ],
         "x": 1864,
-        "y": 2819
+        "y": 2819,
+        "w": 722,
+        "h": 362
     },
     {
         "id": "efe6d3f.f10193",
@@ -5389,7 +5399,9 @@
             "55372f1ea71702ea"
         ],
         "x": 2594,
-        "y": 2839
+        "y": 2839,
+        "w": 652,
+        "h": 202
     },
     {
         "id": "16097ef1.129291",
@@ -5464,7 +5476,9 @@
             "773ceaee.f160b4"
         ],
         "x": 1854,
-        "y": 1879
+        "y": 1879,
+        "w": 742,
+        "h": 842
     },
     {
         "id": "44ee5bb3.49b264",
@@ -5524,7 +5538,9 @@
             "6271ec419c9975fc"
         ],
         "x": 2604,
-        "y": 1899
+        "y": 1899,
+        "w": 652,
+        "h": 442
     },
     {
         "id": "372b998e.a167c6",
@@ -5581,7 +5597,9 @@
             "f06a3f08.5a752"
         ],
         "x": 1874,
-        "y": 3639
+        "y": 3639,
+        "w": 722,
+        "h": 602
     },
     {
         "id": "baaa353b.511268",
@@ -5629,7 +5647,9 @@
             "e3c99a130078517c"
         ],
         "x": 2614,
-        "y": 3659
+        "y": 3659,
+        "w": 652,
+        "h": 322
     },
     {
         "id": "826b087f.5615a8",
@@ -5661,7 +5681,9 @@
             "7cda2e346e20ca45"
         ],
         "x": 2594,
-        "y": 3259
+        "y": 3259,
+        "w": 652,
+        "h": 162
     },
     {
         "id": "de31a457.a923c8",
@@ -5697,7 +5719,9 @@
             "741d0ef6.6e951"
         ],
         "x": 1864,
-        "y": 3259
+        "y": 3259,
+        "w": 722,
+        "h": 322
     },
     {
         "id": "4a1410ce.7057a",
@@ -5805,7 +5829,9 @@
             "f92e2d6e5b16c38b"
         ],
         "x": 1884,
-        "y": 149
+        "y": 149,
+        "w": 712,
+        "h": 1572
     },
     {
         "id": "e5ce125e.59232",
@@ -5882,7 +5908,9 @@
             "22341ae01ccb0b7c"
         ],
         "x": 2604,
-        "y": 149
+        "y": 149,
+        "w": 652,
+        "h": 642
     },
     {
         "id": "c2478f1687e8ccc7",
@@ -11027,69 +11055,8 @@
         "label": "Rtx: ",
         "format": "  {{msg.payload}}",
         "layout": "row-center",
-        "x": 1060,
-        "y": 1710,
-        "wires": []
-    },
-    {
-        "id": "4c8f5a04.095bc4",
-        "type": "function",
-        "z": "902fc438.e5d758",
-        "g": "086b9d08c3b68939",
-        "name": "DateTime",
-        "func": "// Date and Time Object\nvar DT      = new Date();\n\n// Date\nvar year    = DT.getFullYear();\nvar month   = DT.getMonth()+1;\nvar day     = DT.getDate();\n\n// Time\nvar hours   = DT.getHours();\nvar minutes = DT.getMinutes();  minutes = minutes <= 9 ? \"0\"+minutes : minutes;\nvar seconds = DT.getSeconds();  seconds = seconds <= 9 ? \"0\"+seconds : seconds;\n\n// Payload\nmsg.payload = day+\"/\"+month+\"/\"+year+\" \"+hours+\":\"+minutes+\":\"+seconds;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 930,
-        "y": 1760,
-        "wires": [
-            [
-                "933f301f.fcef1"
-            ]
-        ]
-    },
-    {
-        "id": "abd0a82a.ab2348",
-        "type": "inject",
-        "z": "902fc438.e5d758",
-        "g": "086b9d08c3b68939",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payloadType": "date",
-        "x": 780,
-        "y": 1760,
-        "wires": [
-            [
-                "4c8f5a04.095bc4"
-            ]
-        ]
-    },
-    {
-        "id": "933f301f.fcef1",
-        "type": "ui_text",
-        "z": "902fc438.e5d758",
-        "g": "086b9d08c3b68939",
-        "group": "4f5b8416.cada1c",
-        "order": 5,
-        "width": 3,
-        "height": 1,
-        "name": "clock",
-        "label": "",
-        "format": "  {{msg.payload}}",
-        "layout": "row-right",
-        "x": 1060,
-        "y": 1760,
+        "x": 890,
+        "y": 1800,
         "wires": []
     },
     {
@@ -11829,7 +11796,7 @@
         "type": "link in",
         "z": "902fc438.e5d758",
         "g": "086b9d08c3b68939",
-        "name": "",
+        "name": "refrescarStatusBar",
         "links": [
             "ecf98f3f.4a704"
         ],
@@ -12015,13 +11982,14 @@
         "type": "function",
         "z": "902fc438.e5d758",
         "g": "086b9d08c3b68939",
-        "name": "Data show",
+        "name": "DataRefMotor",
         "func": "var numdec = 1;\nvar unidad = \"Hz\";\nif(typeof msg.payload == 'number' ){\n    msg.payload = parseFloat(msg.payload.toFixed(numdec));\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 920,
+        "libs": [],
+        "x": 930,
         "y": 1660,
         "wires": [
             [
@@ -12840,9 +12808,7 @@
         "x": 2690,
         "y": 1180,
         "wires": [
-            [
-                "dd63ba6d.b10768"
-            ],
+            [],
             [
                 "d0d71887678a5547"
             ]
@@ -13092,8 +13058,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 810,
-        "y": 1710,
+        "x": 800,
+        "y": 1760,
         "wires": [
             [
                 "9523c57c.c9b468",
@@ -13215,8 +13181,7 @@
         "y": 1150,
         "wires": [
             [
-                "fb0f6d56.a4f3b",
-                "b7a03936d2600029"
+                "fb0f6d56.a4f3b"
             ]
         ]
     },
@@ -13276,8 +13241,7 @@
         "y": 1020,
         "wires": [
             [
-                "fb0f6d56.a4f3b",
-                "b7a03936d2600029"
+                "fb0f6d56.a4f3b"
             ]
         ]
     },
@@ -13574,7 +13538,7 @@
         "g": "6202107f.ed9aa",
         "name": "",
         "pauseType": "delay",
-        "timeout": "3",
+        "timeout": "2",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -14302,7 +14266,7 @@
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "name": "Sts Ref",
-        "func": "var Commanded_SpdRef = Math.abs(global.get(\"C2S.Implicit.Commanded_SpdRef\",\"memoryOnly\")||0);\nvar Reference           = global.get(\"Input.Operation.Reference\",\"memoryOnly\")||0;\ncontext.set(\"Commanded_SpdRef\", Commanded_SpdRef,\"memoryOnly\")\ncontext.set(\"Reference\", Reference,\"memoryOnly\")\nif (Commanded_SpdRef == Reference)\n    msg.verify=1;\nelse\n    msg.verify = 0;\n\nreturn msg;",
+        "func": "var Commanded_SpdRef = Math.abs(global.get(\"C2S.Implicit.Commanded_SpdRef\",\"memoryOnly\")||0);\nvar Reference           = global.get(\"Input.Operation.Reference\",\"memoryOnly\")||0;\n\nReference = parseFloat(Reference.toFixed(2));\nCommanded_SpdRef = parseFloat(Commanded_SpdRef.toFixed(2));\ncontext.set(\"Commanded_SpdRef\", Commanded_SpdRef,\"memoryOnly\")\ncontext.set(\"Reference\", Reference,\"memoryOnly\")\nif (Commanded_SpdRef == Reference)\n    msg.verify=1;\nelse\n    msg.verify = 0;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -14638,7 +14602,7 @@
         "label": "Frec VSD(Hz): ",
         "format": "<font size=7px> {{msg.payload}}",
         "layout": "col-center",
-        "x": 1100,
+        "x": 1120,
         "y": 1660,
         "wires": []
     },
@@ -15279,24 +15243,6 @@
         "wires": []
     },
     {
-        "id": "b7a03936d2600029",
-        "type": "debug",
-        "z": "902fc438.e5d758",
-        "g": "fcb3da61.429db8",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "enabled",
-        "targetType": "msg",
-        "statusVal": "enabled",
-        "statusType": "auto",
-        "x": 1600,
-        "y": 1050,
-        "wires": []
-    },
-    {
         "id": "08226d873258aac3",
         "type": "change",
         "z": "902fc438.e5d758",
@@ -15730,8 +15676,7 @@
         "y": 1140,
         "wires": [
             [
-                "9669205ed660f045",
-                "a6a55c6001e65244"
+                "9669205ed660f045"
             ]
         ]
     },
@@ -38318,24 +38263,6 @@
         ]
     },
     {
-        "id": "dd63ba6d.b10768",
-        "type": "debug",
-        "z": "902fc438.e5d758",
-        "g": "fcb3da61.429db8",
-        "name": "",
-        "active": true,
-        "tosidebar": false,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 2830,
-        "y": 1130,
-        "wires": []
-    },
-    {
         "id": "a3997bb4.8d7628",
         "type": "change",
         "z": "c8b77ff3.ab501",
@@ -38612,6 +38539,7 @@
         "id": "1a6e5e4c8450ec6f",
         "type": "ui_chart",
         "z": "902fc438.e5d758",
+        "g": "fb3b22eda340148b",
         "name": "Tendencia principa",
         "group": "f7aa27b.6c2ded8",
         "order": 12,
@@ -38644,8 +38572,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 950,
-        "y": 2200,
+        "x": 910,
+        "y": 2160,
         "wires": [
             []
         ]
@@ -38654,6 +38582,7 @@
         "id": "230c1efb688de958",
         "type": "function",
         "z": "902fc438.e5d758",
+        "g": "fb3b22eda340148b",
         "name": "Trend",
         "func": "var time = msg.payload;\n\nvar Ref = global.get(\"C2S.Last_Reference.Value\") || 0;\nvar Speed = global.get(\"C2S.Implicit.Output_Frequency\",\"memoryOnly\") || 0;\nvar data = context.get(\"data\", \"memoryOnly\") || null;\nvar controlmode = global.get(\"C2S.Drive_Status.Command_dir\", \"memoryOnly\") || 0;\nvar REM_LOC = global.get(\"Input.Operation.ControlMode\") || 0;\nvar Ref_AI = global.get(\"Ref_Analogica\", \"memoryOnly\") || 0;\nvar Ref_mod = global.get(\"Ref_Remoto_Modbus\") || 0;\nvar Corriente_Motor = flow.get(\"Current_Motor\",\"memoryOnly\");\n\ncontext.set(\"Corriente\",Corriente_Motor,\"memoryOnly\");\nif (REM_LOC == \"Remoto\"){\n    if (Ref_AI > 0){\n        Ref = Ref_AI;\n    }\n    else{\n        Ref = Ref_mod;\n    }\n}\n\nif (controlmode ==0){\n    Ref = Ref*(-1);\n}\n\nif (data == null) {\n    data = {\n        'reference': [{ \"x\": time, \"y\": Ref }],\n        'speed': [{ \"x\": time, \"y\": Speed }],\n        'Current': [{ \"x\": time, \"y\": Corriente_Motor }]\n    };\n}\nelse {\n    if (data.reference.length > 119) {\n        data.reference.shift();\n        data.speed.shift();\n        data.Current.shift();\n    }\n    data.reference.push({ \"x\": time, \"y\": Ref });\n    data.speed.push({ \"x\": time, \"y\": Speed });\n    data.Current.push({ \"x\": time, \"y\": Corriente_Motor });\n}\n\ncontext.set(\"data\", data, \"memoryOnly\");\n\nvar series = [];\n\nseries.push(\"Referencia \" + Ref.toFixed(1) + \" (Hz)\");\nseries.push(\"Frec. Actual \" + Speed.toFixed(1) + \" (Hz)\");\nseries.push(\"Corriente Actual \" + Corriente_Motor.toFixed(1) + \" (A)\");\n\nvar datan = [];\n\ndatan.push(data.reference);\ndatan.push(data.speed);\ndatan.push(data.Current);\n\nvar chart = [{\n    \"series\": series,\n    \"data\": datan,\n    \"labels\": [\"\"]\n}];\n\nmsg.payload = chart;\n\nreturn msg;",
         "outputs": 1,
@@ -38661,8 +38590,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 790,
-        "y": 2200,
+        "x": 750,
+        "y": 2160,
         "wires": [
             [
                 "1a6e5e4c8450ec6f"
@@ -38673,6 +38602,7 @@
         "id": "5017aa8c7a43b98d",
         "type": "inject",
         "z": "902fc438.e5d758",
+        "g": "fb3b22eda340148b",
         "name": "",
         "props": [
             {
@@ -38685,8 +38615,8 @@
         "onceDelay": "10",
         "topic": "",
         "payloadType": "date",
-        "x": 650,
-        "y": 2200,
+        "x": 610,
+        "y": 2160,
         "wires": [
             [
                 "230c1efb688de958"
@@ -72872,24 +72802,6 @@
         "wires": []
     },
     {
-        "id": "a6a55c6001e65244",
-        "type": "debug",
-        "z": "902fc438.e5d758",
-        "g": "fcb3da61.429db8",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1990,
-        "y": 1030,
-        "wires": []
-    },
-    {
         "id": "9c4f888c1aaa6513",
         "type": "change",
         "z": "ab86e94738aa1aef",
@@ -77389,8 +77301,8 @@
         "label": "Rtx",
         "format": "<font size =6px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1210,
-        "y": 1710,
+        "x": 1010,
+        "y": 1760,
         "wires": []
     },
     {
