@@ -1045,9 +1045,7 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 19,
-        "w": 432,
-        "h": 149.5
+        "y": 19
     },
     {
         "id": "d929d138.3b512",
@@ -1065,9 +1063,7 @@
             "ebd2954e5785409e"
         ],
         "x": 484,
-        "y": 19,
-        "w": 542,
-        "h": 122
+        "y": 19
     },
     {
         "id": "fcb3da61.429db8",
@@ -1284,9 +1280,7 @@
             "b5972fd3.3aeb7"
         ],
         "x": 24,
-        "y": 479,
-        "w": 602,
-        "h": 202
+        "y": 479
     },
     {
         "id": "9132da2c.b8c6b8",
@@ -1311,9 +1305,7 @@
             "8c4c4846.6ea308"
         ],
         "x": 34,
-        "y": 699,
-        "w": 602,
-        "h": 242
+        "y": 699
     },
     {
         "id": "9b538856.60fb38",
@@ -1492,9 +1484,7 @@
             "312d9def.84df32"
         ],
         "x": 34,
-        "y": 959,
-        "w": 702,
-        "h": 242
+        "y": 959
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1906,9 +1896,7 @@
             "c22e3c27600ab315"
         ],
         "x": 794,
-        "y": 179,
-        "w": 612,
-        "h": 242
+        "y": 179
     },
     {
         "id": "d84615.919209e8",
@@ -2035,9 +2023,7 @@
             "c2e9d16562516ea4"
         ],
         "x": 34,
-        "y": 1229,
-        "w": 792,
-        "h": 212
+        "y": 1229
     },
     {
         "id": "06c0dbf1bffe1e21",
@@ -2808,9 +2794,7 @@
             "236c6c92.d31584"
         ],
         "x": 14,
-        "y": 179,
-        "w": 762,
-        "h": 292
+        "y": 179
     },
     {
         "id": "82531c262cad7a91",
@@ -2984,9 +2968,7 @@
             "0d38acc234ba861f"
         ],
         "x": 794,
-        "y": 479,
-        "w": 642,
-        "h": 162
+        "y": 479
     },
     {
         "id": "ca0533739c948120",
@@ -3253,9 +3235,7 @@
             "4f5d99301f0ddb47"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1472,
-        "h": 522
+        "y": 19
     },
     {
         "id": "4b071e34b82c9788",
@@ -3276,9 +3256,7 @@
             "119e0a7495894a12"
         ],
         "x": 114,
-        "y": 459,
-        "w": 532,
-        "h": 222
+        "y": 459
     },
     {
         "id": "ad958a10d1d42f2d",
@@ -3307,9 +3285,7 @@
             "3739085ff16c7f98"
         ],
         "x": 794,
-        "y": 479,
-        "w": 792,
-        "h": 322
+        "y": 479
     },
     {
         "id": "bbb49a11a06fc3cc",
@@ -3337,9 +3313,7 @@
             "d0606414f8ca80c0"
         ],
         "x": 34,
-        "y": 39,
-        "w": 772,
-        "h": 382
+        "y": 39
     },
     {
         "id": "b2be4076cca48f83",
@@ -3372,9 +3346,7 @@
             "c7ba3bf1ee5adbb8"
         ],
         "x": 854,
-        "y": 39,
-        "w": 872,
-        "h": 402
+        "y": 39
     },
     {
         "id": "195144270361fd25",
@@ -3395,9 +3367,7 @@
             "da50d52e29d86bbc"
         ],
         "x": 34,
-        "y": 1619,
-        "w": 582,
-        "h": 182
+        "y": 1619
     },
     {
         "id": "1e240d9dc44a9691",
@@ -3418,9 +3388,7 @@
             "1983c02b0b940cde"
         ],
         "x": 34,
-        "y": 1819,
-        "w": 582,
-        "h": 182
+        "y": 1819
     },
     {
         "id": "fb3b22eda340148b",
@@ -3437,6 +3405,35 @@
         ],
         "x": 494,
         "y": 2119
+    },
+    {
+        "id": "7f4726c248df075a",
+        "type": "group",
+        "z": "0919ca8b08ef5398",
+        "name": "Calculos Para Dinagramas de Fondo [Ecuación de Onda]",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#000000",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "306f3be9a429b92b",
+            "2998c7bdd0c29191",
+            "45eb5ad0dbdc6407",
+            "3506a72280f24b12",
+            "50562e3decef65ea",
+            "a92e2b1a15d4e4e5",
+            "af9c9eb2f7babf5f",
+            "63d55e76c47f1c6d",
+            "0da4a39c19a3721d",
+            "0bfa74f3ee9ac9c6",
+            "6832b5cf2eba2c06"
+        ],
+        "x": 14,
+        "y": 599,
+        "w": 772,
+        "h": 282
     },
     {
         "id": "b079c206d161b62c",
@@ -37374,7 +37371,8 @@
             "2437732b.dd79cc",
             "610abe9bb034463d",
             "ac934ac475716f0d",
-            "094cc2932f6a6569"
+            "094cc2932f6a6569",
+            "45eb5ad0dbdc6407"
         ],
         "x": 335,
         "y": 320,
@@ -80346,7 +80344,7 @@
         "z": "f08f78f1e5892037",
         "g": "1112a5e0c336769a",
         "name": "Borrar Sarta",
-        "func": "var sarta           = flow.get(\"sarta\")||[]\nvar parametroSarta = flow.get(\"parametroSarta\")||[];\nvar pos = sarta.Position;//posicion de la sarta\n// delete parametroSarta[pos] //crea un undefine no se usa\n// eliminar el elemento tomado\nparametroSarta.splice(pos, 1);//la posicion la toma desde cero\nflow.set(\"parametroSarta\", parametroSarta);\ncontext.set(\"pos\", pos,\"memoryOnly\");\nreturn msg;",
+        "func": "var sarta           = flow.get(\"sarta\")||[]\nvar parametroSarta = flow.get(\"parametroSarta\")||[];\nvar pos = sarta.Position;//posicion de la sarta\n// delete parametroSarta[pos] //crea un undefine no se usa\n// eliminar el elemento tomado\nparametroSarta.splice(pos, 1);//la posicion la toma desde cero\nflow.set(\"parametroSarta\", parametroSarta);\n//actualizar la parametro sarta utilizado en el calculo del dinagrama\nglobal.set(\"Dinagrama.parametroSarta\", parametroSarta);\ncontext.set(\"pos\", pos,\"memoryOnly\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -80474,7 +80472,7 @@
         "z": "f08f78f1e5892037",
         "g": "6c6732761a2613b5",
         "name": "Inicializar",
-        "func": "var parametroSarta = flow.get(\"parametroSarta\")||null;\nif (parametroSarta != null){\n    parametroSarta = [{ \"Position\":1,\n                        \"RodL\":30,\n                        \"RodDiameter\":0.875,\n                        \"TaperL\":1200,\n                        \"E\":30.7,\n                        \"RodWeight\":2.2,\n                        \"TaperWeigth\":2654,\n                        \"RodDensity\":532.5,\n                        \"RodResistence\":115000},\n                        { \"Position\":2,\n                        \"RodL\":30,\n                        \"RodDiameter\":0.75,\n                        \"TaperL\":3875,\n                        \"E\":30.7,\n                        \"RodWeight\":2.2,\n                        \"TaperWeigth\":2654,\n                        \"RodDensity\":490,\n                        \"RodResistence\":115000}]\n    flow.set(\"parametroSarta\", parametroSarta);\n}\ncontext.set(\"parametroSarta\", parametroSarta,\"memoryOnly\");\nreturn msg;",
+        "func": "var parametroSarta = flow.get(\"parametroSarta\")||null;\nif (parametroSarta != null){\n    parametroSarta = [{ \"Position\":1,\n                        \"RodL\":30,\n                        \"RodDiameter\":0.875,\n                        \"TaperL\":1200,\n                        \"E\":30.7,\n                        \"RodWeight\":2.2,\n                        \"TaperWeigth\":2654,\n                        \"RodDensity\":532.5,\n                        \"RodResistence\":115000},\n                        { \"Position\":2,\n                        \"RodL\":30,\n                        \"RodDiameter\":0.75,\n                        \"TaperL\":3875,\n                        \"E\":30.7,\n                        \"RodWeight\":2.2,\n                        \"TaperWeigth\":2654,\n                        \"RodDensity\":490,\n                        \"RodResistence\":115000}]\n    flow.set(\"parametroSarta\", parametroSarta);\n    // guardar la variable global para utilizar en los dinagramas\n    global.set(\"Dinagrama.parametroSarta\", parametroSarta);\n}\ncontext.set(\"parametroSarta\", parametroSarta,\"memoryOnly\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -83301,7 +83299,7 @@
         "z": "f08f78f1e5892037",
         "g": "1112a5e0c336769a",
         "name": "Configurar Sarta",
-        "func": "// Leer datos del contexto\nvar Data        = flow.get(\"sarta\")||[];\nvar sarta        = {...Data}//clonar lo que hay\nvar parametroSarta = flow.get(\"parametroSarta\")||[];\n\n// Acomodar la información\nvar Pos         = sarta.Position;\n// asignando la Position correcta\nsarta.Position = sarta.Position +1;\nData = sarta;\n// Pozo.SCP        = Pozo.Position+1;\n// delete Pozo.Position;\n\n// Clonando la información a Sarta\nparametroSarta[Pos] = { ...sarta}//clona\n\n// parametroSarta.splice(Pos, 1, Data);\n// variables de contexto\ncontext.set(\"Data\", Data,\"memoryOnly\");\n// variables de flujo\nflow.set(\"parametroSarta\", parametroSarta);\n\n// Retornar\nreturn msg;",
+        "func": "// Leer datos del contexto\nvar Data        = flow.get(\"sarta\")||[];\nvar sarta        = {...Data}//clonar lo que hay\nvar parametroSarta = flow.get(\"parametroSarta\")||[];\n\n// Acomodar la información\nvar Pos         = sarta.Position;\n// asignando la Position correcta\nsarta.Position = sarta.Position +1;\nData = sarta;\n// Pozo.SCP        = Pozo.Position+1;\n// delete Pozo.Position;\n\n// Clonando la información a Sarta\nparametroSarta[Pos] = { ...sarta}//clona\n\n// parametroSarta.splice(Pos, 1, Data);\n// variables de contexto\ncontext.set(\"Data\", Data,\"memoryOnly\");\n// variables de flujo\nflow.set(\"parametroSarta\", parametroSarta);\n\n// guardar la variable global para utilizar en los dinagramas\nglobal.set(\"Dinagrama.parametroSarta\", parametroSarta);\n\n// Retornar\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar parametroSarta = flow.get(\"parametroSarta\")||[null];\nif (parametroSarta[0] == null ){\n    for(var i=0; i<1; i+=1){\n        parametroSarta[i] = {\n            Posicion: i+1,\n            RodL: 0,\n            RodDiameter: 0,\n            TaperL: 0,\n            E: 0,\n            RodWeight: 0,\n            TapperWeigth: 0,\n            RodDensity: 0,\n            RodResistence: 0\n        }\n    }\n    flow.set(\"parametroSarta\", parametroSarta);\n}\n",
@@ -83551,6 +83549,225 @@
         "wires": [
             [
                 "5ab51cc6105faafb"
+            ]
+        ]
+    },
+    {
+        "id": "306f3be9a429b92b",
+        "type": "function",
+        "z": "0919ca8b08ef5398",
+        "g": "7f4726c248df075a",
+        "name": "LecturaParametros",
+        "func": "var numSartas = flow.get(\"numSarta\") || 0; //valor configurable\nvar maxNodos = 1000;//Valor Configurable valor maximo por Sarta\n// msg.payload = numSartas;//validacion del numero de sartas\nvar parDinagram = flow.get(\"parDinagram\");\nvar Tramo = flow.get(\"Tramo\")||null;\nvar Grado_API_del_Fluido = flow.get(\"Grado_API_del_Fluido\");\n\nvar Sartas_AreaCabilla = new Array(10);\n\nfor (var i = 0; i <= numSartas - 1; i++) {\n\n    if (i == 0) {//Sarta 1\n        var nCab = parDinagram['Sarta' + (i + 1)].Longitud_Ca_Ft;\n        var D = parDinagram['Sarta' + (i + 1)].Diametro_Pulg;\n        var Longitud_Tr_Ft = parDinagram['Sarta' + (i + 1)].Longitud_Tr_Ft;\n        var L = parDinagram['Sarta' + (i + 1)].Longitud_Tr_Ft;\n        var E = parDinagram['Sarta' + (i + 1)].E;\n        var W = parDinagram['Sarta' + (i + 1)].Peso_Lb;\n        var W0 = parDinagram['Sarta' + (i + 1)].Peso_Inicial_Ca;\n        var P  = parDinagram['Sarta' + (i + 1)].Densidad;\n        var Hpr = parDinagram['Sarta' + (i + 1)].Resistencia;\n        var nNodos = L / nCab;\n        var Ac = (3.1416 * (D / 12.0) * (D / 12.0)) / 4.0;\n        var pa = 62.43;\n        var pc = (pa * 141.5) / (Grado_API_del_Fluido + 131.5);\n        var denf = 60.0;\n        var Acf1 = (3.1416 * (D / 12.0) * (D / 12.0)) / 4.0;\n        var Vc = L * Acf1;\n        var Wflo = Vc * (P - pc);\n\n        Tramo[i][1] = nCab;\n        Tramo[i][2] = D;\n        Tramo[i][3] = L;\n        Tramo[i][4] = E;\n        Tramo[i][5] = W;\n        Tramo[i][6] = W0;\n        Tramo[i][7] = P;\n        Tramo[i][8] = Hpr;\n        Tramo[i][9] = nNodos;\n        Tramo[i][10] = Ac;\n        Tramo[i][11] = W0;\n        Tramo[i][19] = Acf1;\n        Tramo[i][21] = Vc;\n        Tramo[i][22] = Wflo;\n        flow.set(\"Tramo\", Tramo);\n\n        // variables definidas para Sarta al final\n        var La = Tramo[i][3];\n        var Rha = Tramo[i][7];\n        var Ea = Tramo[i][4];\n        var Aca = Tramo[i][10];\n        var W0a = Tramo[i][6];\n        var Ma = Tramo[i][9];\n        var Tcab = Tramo[i][1];\n        Acf1 = Tramo[i][19];\n        Vc = Tramo[i][21];\n        Wflo = Tramo[i][22];\n        var DCprom = Tramo[i][2];\n    } else if (i == 1) {//Sarta2\n        var nCab = parDinagram['Sarta' + (i + 1)].Longitud_Ca_Ft;\n        var D = parDinagram['Sarta' + (i + 1)].Diametro_Pulg;\n        var Longitud_Tr_Ft = parDinagram['Sarta' + (i + 1)].Longitud_Tr_Ft;\n        var L = parDinagram['Sarta' + (i + 1)].Longitud_Tr_Ft;\n        var E = parDinagram['Sarta' + (i + 1)].E;\n        var W = parDinagram['Sarta' + (i + 1)].Peso_Lb;\n        var W0 = parDinagram['Sarta' + (i + 1)].Peso_Inicial_Ca;\n        var P = parDinagram['Sarta' + (i + 1)].Densidad;\n        var Hpr = parDinagram['Sarta' + (i + 1)].Resistencia;\n        var nNodos = L / nCab;\n        var Ac = (3.1416 * (D / 12.0) * (D / 12.0)) / 4.0;\n        var pa = 62.43;\n        var pc = (pa * 141.5) / (Grado_API_del_Fluido + 131.5);\n        var denf = 60.0;\n        var Acf1 = (3.1416 * (D / 12.0) * (D / 12.0)) / 4.0;\n        var Vc = L * Acf1;\n        var Wflo = Vc * (P - pc);\n\n        Tramo[i][1] = nCab;\n        Tramo[i][2] = D;\n        Tramo[i][3] = L;\n        Tramo[i][4] = E;\n        Tramo[i][5] = W;\n        Tramo[i][6] = W0;\n        Tramo[i][7] = P;\n        Tramo[i][8] = Hpr;\n        Tramo[i][9] = nNodos;\n        Tramo[i][10] = Ac;\n        Tramo[i][11] = W0;\n        Tramo[i][19] = Acf1;\n        Tramo[i][21] = Vc;\n        Tramo[i][22] = Wflo;\n        flow.set(\"Tramo\", Tramo);\n        La = Tramo[i][3] + Tramo[i - 1][3];\n        Rha = (Tramo[i][7] + Tramo[i - 1][7]) / 2.0;\n        Ea = (Tramo[i][4] + Tramo[i - 1][4]) / 2.0;\n        Aca = (Tramo[i][10] + Tramo[i - 1][10]) / 2.0;\n        W0a = Tramo[i][6] + Tramo[i - 1][6];\n        Ma = Tramo[i][9] + Tramo[i - 1][9];\n        Tcab = (Tramo[i][1] + Tramo[i - 1][1]) / 2.0;\n        Acf1 = Tramo[i][19] + Tramo[i][19];\n        Vc = Tramo[i][21] + Tramo[i - 1][21];\n        Wflo = Tramo[i][22] + Tramo[i - 1][22];\n        DCprom = (Tramo[i][2] + Tramo[i - 1][2]) / 2.0;\n    } else if (i == 2) {//Sarta3\n        var nCab = parDinagram['Sarta' + (i + 1)].Longitud_Ca_Ft;\n        var D = parDinagram['Sarta' + (i + 1)].Diametro_Pulg;\n        var Longitud_Tr_Ft = parDinagram['Sarta' + (i + 1)].Longitud_Tr_Ft;\n        var L = parDinagram['Sarta' + (i + 1)].Longitud_Tr_Ft;\n        var E = parDinagram['Sarta' + (i + 1)].E;\n        var W = parDinagram['Sarta' + (i + 1)].Peso_Lb;\n        var W0 = parDinagram['Sarta' + (i + 1)].Peso_Inicial_Ca;\n        var P = parDinagram['Sarta' + (i + 1)].Densidad;\n        var Hpr = parDinagram['Sarta' + (i + 1)].Resistencia;\n        var nNodos = L / nCab;\n\n        var Ac = (3.1416 * (D / 12.0) * (D / 12.0)) / 4.0;\n        var pa = 62.43;\n        var pc = (pa * 141.5) / (Grado_API_del_Fluido + 131.5);\n        var denf = 60.0;\n        var Acf1 = (3.1416 * (D / 12.0) * (D / 12.0)) / 4.0;\n        var Vc = L * Acf1;\n        var Wflo = Vc * (P - pc);\n\n        Tramo[i][1] = nCab;\n        Tramo[i][2] = D;\n        Tramo[i][3] = L;\n        Tramo[i][4] = E;\n        Tramo[i][5] = W;\n        Tramo[i][6] = W0;\n        Tramo[i][7] = P;\n        Tramo[i][8] = Hpr;\n        Tramo[i][9] = nNodos;\n        Tramo[i][10] = Ac;\n        Tramo[i][11] = W0;\n        Tramo[i][21] = Vc;\n        Tramo[i][22] = Wflo;\n        flow.set(\"Tramo\", Tramo);\n\n        La = Tramo[i][3] + Tramo[i - 1][3] + Tramo[i - 2][3];\n        Rha = (Tramo[i][7] + Tramo[i - 1][7] + Tramo[i - 2][7]) / 3.0;\n        Ea = (Tramo[i][4] + Tramo[i - 1][4] + Tramo[i - 2][4]) / 3.0;\n        Aca = (Tramo[i][10] + Tramo[i - 1][10] + Tramo[i - 2][10]) / 3.0;\n        W0a = Tramo[i][6] + Tramo[i - 1][6] + Tramo[i - 2][6];\n        Ma = Tramo[i][9] + Tramo[i - 1][9] + Tramo[i - 2][9];\n        Tcab = (Tramo[i][1] + Tramo[i - 1][1] + Tramo[i - 2][1]) / 3.0;\n        Acf1 = Tramo[i][19] + Tramo[i - 1][19] + Tramo[i - 2][19];\n        Vc = Tramo[i][21] + Tramo[i - 1][21] + Tramo[i - 2][21];\n        Wflo = Tramo[i][22] + Tramo[i - 1][22] + Tramo[i - 2][22];\n        DCprom = (Tramo[i][2] + Tramo[i - 1][2] + Tramo[i - 2][2]) / 3.0;\n\n\n    } else if (i == 3) {//Sarta 4 \n        // sarta4\n        var nCab = parDinagram['Sarta' + (i + 1)].Longitud_Ca_Ft;\n        var D = parDinagram['Sarta' + (i + 1)].Diametro_Pulg;\n        var Longitud_Tr_Ft = parDinagram['Sarta' + (i + 1)].Longitud_Tr_Ft;\n        var L = parDinagram['Sarta' + (i + 1)].Longitud_Tr_Ft;\n        var E = parDinagram['Sarta' + (i + 1)].E;\n        var W = parDinagram['Sarta' + (i + 1)].Peso_Lb;\n        var W0 = parDinagram['Sarta' + (i + 1)].Peso_Inicial_Ca;\n        var P = parDinagram['Sarta' + (i + 1)].Densidad;\n        var Hpr = parDinagram['Sarta' + (i + 1)].Resistencia;\n        var nNodos = L / nCab;\n\n        var Ac = (3.1416 * (D / 12.0) * (D / 12.0)) / 4.0;\n        var pa = 62.43;\n        var pc = (pa * 141.5) / (Grado_API_del_Fluido + 131.5);\n        var denf = 60.0;\n        var Acf1 = (3.1416 * (D / 12.0) * (D / 12.0)) / 4.0;\n        var Vc = L * Acf1;\n        var Wflo = Vc * (P - pc);\n\n        Tramo[i][1] = nCab;\n        Tramo[i][2] = D;\n        Tramo[i][3] = L;\n        Tramo[i][4] = E;\n        Tramo[i][5] = W;\n        Tramo[i][6] = W0;\n        Tramo[i][7] = P;\n        Tramo[i][8] = Hpr;\n        Tramo[i][9] = nNodos;\n        Tramo[i][10] = Ac;\n        Tramo[i][11] = W0;\n        Tramo[i][21] = Vc;\n        Tramo[i][22] = Wflo;\n        flow.set(\"Tramo\", Tramo);\n\n        La = Tramo[i][3] + Tramo[i - 1][3] + Tramo[i - 2][3] + Tramo[i - 3][3];\n        Rha = (Tramo[i][7] + Tramo[i - 1][7] + Tramo[i - 2][7] + Tramo[i - 3][7]) / 4.0;\n        Ea = (Tramo[i][4] + Tramo[i - 1][4] + Tramo[i - 2][4] + Tramo[i - 3][4]) / 4.0;\n        Aca = (Tramo[i][10] + Tramo[i - 1][10] + Tramo[i - 2][10] + Tramo[i - 3][10]) / 4.0;\n        W0a = Tramo[i][6] + Tramo[i - 1][6] + Tramo[i - 2][6] + Tramo[i - 3][6];\n        Ma = Tramo[i][9] + Tramo[i - 1][9] + Tramo[i - 2][9] + Tramo[i - 3][9];\n        Tcab = (Tramo[i][1] + Tramo[i - 1][1] + Tramo[i - 2][1] + Tramo[i - 3][1]) / 4.0;\n        Acf1 = Tramo[i][19] + Tramo[i - 1][19] + Tramo[i - 2][19] + Tramo[i - 3][19];\n        Vc = Tramo[i][21] + Tramo[i - 1][21] + Tramo[i - 2][21] + Tramo[i - 3][21];\n        Wflo = Tramo[i][22] + Tramo[i - 1][22] + Tramo[i - 2][22] + Tramo[i - 3][22];\n        DCprom = (Tramo[i][2] + Tramo[i - 1][2] + Tramo[i - 2][2] + Tramo[i - 3][2]) / 4.0;\n\n\n    } else if (i == 4) {//Sarta5\n        // sarta 5\n        var nCab = parDinagram['Sarta' + (i + 1)].Longitud_Ca_Ft;\n        var D = parDinagram['Sarta' + (i + 1)].Diametro_Pulg;\n        var Longitud_Tr_Ft = parDinagram['Sarta' + (i + 1)].Longitud_Tr_Ft;\n        var L = parDinagram['Sarta' + (i + 1)].Longitud_Tr_Ft;\n        var E = parDinagram['Sarta' + (i + 1)].E;\n        var W = parDinagram['Sarta' + (i + 1)].Peso_Lb;\n        var W0 = parDinagram['Sarta' + (i + 1)].Peso_Inicial_Ca;\n        var P = parDinagram['Sarta' + (i + 1)].Densidad;\n        var Hpr = parDinagram['Sarta' + (i + 1)].Resistencia;\n        var nNodos = L / nCab;\n\n        var Ac = (3.1416 * (D / 12.0) * (D / 12.0)) / 4.0;\n        var pa = 62.43;\n        var pc = (pa * 141.5) / (Grado_API_del_Fluido + 131.5);\n        var denf = 60.0;\n        var Acf1 = (3.1416 * (D / 12.0) * (D / 12.0)) / 4.0;\n        var Vc = L * Acf1;\n        var Wflo = Vc * (P - pc);\n\n        Tramo[i][1] = nCab;\n        Tramo[i][2] = D;\n        Tramo[i][3] = L;\n        Tramo[i][4] = E;\n        Tramo[i][5] = W;\n        Tramo[i][6] = W0;\n        Tramo[i][7] = P;\n        Tramo[i][8] = Hpr;\n        Tramo[i][9] = nNodos;\n        Tramo[i][10] = Ac;\n        Tramo[i][11] = W0;\n        Tramo[i][21] = Vc;\n        Tramo[i][22] = Wflo;\n        flow.set(\"Tramo\", Tramo);\n        La = Tramo[i][3] + Tramo[i - 1][3] + Tramo[i - 2][3] + Tramo[i - 3][3] + Tramo[i - 4][3];\n        Rha = (Tramo[i][7] + Tramo[i - 1][7] + Tramo[i - 2][7] + Tramo[i - 3][7] + Tramo[i - 4][7]) / 5.0;\n        Ea = (Tramo[i][4] + Tramo[i - 1][4] + Tramo[i - 2][4] + Tramo[i - 3][4] + Tramo[i - 4][4]) / 5.0;\n        Aca = (Tramo[i][10] + Tramo[i - 1][10] + Tramo[i - 2][10] + Tramo[i - 3][10] + Tramo[i - 4][10]) / 5.0;\n        W0a = Tramo[i][6] + Tramo[i - 1][6] + Tramo[i - 2][6] + Tramo[i - 3][6] + Tramo[i - 4][6];\n        Ma = Tramo[i][9] + Tramo[i - 1][9] + Tramo[i - 2][9] + Tramo[i - 3][9] + Tramo[i - 4][9];\n        Tcab = (Tramo[i][1] + Tramo[i - 1][1] + Tramo[i - 2][1] + Tramo[i - 3][1] + Tramo[i - 4][1]) / 5.0;\n        Acf1 = Tramo[i][19] + Tramo[i - 1][19] + Tramo[i - 2][19] + Tramo[i - 3][19] + Tramo[i - 4][19];\n        Vc = Tramo[i][21] + Tramo[i - 1][21] + Tramo[i - 2][21] + Tramo[i - 3][21] + Tramo[i - 4][21];\n        Wflo = Tramo[i][22] + Tramo[i - 1][22] + Tramo[i - 2][22] + Tramo[i - 3][22] + Tramo[i - 4][22];\n        DCprom = (Tramo[i][2] + Tramo[i - 1][2] + Tramo[i - 2][2] + Tramo[i - 3][2] + Tramo[i - 4][2]) / 5.0;\n    } else if (i == 5) {//Sarta6 No Configurada\n\n    } else if (i == 6) {//Sarta7 No Configurada\n\n    } else if (i == 7) {//Sarta8 No Configurada\n\n    } else if (i == 8) {//Sarta9 No Configurada\n\n    } else {\n        msg.payload = \"Hay mas de 9 sartas\"\n    }\n    Tramo[i][12] = La;\n    Tramo[i][13] = Rha;\n    Tramo[i][14] = Ea;\n    Tramo[i][15] = Aca;\n    Tramo[i][16] = W0a;\n    Tramo[i][17] = Tcab;\n    Tramo[i][18] = Ma; //(* TOTAL NUMERO DE NODOS *)\n    Tramo[i][20] = Acf1;\n    Tramo[i][23] = Wflo;\n    Sartas_AreaCabilla[i] = (3.1416 / 4.0) * Math.pow(Tramo[i][2], 2.0); //(* In2 *)\n    // guardar datos de flujo\n}\n// variables de flujo\nflow.set(\"DCprom\", DCprom);\nflow.set(\"Wflo\", Wflo);\nflow.set(\"Tramo\", Tramo);\nflow.set(\"Sartas_AreaCabilla\", Sartas_AreaCabilla);\nflow.set(\"nNodos\", nNodos);\nflow.set(\"nCab\", nCab);\n//guardar las variables de contexto\ncontext.set(\"Sartas_AreaCabilla\", Sartas_AreaCabilla, \"memoryOnly\");\ncontext.set(\"Tramo\", Tramo, \"memoryOnly\");\ncontext.set(\"DCprom\", DCprom, \"memoryOnly\");\ncontext.set(\"Wflo\", Wflo, \"memoryOnly\");\ncontext.set(\"Acf1\", Acf1, \"memoryOnly\");\ncontext.set(\"Ma\", Ma, \"memoryOnly\");\ncontext.set(\"Tcab\", Tcab, \"memoryOnly\");\ncontext.set(\"W0a\", W0a, \"memoryOnly\");\ncontext.set(\"Aca\", Aca, \"memoryOnly\");\ncontext.set(\"Ea\", Ea, \"memoryOnly\");\ncontext.set(\"Rha\", Rha, \"memoryOnly\");\ncontext.set(\"La\", La, \"memoryOnly\");\ncontext.set(\"nNodos\", nNodos, \"memoryOnly\");\ncontext.set(\"Hpr\", Hpr, \"memoryOnly\");\ncontext.set(\"nCab\", nCab, \"memoryOnly\");\ncontext.set(\"W0\", W0, \"memoryOnly\");\ncontext.set(\"Vc\", Vc, \"memoryOnly\");\ncontext.set(\"W\", W, \"memoryOnly\");\ncontext.set(\"E\", E, \"memoryOnly\");\ncontext.set(\"L\", L, \"memoryOnly\");\ncontext.set(\"D\", D, \"memoryOnly\");\ncontext.set(\"Ac\", Ac, \"memoryOnly\");\ncontext.set(\"pa\", pa, \"memoryOnly\");\ncontext.set(\"pc\", pc, \"memoryOnly\");\ncontext.set(\"denf\", denf, \"memoryOnly\");\ncontext.set(\"Tramo\", Tramo, \"memoryOnly\");\ncontext.set(\"P\", P, \"memoryOnly\");\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 680,
+        "wires": [
+            [
+                "0bfa74f3ee9ac9c6"
+            ]
+        ]
+    },
+    {
+        "id": "2998c7bdd0c29191",
+        "type": "function",
+        "z": "0919ca8b08ef5398",
+        "g": "7f4726c248df075a",
+        "name": "Inicializar",
+        "func": "// Inicializar\n\n// variable para guardar los dinagramas\nvar Tramo = createArray(11, 32);\n\nfor (let i = 0; i < 9; i++) {\n    for (let j = 0; j < 30; j++) {\n        Tramo[i][j] = 0;\n    }\n}\n\nvar Goodman_Matriz = createArray(6, 6);\n// variable para guardar los parametros de los dinagramas\nvar parDinagram = {\n    Sarta1: new ParametroSarta(0, 0, 0, 0, 0, 0, 0, 0),\n    Sarta2: new ParametroSarta(0, 0, 0, 0, 0, 0, 0, 0),\n    Sarta3: new ParametroSarta(0, 0, 0, 0, 0, 0, 0, 0),\n    Sarta4: new ParametroSarta(0, 0, 0, 0, 0, 0, 0, 0),\n    Sarta5: new ParametroSarta(0, 0, 0, 0, 0, 0, 0, 0)\n};\n// inicializacion del objeto de parametros\nvar numSarta = 0;\nvar DiametroTubing = 0;\nvar Grado_API_del_Fluido = 0;\nvar Desp_CD = createArray(100);//Consultar el valor eje x\nvar Esfu_CD = createArray(100);//Consultar el valor eje y\nvar PresionCasing = 0;//Consultar el valor eje y\nvar gc = 32.2\n// variables de visualizacion\n\ncontext.set(\"parDinagram\", parDinagram, \"memoryOnly\");\ncontext.set(\"Tramo\", Tramo, \"memoryOnly\");\n\n\nflow.set(\"numSarta\", numSarta);\nflow.set(\"parDinagram\", parDinagram);\nflow.set(\"Tramo\", Tramo);\nflow.set(\"Goodman_Matriz\", Goodman_Matriz);\nflow.set(\"DiametroTubing\", DiametroTubing);\nflow.set(\"Desp_CD\", Desp_CD);\nflow.set(\"Esfu_CD\", Esfu_CD);\nflow.set(\"PresionCasing\", PresionCasing);\nflow.set(\"Grado_API_del_Fluido\", Grado_API_del_Fluido);\nflow.set(\"gc\", gc);\nreturn msg;\n// definir objeto de configuracion de parametros\nfunction ParametroSarta(Longitud_Ca_Ft, Diametro_Pulg, Longitud_Tr_Ft, E, Peso_Lb, Peso_Inicial_Ca, Densidad, Resistencia) {\n    this.Longitud_Ca_Ft = Longitud_Ca_Ft;\n    this.Diametro_Pulg = Diametro_Pulg;\n    this.Longitud_Tr_Ft = Longitud_Tr_Ft;\n    this.E = E * 1000000.0;//Elasticicidad\n    this.Peso_Lb = Peso_Lb;//W\n    this.Peso_Inicial_Ca = Peso_Inicial_Ca;//Wo\n    this.Densidad = Densidad;//P\n    this.Resistencia = Resistencia;\n}\n//funcion para crear matrices de nxn\nfunction createArray(length) {\n    var arr = new Array(length || 0),\n        i = length;\n\n    if (arguments.length > 1) {\n        var args = Array.prototype.slice.call(arguments, 1);\n        while (i--) arr[length - 1 - i] = createArray.apply(this, args);\n    }\n\n    return arr;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "45eb5ad0dbdc6407",
+        "type": "link in",
+        "z": "0919ca8b08ef5398",
+        "g": "7f4726c248df075a",
+        "name": "InicializarDinagramas",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 115,
+        "y": 760,
+        "wires": [
+            [
+                "2998c7bdd0c29191"
+            ]
+        ]
+    },
+    {
+        "id": "3506a72280f24b12",
+        "type": "function",
+        "z": "0919ca8b08ef5398",
+        "g": "7f4726c248df075a",
+        "name": "SimulacionData",
+        "func": "var numSarta;\n// propiedades de las sartas\nvar parDinagram;\n// variables que vienen desde la interfaz grafica para la configuración de Sartas\nvar parametroSarta = global.get(\"Dinagrama.parametroSarta\") || 0;\nvar Grado_API_del_Fluido = global.get(\"DataProduccion.api\")||30;\nvar x = Object.keys(parametroSarta)\nvar tamano = x.length;\nnumSarta = tamano;\nif(parametroSarta == 0){\n    node.status({fill:\"green\",shape:\"dot\",text:\"SartaNoConfigurada\"});\n}else{\n    node.status({fill:\"red\",shape:\"dot\",text:\"SartaConfigurada\"});\n}\n\n// asignando las variables desde la interfaz grafica\nswitch (numSarta) {\n    case 1:\n    // cuando es solo una sarta\n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta3: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta4: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta5: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0)\n        };\n        break;\n    case 2:\n        //Cuando son solo dos sartas\n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(parametroSarta[1].RodL, parametroSarta[1].RodDiameter, parametroSarta[1].TaperL, parametroSarta[1].E, 0, 0, parametroSarta[1].RodDensity, parametroSarta[1].RodResistence),\n            Sarta3: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta4: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta5: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0)\n        };\n        break;\n    case 3:\n        //Cuando son 3 sartas\n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(parametroSarta[1].RodL, parametroSarta[1].RodDiameter, parametroSarta[1].TaperL, parametroSarta[1].E, 0, 0, parametroSarta[1].RodDensity, parametroSarta[1].RodResistence),\n            Sarta3: new Propiedades(parametroSarta[2].RodL, parametroSarta[2].RodDiameter, parametroSarta[2].TaperL, parametroSarta[2].E, 0, 0, parametroSarta[2].RodDensity, parametroSarta[2].RodResistence),\n            Sarta4: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta5: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0)\n        };\n        break;\n    case 4:\n        //Cuando son 4 sartas\n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(parametroSarta[1].RodL, parametroSarta[1].RodDiameter, parametroSarta[1].TaperL, parametroSarta[1].E, 0, 0, parametroSarta[1].RodDensity, parametroSarta[1].RodResistence),\n            Sarta3: new Propiedades(parametroSarta[2].RodL, parametroSarta[2].RodDiameter, parametroSarta[2].TaperL, parametroSarta[2].E, 0, 0, parametroSarta[2].RodDensity, parametroSarta[2].RodResistence),\n            Sarta4: new Propiedades(parametroSarta[3].RodL, parametroSarta[3].RodDiameter, parametroSarta[3].TaperL, parametroSarta[3].E, 0, 0, parametroSarta[3].RodDensity, parametroSarta[3].RodResistence),\n            Sarta5: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0)\n        };\n        break;\n    case 5:\n        // cuando son 5 sartas caso que normalmente no aplicable \n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(parametroSarta[1].RodL, parametroSarta[1].RodDiameter, parametroSarta[1].TaperL, parametroSarta[1].E, 0, 0, parametroSarta[1].RodDensity, parametroSarta[1].RodResistence),\n            Sarta3: new Propiedades(parametroSarta[2].RodL, parametroSarta[2].RodDiameter, parametroSarta[2].TaperL, parametroSarta[2].E, 0, 0, parametroSarta[2].RodDensity, parametroSarta[2].RodResistence),\n            Sarta4: new Propiedades(parametroSarta[3].RodL, parametroSarta[3].RodDiameter, parametroSarta[3].TaperL, parametroSarta[3].E, 0, 0, parametroSarta[3].RodDensity, parametroSarta[3].RodResistence),\n            Sarta5: new Propiedades(parametroSarta[4].RodL, parametroSarta[4].RodDiameter, parametroSarta[4].TaperL, parametroSarta[4].E, 0, 0, parametroSarta[4].RodDensity, parametroSarta[4].RodResistence)\n        };\n        //Declaraciones ejecutadas cuando el resultado de expresión coincide con valorN\n        break;\n    default:\n        break;\n}\n\n\nvar NumeroMuestras;\nvar NNodo = 0;//Consultar el valor\nvar ConstanteAmortiguamiento = global.get(\"DataProduccion.constanteAmortiguamiento\")||0;//Consultar el valor\nvar SPM_Feedback = 8.6;//Consultar el valor\nvar Desp_CD = createArray(100);//Consultar el valor eje x\nvar Esfu_CD = createArray(100);//Consultar el valor eje y\nDesp_CD = [0.033277, 0.298705, 0.669662, 1.142543, 1.738089, 2.445315, 3.24979, 4.16783, 5.191564, 6.2639, 7.402083, 8.644076, 9.995452, 11.436207, 12.939613, 14.526823, 16.207429, 17.955852, 19.767089, 21.661885, 23.624661, 25.635197, 27.697951, 29.828932, 31.998408, 34.196706, 36.431962, 38.706677, 41.013411, 43.348044, 45.724339, 48.149071, 50.476498, 52.779014, 55.120742, 57.459779, 59.748734, 62.024175, 64.298563, 66.545006, 68.754159, 70.919379, 73.046079, 75.123682, 77.140381, 79.09421, 80.977625, 82.811451, 84.579372, 86.249988, 87.835515, 89.337428, 90.736624, 92.029825, 93.241625, 94.357514, 95.357404, 96.268926, 97.088471, 97.786361, 98.380386, 98.874318, 99.279144, 99.586828, 99.810243, 99.950044, 100, 99.969048, 99.84817, 99.656304, 99.38845, 99.04231, 98.631415, 98.154287, 97.60945, 97.003055, 96.349038, 95.605669, 94.789098, 93.9618, 93.076469, 92.111869, 91.121867, 90.096869, 89.000145, 87.842846, 86.656537, 85.425313, 84.132857, 82.808357, 81.434432, 79.999276, 78.532158, 77.02775, 75.449812, 73.823023, 72.176406, 70.472903, 68.718008, 66.958862, 65.136436, 63.233183, 61.321827, 59.397612, 57.405607, 55.372212, 53.344732, 51.283979, 49.176999, 47.05716, 44.92315, 42.768083, 40.577774, 38.367145, 36.162597, 33.921988, 31.66278, 29.433932, 27.208785, 25.003011, 22.846217, 20.749532, 18.705578, 16.740837, 14.852849, 12.993374, 11.230657, 9.571503, 8.026405, 6.6034, 5.317899, 4.165887, 3.161054, 2.300859, 1.572431, 0.977982, 0.51571, 0.198895, 0.033277, 0]\nEsfu_CD = [9.325307, 9.676723, 9.676723, 9.580882, 9.788537, 9.820484, 9.596856, 9.676723, 9.548935, 9.485041, 10.012166, 10.363582, 10.475396, 10.730972, 10.90668, 11.002521, 11.258096, 11.433804, 11.513671, 11.717333, 11.835137, 11.917001, 11.809181, 11.631476, 11.226149, 10.970574, 10.794866, 10.651104, 10.459423, 10.267741, 10.139953, 9.996192, 9.820484, 9.628803, 9.516988, 9.692696, 9.900351, 10.07606, 10.187874, 10.315662, 10.331635, 10.331635, 10.443449, 10.507343, 10.443449, 10.53929, 10.699025, 10.571237, 10.251768, 9.980219, 9.804511, 9.612829, 9.405174, 9.357254, 9.34128, 9.149599, 8.97389, 9.021811, 8.92597, 8.734288, 8.909997, 9.245439, 9.437121, 9.532962, 9.75659, 9.884378, 9.932298, 9.964245, 9.900351, 9.996192, 9.948272, 10.028139, 10.139953, 9.964245, 9.628803, 9.469068, 9.469068, 9.34128, 9.149599, 9.245439, 9.29336, 9.117652, 9.053758, 9.245439, 9.181545, 9.085705, 9.373227, 9.70867, 9.692696, 9.644776, 9.788537, 9.868405, 9.628803, 9.548935, 9.612829, 9.421147, 9.165572, 9.037784, 8.814156, 8.350925, 7.903668, 7.759907, 7.711987, 7.456411, 7.200836, 7.168889, 7.041101, 6.705658, 6.561897, 6.753579, 6.929287, 7.184862, 7.536279, 7.855748, 7.919642, 7.887695, 8.09535, 8.318978, 8.334952, 8.526633, 8.766235, 8.734288, 8.686368, 8.718315, 8.414819, 8.223138, 8.366899, 8.350925, 8.366899, 8.51066, 8.478713, 8.382872, 8.494686, 8.51066, 8.55858, 8.750262, 8.941944, 9.229466, 9.373227, 9.29336]\nNumeroMuestras = Desp_CD.length;//tamaño del vector muestras\nvar DiametroTubing = global.get(\"DataInstalation.DiametroTubing\")||null;\nvar PresionCasing = global.get(\"DataInstalation.PresionCasing\")||0;\n\n\n// variables de contexto\ncontext.set(\"NumeroMuestras\", NumeroMuestras, \"memoryOnly\");\ncontext.set(\"Esfu_CD\", Esfu_CD, \"memoryOnly\");\ncontext.set(\"Desp_CD\", Desp_CD, \"memoryOnly\");\ncontext.set(\"parDinagram\", parDinagram, \"memoryOnly\");\ncontext.set(\"NNodo\", NNodo, \"memoryOnly\");\ncontext.set(\"SPM_Feedback\", SPM_Feedback, \"memoryOnly\");\ncontext.set(\"numSarta\", numSarta, \"memoryOnly\");\ncontext.set(\"PresionCasing\", PresionCasing,\"memoryOnly\");\ncontext.set(\"Grado_API_del_Fluido\", Grado_API_del_Fluido,\"memoryOnly\");\ncontext.set(\"ConstanteAmortiguamiento\", ConstanteAmortiguamiento,\"memoryOnly\");\ncontext.set(\"DiametroTubing\", DiametroTubing,\"memoryOnly\");\ncontext.set(\"PresionCasing\", PresionCasing,\"memoryOnly\");\n// variables de flujo\nflow.set(\"numSarta\", numSarta);\nflow.set(\"parDinagram\", parDinagram);\nflow.set(\"NumeroMuestras\", NumeroMuestras);\nflow.set(\"NNodo\", NNodo);\nflow.set(\"ConstanteAmortiguamiento\", ConstanteAmortiguamiento);\nflow.set(\"SPM_Feedback\", SPM_Feedback);\nflow.set(\"Desp_CD\", Desp_CD);\nflow.set(\"Esfu_CD\", Esfu_CD);\nflow.set(\"DiametroTubing\", DiametroTubing);\nflow.set(\"PresionCasing\", PresionCasing);\nflow.set(\"Grado_API_del_Fluido\", Grado_API_del_Fluido);\n\n// funciones utilizadas\n\nfunction Propiedades(Longitud_Ca_Ft, Diametro_Pulg, Longitud_Tr_Ft, E, Peso_Lb, Peso_Inicial_Ca, Densidad, Resistencia) {\n    this.Longitud_Ca_Ft = Longitud_Ca_Ft;\n    this.Diametro_Pulg = Diametro_Pulg;\n    this.Longitud_Tr_Ft = Longitud_Tr_Ft;\n    this.E = E * 1000000.0;//Elasticicidad\n    this.Peso_Lb = Peso_Lb;//W\n    this.Peso_Inicial_Ca = Peso_Inicial_Ca;//Wo\n    this.Densidad = Densidad;//P\n    this.Resistencia = Resistencia;\n}\nfunction createArray(length) {\n    var arr = new Array(length || 0),\n        i = length;\n\n    if (arguments.length > 1) {\n        var args = Array.prototype.slice.call(arguments, 1);\n        while (i--) arr[length - 1 - i] = createArray.apply(this, args);\n    }\n\n    return arr;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "50562e3decef65ea",
+        "type": "inject",
+        "z": "0919ca8b08ef5398",
+        "g": "7f4726c248df075a",
+        "name": "inyectar",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 640,
+        "wires": [
+            [
+                "3506a72280f24b12"
+            ]
+        ]
+    },
+    {
+        "id": "a92e2b1a15d4e4e5",
+        "type": "function",
+        "z": "0919ca8b08ef5398",
+        "g": "7f4726c248df075a",
+        "name": "SetNodo",
+        "func": "var numSarta = flow.get(\"numSarta\") || 0; //valor configurable\nvar Tramo = flow.get(\"Tramo\")||null;\nvar Goodman_Matriz = flow.get(\"Goodman_Matriz\")||null;\nvar Sartas_AreaCabilla = flow.get(\"Sartas_AreaCabilla\")||null;\nvar NNodo = 0;\nvar NodosZona1 = 0;\nvar NodosZona2 = 0;\nvar NodosZona3 = 0;\nvar NodosZona4 = 0;\nvar NodosZona5 = 0;\nvar NodosZona6 = 0;\nvar NodosZona7 = 0;\nswitch (numSarta) {\n    case 1:\n        NNodo = (Tramo[0][18]);\n        NodosZona1 = Tramo[0][18];\n        NodosZona2 = Tramo[0][18] - 1.0;\n        NodosZona3 = (4.0 / 5.0) * Tramo[0][18];\n        NodosZona4 = (3.0 / 5.0) * Tramo[0][18];\n        NodosZona5 = (2.0 / 5.0) * Tramo[0][18];\n        NodosZona6 = (1.0 / 5.0) * Tramo[0][18];\n        NodosZona7 = 2.0;\n        Goodman_Matriz[1][0] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][1] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][2] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][3] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][4] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][5] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][6] = Sartas_AreaCabilla[0];\n        break;\n    case 2:\n        NNodo = (Tramo[1][18]);\n        NodosZona1 = Tramo[1][18];\n        NodosZona2 = (4.0 / 5.0) * Tramo[1][18];\n        NodosZona3 = (3.0 / 5.0) * Tramo[1][18];\n        NodosZona4 = Tramo[0][18] + 2.0; //(* (2.0 / 5.0) * Tramo[1, 18] ; *)\n        NodosZona5 = Tramo[0][18];\n        NodosZona6 = (1.0 / 2.0) * Tramo[0][18];\n        NodosZona7 = 2.0;\n        // DIAGRAMA DE GOODMAN\n        Goodman_Matriz[1][0] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][1] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][2] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][3] = Sartas_AreaCabilla[1];\n        Goodman_Matriz[1][4] = Sartas_AreaCabilla[1];\n        Goodman_Matriz[1][5] = Sartas_AreaCabilla[1];\n        Goodman_Matriz[1][6] = Sartas_AreaCabilla[1];\n        break;\n    case 3:\n        NNodo=(Tramo[2][18])\n        NodosZona1 = Tramo[2][18];\n        NodosZona2 = Tramo[2][18] - 1.0;\n        NodosZona3 = (4.0 / 5.0) * Tramo[2][18];\n        NodosZona4 = Tramo[1][18];\n        NodosZona5 = (3.0 / 5.0) * Tramo[1][18];\n        NodosZona6 = Tramo[0][18];\n        NodosZona7 = 2.0;\n        Goodman_Matriz[1][0] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][1] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][2] = Sartas_AreaCabilla[1];\n        Goodman_Matriz[1][3] = Sartas_AreaCabilla[1];\n        Goodman_Matriz[1][4] = Sartas_AreaCabilla[2];\n        Goodman_Matriz[1][5] = Sartas_AreaCabilla[2];\n        Goodman_Matriz[1][6] = Sartas_AreaCabilla[2];\n        break;\n    case 4:\n        NNodo = (Tramo[3][18])\n        NodosZona1 = Tramo[3][18];\n        NodosZona2 = Tramo[3][18] - 1.0;\n        NodosZona3 = (9.0 / 10.0) * Tramo[3][18];\n        NodosZona4 = Tramo[2][18];\n        NodosZona5 = (3.5 / 5.0) * Tramo[2][18];\n        NodosZona6 = Tramo[1][18];\n        NodosZona7 = 2.0;\n        // goodman\n        Goodman_Matriz[1][0] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][1] = Sartas_AreaCabilla[1];\n        Goodman_Matriz[1][2] = Sartas_AreaCabilla[2];\n        Goodman_Matriz[1][3] = Sartas_AreaCabilla[2];\n        Goodman_Matriz[1][4] = Sartas_AreaCabilla[3];\n        Goodman_Matriz[1][5] = Sartas_AreaCabilla[3];\n        Goodman_Matriz[1][6] = Sartas_AreaCabilla[3];\n        break;\n    case 5:\n        NNodo = (Tramo[4][18]);\n        NodosZona1 = Tramo[4][18];\n        NodosZona2 = Tramo[4][18] - 1.0;\n        NodosZona3 = Tramo[3][18];\n        NodosZona4 = Tramo[2][18];\n        NodosZona5 = Tramo[1][18];\n        NodosZona6 = Tramo[0][18];\n        NodosZona7 = 2.0;\n        // goodman\n        Goodman_Matriz[1][0] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][1] = Sartas_AreaCabilla[0];\n        Goodman_Matriz[1][2] = Sartas_AreaCabilla[1];\n        Goodman_Matriz[1][3] = Sartas_AreaCabilla[2];\n        Goodman_Matriz[1][4] = Sartas_AreaCabilla[3];\n        Goodman_Matriz[1][5] = Sartas_AreaCabilla[4];\n        Goodman_Matriz[1][6] = Sartas_AreaCabilla[4];\n        break;\n    default:\n        msg.payload = \"Demasiadas Sartas\"\n}\nGoodman_Matriz[0][0] = NodosZona7;\nGoodman_Matriz[0][1] = NodosZona6;\nGoodman_Matriz[0][2] = NodosZona5;\nGoodman_Matriz[0][3] = NodosZona4;\nGoodman_Matriz[0][4] = NodosZona3;\nGoodman_Matriz[0][5] = NodosZona2;\nGoodman_Matriz[0][6] = NodosZona1;\nNNodo = parseInt(NNodo);//truncar valores del ciclo for\n//variables de Contexto\ncontext.set(\"numSarta\", numSarta, \"memoryOnly\");\ncontext.set(\"NNodo\", NNodo, \"memoryOnly\");\ncontext.set(\"Sartas_AreaCabilla\", NNodo, \"memoryOnly\");\ncontext.set(\"NodosZona1\", NodosZona1, \"memoryOnly\");\ncontext.set(\"NodosZona2\", NodosZona2, \"memoryOnly\");\ncontext.set(\"Goodman_Matriz\", Goodman_Matriz, \"memoryOnly\");\n\n// variables de Flujo\nflow.set(\"NNodo\", NNodo, \"file\");//validar funcionamiento\nflow.set(\"Goodman_Matriz\", Goodman_Matriz, \"file\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 760,
+        "wires": [
+            [
+                "6832b5cf2eba2c06"
+            ]
+        ]
+    },
+    {
+        "id": "af9c9eb2f7babf5f",
+        "type": "function",
+        "z": "0919ca8b08ef5398",
+        "g": "7f4726c248df075a",
+        "name": "OperarVectores",
+        "func": "var Tramo = flow.get(\"Tramo\")||0;\nvar Data_Empty = flow.get(\"Data_Empty\")||0;\nvar numSarta = flow.get(\"numSarta\")||0;\nvar NNodo = flow.get(\"NNodo\")||0;\nNNodo = parseInt(NNodo);//redondeo\nvar NumeroMuestras = flow.get(\"NumeroMuestras\")||0;\nvar UV = flow.get(\"UV\")||0;\nvar Jo_Gl = flow.get(\"Jo_Gl\")||0;\nvar DX = flow.get(\"DX\")||0;\nvar UM = flow.get(\"UM\")||0;\nvar E_Gl = flow.get(\"E_Gl\")||0;\nvar A_Gl = flow.get(\"A_Gl\")||0;\nvar worm_v = flow.get(\"worm_v\")||0;\nvar M = flow.get(\"M\")||0;\nvar Wflo = flow.get(\"Wflo\");\nvar Numero_de_sartas = numSarta;\nvar Desp_CD_F1 = createArray(520)\nvar Esfu_CD_F1 = createArray(520)\nvar UltimoNodo;\nvar Iniciar_CDF_OperarVectores_Nodos = false;\nvar Iniciar_CDF_OperarVectores_Bomba = false;\nvar max_Desp = 0;\n// inicializar variables\nfor (let JJ = 0; JJ <= 300; JJ++) {\n    Desp_CD_F1[JJ] = Data_Empty[JJ];\n    Esfu_CD_F1[JJ] = Data_Empty[JJ];\n}\n\nswitch (Numero_de_sartas) {\n    case 1:\n        UltimoNodo = parseInt((Tramo[0][18]) - 1);\n        if (NNodo <= UltimoNodo){\n            Iniciar_CDF_OperarVectores_Nodos = true;\n        } else if (NNodo = (Tramo[0][18])){\n            Iniciar_CDF_OperarVectores_Bomba = true;\n        }\n        break;\n    case 2:\n        UltimoNodo = parseInt((Tramo[1][18]) - 1);\n        if (NNodo <= UltimoNodo){\n            Iniciar_CDF_OperarVectores_Nodos = true;\n        } else if (NNodo = (Tramo[1][18])){\n            Iniciar_CDF_OperarVectores_Bomba = true;\n        }\n        break;\n    case 3:\n        UltimoNodo = parseInt((Tramo[2][18]) - 1);\n        if (NNodo <= UltimoNodo){\n            Iniciar_CDF_OperarVectores_Nodos = true;\n        } else if (NNodo = (Tramo[2][18])){\n            Iniciar_CDF_OperarVectores_Bomba = true;\n        }\n        break;\n    case 4:\n        UltimoNodo = parseInt((Tramo[3][18]) - 1);\n        if (NNodo <= UltimoNodo){\n            Iniciar_CDF_OperarVectores_Nodos = true;\n        } else if (NNodo = (Tramo[3][18]) ){\n            Iniciar_CDF_OperarVectores_Bomba = true;\n        }\n        break;\n    case 5:\n        UltimoNodo = parseInt((Tramo[4][18]) - 1);\n        if (NNodo <= UltimoNodo){\n            Iniciar_CDF_OperarVectores_Nodos = true;\n        } else if (NNodo = (Tramo[4][18])){\n            Iniciar_CDF_OperarVectores_Bomba = true;\n        }\n\n        break;\n    default:\n        msg.payload = \"Demasiadas Sartas\"\n}\n\n// (* CALCULO DE DIINAGRAMA EN NODOS *)\nif (Iniciar_CDF_OperarVectores_Nodos==true){\n    var Conteo11 = 0;\n    for (Conteo11 = 0; Conteo11 <= NumeroMuestras-1; Conteo11++) {        \n        Desp_CD_F1[Conteo11] = -12.0 * (UV[Conteo11 + Jo_Gl - 2]);\n        if (DX!=0){\n            Esfu_CD_F1[Conteo11] = (((E_Gl * A_Gl * 144.0) / DX) * (UV[Conteo11 + Jo_Gl - 2] - UM[1][Conteo11 + Jo_Gl - 2])) / 1000.0;\n            Esfu_CD_F1[Conteo11] = Esfu_CD_F1[Conteo11] - worm_v[parseInt(NNodo)] / 1000.0;\n        }\n    }\n    // revizar en que apartado se utilizan\n    Desp_CD_F1[Conteo11 - 1] = Desp_CD_F1[1];\n    Esfu_CD_F1[Conteo11 - 1] = Esfu_CD_F1[1];\n    Desp_CD_F1[Conteo11] = Desp_CD_F1[0];\n    Esfu_CD_F1[Conteo11] = Esfu_CD_F1[0];\n    var Filtrar_CDF = true;\n    var Graficar_CDF = 0;\n    var Iniciar_CDF_OperarVectores_Nodos = false;\n}\n\n// (* CALCULO DE DIINAGRAMA EN BOMBA *)\nif (Iniciar_CDF_OperarVectores_Bomba == true){\n    for (let Conteo11 = M; Conteo11 <= (M + NumeroMuestras-1); Conteo11++) {\n        if (UV[Conteo11] > max_Desp){\n            max_Desp = UV[Conteo11];\n        }\n    }\n    for (let Conteo11 = 0; Conteo11 <= NumeroMuestras - 1 ; Conteo11++) {\n        if(DX!=0){\n            // parseFloat(Int2Float32(array16to32(Accel_Time)).toFixed(3))\n            Desp_CD_F1[Conteo11] = - 12.0 * ((UV[(parseInt(M) + Conteo11)] - max_Desp));\n            Esfu_CD_F1[Conteo11] = ((E_Gl * A_Gl * 144.0) / (DX)) * ((UV[(parseInt(M) + Conteo11)] - UM[1][(parseInt(M) + Conteo11)]) / 1000.0);\n            Esfu_CD_F1[Conteo11] = Esfu_CD_F1[Conteo11] - (Wflo / 1000.0);\n        }\n    }\n    // Cierre del dinagrama de fondo el primer dato con el ultimo;\n    Desp_CD_F1[Conteo11 - 1] = Desp_CD_F1[1];\n    Esfu_CD_F1[Conteo11 - 1] = Esfu_CD_F1[1];\n\n    Desp_CD_F1[Conteo11] = Desp_CD_F1[0];\n    Esfu_CD_F1[Conteo11] = Esfu_CD_F1[0];\n\n}\n\n// guardar variables en context\ncontext.set(\"Desp_CD_F1\", Desp_CD_F1, \"memoryOnly\");\ncontext.set(\"M\", M, \"memoryOnly\");\ncontext.set(\"Esfu_CD_F1\", Esfu_CD_F1, \"memoryOnly\");\ncontext.set(\"Data_Empty\", Data_Empty, \"memoryOnly\");\ncontext.set(\"Tramo\", Tramo, \"memoryOnly\");\ncontext.set(\"Numero_de_sartas\", Numero_de_sartas, \"memoryOnly\");\ncontext.set(\"UltimoNodo\", UltimoNodo, \"memoryOnly\");\ncontext.set(\"Iniciar_CDF_OperarVectores_Nodos\", Iniciar_CDF_OperarVectores_Nodos, \"memoryOnly\");\ncontext.set(\"Iniciar_CDF_OperarVectores_Bomba\", Iniciar_CDF_OperarVectores_Bomba, \"memoryOnly\");\ncontext.set(\"NumeroMuestras\", NumeroMuestras, \"memoryOnly\");\ncontext.set(\"UV\", UV, \"memoryOnly\");\ncontext.set(\"Jo_Gl\", Jo_Gl, \"memoryOnly\");\ncontext.set(\"E_Gl\", E_Gl, \"memoryOnly\");\ncontext.set(\"DX\", DX, \"memoryOnly\");\ncontext.set(\"UM\", UM, \"memoryOnly\");\ncontext.set(\"worm_v\", worm_v, \"memoryOnly\");\ncontext.set(\"max_Desp\", max_Desp, \"memoryOnly\");\ncontext.set(\"Wflo\", Wflo, \"memoryOnly\");\ncontext.set(\"M\", M, \"memoryOnly\");\ncontext.set(\"NNodo\", NNodo, \"memoryOnly\");\n\n// guardar variables de flujo\nflow.set(\"Desp_CD_F1\", Desp_CD_F1);\nflow.set(\"Esfu_CD_F1\", Esfu_CD_F1);\n\n\n// funciones a utilizar\nfunction createArray(length) {\n    var arr = new Array(length || 0),\n        i = length;\n\n    if (arguments.length > 1) {\n        var args = Array.prototype.slice.call(arguments, 1);\n        while (i--) arr[length - 1 - i] = createArray.apply(this, args);\n    }\n\n    return arr;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "63d55e76c47f1c6d",
+        "type": "function",
+        "z": "0919ca8b08ef5398",
+        "g": "7f4726c248df075a",
+        "name": "ActualizarSartas",
+        "func": "// entradas del sistema\nvar parDinagram = flow.get(\"parDinagram\")||0;\nvar numSarta = flow.get(\"numSarta\")||0;\n\n// Calculo de peso inicial y peso Lb de las sartas\nfor (let i = 0; i <= numSarta-1; i++) {\n    // Sarta_1.Peso_Inicial_Ca := Sarta_1.Densidad * 3.1416 * (POW((Sarta_1.Diametro_Pulg / 12.0), 2.0) / 4.0) * Sarta_1.Longitud_Tr_Ft;\n    parDinagram['Sarta' + (i + 1)].Peso_Inicial_Ca = parDinagram['Sarta' + (i + 1)].Densidad * 3.1416 * (Math.pow((parDinagram['Sarta' + (i + 1)].Diametro_Pulg / 12.0), 2) / 4) * parDinagram['Sarta' + (i + 1)].Longitud_Tr_Ft;\n    if (parDinagram['Sarta' + (i + 1)].Longitud_Tr_Ft>0){\n        parDinagram['Sarta' + (i + 1)].Peso_Lb = parDinagram['Sarta' + (i + 1)].Peso_Inicial_Ca / parDinagram['Sarta' + (i + 1)].Longitud_Tr_Ft;\n    } \n}\n\n\n// guardar variables de contexto\ncontext.set(\"parDinagram\", parDinagram, \"memoryOnly\");\ncontext.set(\"numSarta\", numSarta, \"memoryOnly\");\n\n// guardar las variables de salida de flujo\nflow.set(\"parDinagram\", parDinagram);\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 640,
+        "wires": [
+            [
+                "306f3be9a429b92b"
+            ]
+        ],
+        "info": "rutina para crear los pesos "
+    },
+    {
+        "id": "0da4a39c19a3721d",
+        "type": "complete",
+        "z": "0919ca8b08ef5398",
+        "g": "7f4726c248df075a",
+        "name": "SimulacionData",
+        "scope": [
+            "3506a72280f24b12"
+        ],
+        "uncaught": false,
+        "x": 480,
+        "y": 640,
+        "wires": [
+            [
+                "63d55e76c47f1c6d"
+            ]
+        ]
+    },
+    {
+        "id": "0bfa74f3ee9ac9c6",
+        "type": "function",
+        "z": "0919ca8b08ef5398",
+        "g": "7f4726c248df075a",
+        "name": "setVarPou",
+        "func": "var NumeroMuestras = flow.get(\"NumeroMuestras\")||0;\nvar Desp_CD = flow.get(\"Desp_CD\")||0;\nvar Esfu_CD = flow.get(\"Esfu_CD\")||0;\nvar Tramo = flow.get(\"Tramo\")||0;\nvar DX = flow.get(\"DX\")||0;\nvar UM = createArray(3, 520);\nvar UV = createArray(520);\nvar Numero_de_sartas = flow.get(\"numSarta\") || 0;\nvar SPM_Feedback = flow.get(\"SPM_Feedback\")||0;\nvar nCab = flow.get(\"nCab\")||0;\nvar DCprom = flow.get(\"DCprom\")||0;\nvar DiametroTubing = flow.get(\"DiametroTubing\")||0;\nvar PresionCasing = flow.get(\"PresionCasing\")||0;\nvar T = SPM_Feedback;\nvar np = 1.0, DT_0 = 0, DT1, Rho, gc = 32.2, Cest, LongOptm;\nvar AreaTubing, AreaCabilla, CargaCabezal, DT_Gl;\nvar V = 0.1;//identificar Value\nvar nt1 = Numero_de_sartas - 1;\nvar T_Matrix = NumeroMuestras;\nvar A = Tramo[nt1][15];\nvar E = Tramo[nt1][14];\nvar M = Tramo[nt1][18] - 1.0;\nvar L = Tramo[nt1][12];\nvar LM = M + 1.0;\nvar N = (T_Matrix) + 2.0 * (M - 1.0 + np);\nvar NT = Math.round(T_Matrix);\nvar NTI = NT;\n\nif ((L != 0.0) && (T_Matrix != 149)) {\n    LongOptm = (2.0 / (149.0 - (T_Matrix))) * L;\n}\nif (((T_Matrix) + 2.0 * (LM)) > 500.0) {\n    nCab = LongOptm;\n    var Ajustar_Datos = 1.0;\n    M = Tramo[nt1][18] - 1.0;\n    M = parseInt(M);\n}\n// setear las variables\nfor (let j = 0; j <= 1; j++) {\n    for (let z = 0; z <= 499; z++) {\n        UM[j][z] = 0.0;\n        UV[z] = 0.0;\n    }\n}\n// (* ------- Llenado de las dos Primeras filas de la matriz U---------*)\nfor (let j = 0; j <= NumeroMuestras - 1; j++) {\n    UM[0][j] = -(Desp_CD[j]) / (12.0);\n    if ((E != 0.0) && (A != 0)) {\n        UM[1][j] = (Esfu_CD[j] * 1000.0) * (DX / (E * A * 144.0)) + UM[0][j];\n    }\n}\n\nM = parseInt(M);//truncar valores del ciclo for\nfor (let j = 0; j <= M; j++) {\n    UM[0][NumeroMuestras + j] = UM[0][j];\n    UM[1][NumeroMuestras + j] = UM[1][j];\n}\nif (T != 0) {\n    DT1 = 60.0 / T / ((NTI) - 1.0);\n}\nNT = N;\nif (T != 0) {\n    DT_0 = 60.0 / T / ((NTI) - 1.0);\n}\nif (M != 0.0) {\n    DX = L / (M);\n}\nE = Tramo[Numero_de_sartas - 1][14];\nRho = Tramo[Numero_de_sartas - 1][13];\nif ((Rho != 0.0) && (V != 0.0) && (DT_0 != 0.0)) {\n    V = Math.sqrt(144.0 * E * gc / Rho);\n    Cest = DX / V / DT_0;;\n}\nAreaTubing = (3.1416 / 4.0) * Math.pow(DiametroTubing, 2.0);\nAreaCabilla = (3.1416 / 4.0) * Math.pow(DCprom, 2.0);\nCargaCabezal = ((AreaTubing - AreaCabilla) * PresionCasing) / 1000.0;\n\n// variables utilizadas en otras rutinas\nDT_Gl = DT1;\n// VARIABLES DE FLUJO\nflow.set(\"UM\", UM);\nflow.set(\"UV\", UV);\nflow.set(\"DX\", DX);\nflow.set(\"nCab\", nCab);\nflow.set(\"AreaTubing\", AreaTubing);\nflow.set(\"AreaCabilla\", AreaCabilla);\nflow.set(\"CargaCabezal\", CargaCabezal);\nflow.set(\"DT_Gl\", DT_Gl);\nflow.set(\"M\", M);\n\n// VARIABLES DE CONTEXTO\ncontext.set(\"A\", A, \"memoryOnly\");\ncontext.set(\"E\", E, \"memoryOnly\");\ncontext.set(\"DX\", DX, \"memoryOnly\");\ncontext.set(\"M\", M, \"memoryOnly\");\ncontext.set(\"UM\", UM, \"memoryOnly\");\ncontext.set(\"Desp_CD\", Desp_CD, \"memoryOnly\");\ncontext.set(\"Esfu_CD\", Esfu_CD, \"memoryOnly\");\ncontext.set(\"Tramo\", Tramo, \"memoryOnly\");\ncontext.set(\"nt1\", nt1, \"memoryOnly\");\ncontext.set(\"L\", L, \"memoryOnly\");\ncontext.set(\"T_Matrix\", T_Matrix, \"memoryOnly\");\ncontext.set(\"LongOptm\", LongOptm, \"memoryOnly\");\ncontext.set(\"nCab\", nCab, \"memoryOnly\");\ncontext.set(\"LM\", LM, \"memoryOnly\");\ncontext.set(\"np\", np, \"memoryOnly\");\ncontext.set(\"T\", T, \"memoryOnly\");\ncontext.set(\"DT_0\", DT_0, \"memoryOnly\");\ncontext.set(\"NTI\", NTI, \"memoryOnly\");\ncontext.set(\"SPM_Feedback\", SPM_Feedback, \"memoryOnly\");\ncontext.set(\"DT1\", DT1, \"memoryOnly\");\ncontext.set(\"Rho\", Rho, \"memoryOnly\");\ncontext.set(\"V\", V, \"memoryOnly\");\ncontext.set(\"gc\", gc, \"memoryOnly\");\ncontext.set(\"Cest\", Cest, \"memoryOnly\");\ncontext.set(\"nCab\", nCab, \"memoryOnly\");\ncontext.set(\"AreaTubing\", AreaTubing, \"memoryOnly\");\ncontext.set(\"AreaCabilla\", AreaCabilla, \"memoryOnly\");\ncontext.set(\"CargaCabezal\", CargaCabezal, \"memoryOnly\");\ncontext.set(\"DiametroTubing\", DiametroTubing, \"memoryOnly\");\ncontext.set(\"DCprom\", DCprom, \"memoryOnly\");\ncontext.set(\"PresionCasing\", PresionCasing, \"memoryOnly\");\ncontext.set(\"DT_Gl\", DT_Gl, \"memoryOnly\");\ncontext.set(\"UV\", UV, \"memoryOnly\");\ncontext.set(\"N\", N, \"memoryOnly\");\ncontext.set(\"NT\", NT, \"memoryOnly\");\ncontext.set(\"NumeroMuestras\", NumeroMuestras, \"memoryOnly\");\nreturn msg;\nfunction createArray(length) {\n    var arr = new Array(length || 0),\n        i = length;\n\n    if (arguments.length > 1) {\n        var args = Array.prototype.slice.call(arguments, 1);\n        while (i--) arr[length - 1 - i] = createArray.apply(this, args);\n    }\n\n    return arr;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 720,
+        "wires": [
+            [
+                "a92e2b1a15d4e4e5"
+            ]
+        ]
+    },
+    {
+        "id": "6832b5cf2eba2c06",
+        "type": "function",
+        "z": "0919ca8b08ef5398",
+        "g": "7f4726c248df075a",
+        "name": "CalculoFondo",
+        "func": "var M = flow.get(\"M\")||null;\nvar NumeroMuestras = flow.get(\"NumeroMuestras\")||null;\nvar NumeroMuestras = flow.get(\"NumeroMuestras\")||null;\nvar Tramo = flow.get(\"Tramo\")||null;\nvar NNodo = flow.get(\"NNodo\") || null;\nNNodo = parseInt(NNodo);//truncar valores del ciclo for\nvar DX = flow.get(\"DX\") || null;\nvar gc = flow.get(\"gc\") || null;\nvar DT_Gl = flow.get(\"DT_Gl\") || null;\nvar ConstanteAmortiguamiento = flow.get(\"ConstanteAmortiguamiento\") || null;\nvar UV = flow.get(\"UV\") || null;//preguntar de donde va\nvar UM = flow.get(\"UM\") || null;//preguntar de donde va\nvar C_Gl = ConstanteAmortiguamiento;\nvar N = (2 * (M)) + NumeroMuestras;\nvar Rho, E, A, W0, L, Alpha, A1, A2, A3, A4;\n\n// identificacion donde se esta calculando el dinagrama\nvar k = 0;\nvar worm = 0;\nvar worm_v = createArray(NNodo + 2);\nvar Data_Empty = createArray(550);\nfor (let i = 0; i < 550; i++) {\n    Data_Empty[i] = 0;\n}\n\nvar L1 = Tramo[0][3];\nvar L2 = L1 + Tramo[1][3];\nvar L3 = L2 + Tramo[2][3];\nvar L4 = L3 + Tramo[3][3];\nvar L5 = L4 + Tramo[4][3];\n\nfor (var jo = 2; jo <= NNodo; jo++) {\n    if ((L1 != 0.0) && (((jo - 2) * DX) <= L1)) {\n        k = 1;\n        DX = Tramo[k - 1][1];\n    }\n    if ((L2 != 0.0) && (((jo - 1) * DX) > L1) && (((jo) * DX) <= L2)) {\n        k = 2;\n        DX = Tramo[k - 1][1];\n    }\n    if ((L3 != 0.0) && (((jo - 1) * DX) > L2) && (((jo) * DX) <= L3)) {\n        k = 3;\n        DX = Tramo[k - 1][1];\n    }\n    if ((L4 != 0.0) && (((jo - 1) * DX) > L3) && (((jo) * DX) <= L4)) {\n        k = 4;\n        DX = Tramo[k - 1][1];\n    }\n    if ((L5 != 0.0) && (((jo - 1) * DX) > L4) && (((jo) * DX) <= L5)) {\n        k = 5;\n        DX = Tramo[k - 1][1];\n    }\n    worm = worm + Tramo[k - 1][5] * DX;\n    worm_v[jo] = worm;\n    // calculo de constantes de trabajo\n    Rho = Tramo[k - 1][13];\n    E = Tramo[k - 1][14];\n    A = Tramo[k - 1][15];\n    W0 = Tramo[k - 1][16];\n    L = Tramo[k - 1][12];\n\n    if (DT_Gl != 0.0 && Rho != 0.0 && A != 0.0 && gc != 0.0 && E != 0.0 && DX != 0.0) {\n        Alpha = (DX / (DT_Gl * DT_Gl)) * ((Rho * A) / (gc));\n        A1 = (Alpha * (1.0 + (C_Gl * DT_Gl))) / ((E * A * 144.0) / DX);\n        A2 = -(Alpha * (2.0 + (C_Gl * DT_Gl)) - ((2.0 * E * A * 144.0) / DX)) / (E * A * 144.0 / DX);\n        A3 = Alpha / (E * A * 144.0 / DX);\n        A4 = -1.0;\n    }\n    // validar esto \n    if (jo > 3) {\n        for (let KK = 0; KK <= 499; KK++) {\n            UM[0][KK] = UM[1][KK];\n            UM[1][KK] = UV[KK];//Revizar UV y UM me estan seteando a cero todas\n        }\n    }\n    for (let KK = 0; KK <= 499; KK++) {\n        // seteo de las variable UV\n        Data_Empty[KK] = 0;\n        UV[KK] = Data_Empty[KK];\n    }\n    // (* Calculo de Vector U con ecuacion de onda -*)\n    for (let y = jo - 1; y <= (N - jo + 1); y++) {\n        UV[y] = (A1 * UM[1][y + 1]) + (A2 * UM[1][y]) + (A3 * UM[1][y - 1]) + (A4 * UM[0][y]);\n    }\n    \n}\n\n\nvar Jo_Gl = jo;\nvar E_Gl = E;\nvar A_Gl = A;\n\n\n// guardar variables de contexto\ncontext.set(\"N\",N,\"memoryOnly\");\ncontext.set(\"M\", M, \"memoryOnly\");\ncontext.set(\"NumeroMuestras\", NumeroMuestras, \"memoryOnly\");\ncontext.set(\"L1\", L1, \"memoryOnly\");\ncontext.set(\"L2\", L2, \"memoryOnly\");\ncontext.set(\"L3\", L3, \"memoryOnly\");\ncontext.set(\"L4\", L4, \"memoryOnly\");\ncontext.set(\"L5\", L5, \"memoryOnly\");\ncontext.set(\"Tramo\", Tramo, \"memoryOnly\");\ncontext.set(\"Rho\", Rho, \"memoryOnly\");\ncontext.set(\"E\", E, \"memoryOnly\");\ncontext.set(\"W0\", W0, \"memoryOnly\");\ncontext.set(\"L\", L, \"memoryOnly\");\ncontext.set(\"Alpha\", Alpha, \"memoryOnly\");\ncontext.set(\"A1\", A1, \"memoryOnly\");\ncontext.set(\"A2\", A2, \"memoryOnly\");\ncontext.set(\"A3\", A3, \"memoryOnly\");\ncontext.set(\"A4\", A4, \"memoryOnly\");\ncontext.set(\"NNodo\", NNodo, \"memoryOnly\");\ncontext.set(\"DX\", DX, \"memoryOnly\");\ncontext.set(\"k\", k, \"memoryOnly\");\ncontext.set(\"gc\", gc, \"memoryOnly\");\ncontext.set(\"DT_Gl\", DT_Gl, \"memoryOnly\");\ncontext.set(\"Data_Empty\", Data_Empty, \"memoryOnly\");\ncontext.set(\"UV\", UV, \"memoryOnly\");\ncontext.set(\"UM\", UM, \"memoryOnly\");\ncontext.set(\"worm\", worm, \"memoryOnly\");\ncontext.set(\"worm_v\", worm_v, \"memoryOnly\");\n// guardar variables de flujo\nflow.set(\"DX\", DX);\nflow.set(\"UM\", UM);\nflow.set(\"UV\", UV);\nflow.set(\"Jo_Gl\", Jo_Gl);\nflow.set(\"E_Gl\", E_Gl);\nflow.set(\"A_Gl\", A_Gl);\nflow.set(\"Data_Empty\", Data_Empty);\nflow.set(\"worm_v\", worm_v);\n\nreturn msg;\n\n// funciones a utilizar\nfunction createArray(length) {\n    var arr = new Array(length || 0),\n        i = length;\n\n    if (arguments.length > 1) {\n        var args = Array.prototype.slice.call(arguments, 1);\n        while (i--) arr[length - 1 - i] = createArray.apply(this, args);\n    }\n\n    return arr;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 800,
+        "wires": [
+            [
+                "af9c9eb2f7babf5f"
             ]
         ]
     }
