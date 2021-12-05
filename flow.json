@@ -3096,7 +3096,6 @@
             "color": "#ffffff"
         },
         "nodes": [
-            "d33397948fb67cdf",
             "18f40e5b0bd1efac",
             "8e5b31fc6f3419ca",
             "6c3e25a83c188cf2",
@@ -3105,7 +3104,7 @@
         ],
         "x": 14,
         "y": 239,
-        "w": 532,
+        "w": 372,
         "h": 162
     },
     {
@@ -3428,12 +3427,13 @@
             "63d55e76c47f1c6d",
             "0da4a39c19a3721d",
             "0bfa74f3ee9ac9c6",
-            "6832b5cf2eba2c06"
+            "6832b5cf2eba2c06",
+            "984de93babf87b5a"
         ],
         "x": 14,
         "y": 599,
         "w": 772,
-        "h": 282
+        "h": 322
     },
     {
         "id": "b079c206d161b62c",
@@ -6388,6 +6388,27 @@
         "y": 3959
     },
     {
+        "id": "1ec8ef96430984c9",
+        "type": "group",
+        "z": "0919ca8b08ef5398",
+        "name": "Dinagrama de Fondo2D",
+        "style": {
+            "fill": "#000000",
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "b588b191c866978d",
+            "e7ec24dcc5895e50",
+            "adfb45cdd7e72ad8",
+            "31ad55c2c2e4aa56"
+        ],
+        "x": 14,
+        "y": 939,
+        "w": 652,
+        "h": 82
+    },
+    {
         "id": "d25d405a.19cff",
         "type": "ui_base",
         "theme": {
@@ -8197,16 +8218,6 @@
         "collapse": false
     },
     {
-        "id": "191d6a1b767c763a",
-        "type": "ui_group",
-        "name": "logos",
-        "tab": "415c32a74f3175cf",
-        "order": 5,
-        "disp": false,
-        "width": "3",
-        "collapse": false
-    },
-    {
         "id": "f8cb549f91c3298a",
         "type": "ui_group",
         "name": "DHSSensorLess",
@@ -8214,16 +8225,6 @@
         "order": 4,
         "disp": false,
         "width": "12",
-        "collapse": false
-    },
-    {
-        "id": "1e6cbe30a324e73e",
-        "type": "ui_group",
-        "name": "StatusBar",
-        "tab": "415c32a74f3175cf",
-        "order": 6,
-        "disp": false,
-        "width": "18",
         "collapse": false
     },
     {
@@ -79282,27 +79283,6 @@
         ]
     },
     {
-        "id": "d33397948fb67cdf",
-        "type": "ui_template",
-        "z": "0919ca8b08ef5398",
-        "g": "535ea85babd47e44",
-        "group": "5af9a4c6f04ed9af",
-        "name": "Downhole",
-        "order": 1,
-        "width": 12,
-        "height": 10,
-        "format": "<div ng-bind-html=\"msg.payload\"></div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 460,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "ac803f94763d99b5",
         "type": "template",
         "z": "0919ca8b08ef5398",
@@ -79357,9 +79337,7 @@
         "x": 290,
         "y": 280,
         "wires": [
-            [
-                "d33397948fb67cdf"
-            ]
+            []
         ]
     },
     {
@@ -79377,9 +79355,7 @@
         "x": 290,
         "y": 320,
         "wires": [
-            [
-                "d33397948fb67cdf"
-            ]
+            []
         ]
     },
     {
@@ -79397,9 +79373,7 @@
         "x": 290,
         "y": 360,
         "wires": [
-            [
-                "d33397948fb67cdf"
-            ]
+            []
         ]
     },
     {
@@ -83613,7 +83587,7 @@
         "z": "0919ca8b08ef5398",
         "g": "7f4726c248df075a",
         "name": "SimulacionData",
-        "func": "var numSarta;\n// propiedades de las sartas\nvar parDinagram;\n// variables que vienen desde la interfaz grafica para la configuración de Sartas\nvar parametroSarta = global.get(\"Dinagrama.parametroSarta\") || 0;\nvar Grado_API_del_Fluido = global.get(\"DataProduccion.api\")||30;\nvar x = Object.keys(parametroSarta)\nvar tamano = x.length;\nnumSarta = tamano;\nif(parametroSarta == 0){\n    node.status({fill:\"green\",shape:\"dot\",text:\"SartaNoConfigurada\"});\n}else{\n    node.status({fill:\"red\",shape:\"dot\",text:\"SartaConfigurada\"});\n}\n\n// asignando las variables desde la interfaz grafica\nswitch (numSarta) {\n    case 1:\n    // cuando es solo una sarta\n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta3: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta4: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta5: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0)\n        };\n        break;\n    case 2:\n        //Cuando son solo dos sartas\n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(parametroSarta[1].RodL, parametroSarta[1].RodDiameter, parametroSarta[1].TaperL, parametroSarta[1].E, 0, 0, parametroSarta[1].RodDensity, parametroSarta[1].RodResistence),\n            Sarta3: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta4: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta5: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0)\n        };\n        break;\n    case 3:\n        //Cuando son 3 sartas\n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(parametroSarta[1].RodL, parametroSarta[1].RodDiameter, parametroSarta[1].TaperL, parametroSarta[1].E, 0, 0, parametroSarta[1].RodDensity, parametroSarta[1].RodResistence),\n            Sarta3: new Propiedades(parametroSarta[2].RodL, parametroSarta[2].RodDiameter, parametroSarta[2].TaperL, parametroSarta[2].E, 0, 0, parametroSarta[2].RodDensity, parametroSarta[2].RodResistence),\n            Sarta4: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta5: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0)\n        };\n        break;\n    case 4:\n        //Cuando son 4 sartas\n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(parametroSarta[1].RodL, parametroSarta[1].RodDiameter, parametroSarta[1].TaperL, parametroSarta[1].E, 0, 0, parametroSarta[1].RodDensity, parametroSarta[1].RodResistence),\n            Sarta3: new Propiedades(parametroSarta[2].RodL, parametroSarta[2].RodDiameter, parametroSarta[2].TaperL, parametroSarta[2].E, 0, 0, parametroSarta[2].RodDensity, parametroSarta[2].RodResistence),\n            Sarta4: new Propiedades(parametroSarta[3].RodL, parametroSarta[3].RodDiameter, parametroSarta[3].TaperL, parametroSarta[3].E, 0, 0, parametroSarta[3].RodDensity, parametroSarta[3].RodResistence),\n            Sarta5: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0)\n        };\n        break;\n    case 5:\n        // cuando son 5 sartas caso que normalmente no aplicable \n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(parametroSarta[1].RodL, parametroSarta[1].RodDiameter, parametroSarta[1].TaperL, parametroSarta[1].E, 0, 0, parametroSarta[1].RodDensity, parametroSarta[1].RodResistence),\n            Sarta3: new Propiedades(parametroSarta[2].RodL, parametroSarta[2].RodDiameter, parametroSarta[2].TaperL, parametroSarta[2].E, 0, 0, parametroSarta[2].RodDensity, parametroSarta[2].RodResistence),\n            Sarta4: new Propiedades(parametroSarta[3].RodL, parametroSarta[3].RodDiameter, parametroSarta[3].TaperL, parametroSarta[3].E, 0, 0, parametroSarta[3].RodDensity, parametroSarta[3].RodResistence),\n            Sarta5: new Propiedades(parametroSarta[4].RodL, parametroSarta[4].RodDiameter, parametroSarta[4].TaperL, parametroSarta[4].E, 0, 0, parametroSarta[4].RodDensity, parametroSarta[4].RodResistence)\n        };\n        //Declaraciones ejecutadas cuando el resultado de expresión coincide con valorN\n        break;\n    default:\n        break;\n}\n\n\nvar NumeroMuestras;\nvar NNodo = 0;//Consultar el valor\nvar ConstanteAmortiguamiento = global.get(\"DataProduccion.constanteAmortiguamiento\")||0;//Consultar el valor\nvar SPM_Feedback = 8.6;//Consultar el valor\nvar Desp_CD = createArray(100);//Consultar el valor eje x\nvar Esfu_CD = createArray(100);//Consultar el valor eje y\nDesp_CD = [0.033277, 0.298705, 0.669662, 1.142543, 1.738089, 2.445315, 3.24979, 4.16783, 5.191564, 6.2639, 7.402083, 8.644076, 9.995452, 11.436207, 12.939613, 14.526823, 16.207429, 17.955852, 19.767089, 21.661885, 23.624661, 25.635197, 27.697951, 29.828932, 31.998408, 34.196706, 36.431962, 38.706677, 41.013411, 43.348044, 45.724339, 48.149071, 50.476498, 52.779014, 55.120742, 57.459779, 59.748734, 62.024175, 64.298563, 66.545006, 68.754159, 70.919379, 73.046079, 75.123682, 77.140381, 79.09421, 80.977625, 82.811451, 84.579372, 86.249988, 87.835515, 89.337428, 90.736624, 92.029825, 93.241625, 94.357514, 95.357404, 96.268926, 97.088471, 97.786361, 98.380386, 98.874318, 99.279144, 99.586828, 99.810243, 99.950044, 100, 99.969048, 99.84817, 99.656304, 99.38845, 99.04231, 98.631415, 98.154287, 97.60945, 97.003055, 96.349038, 95.605669, 94.789098, 93.9618, 93.076469, 92.111869, 91.121867, 90.096869, 89.000145, 87.842846, 86.656537, 85.425313, 84.132857, 82.808357, 81.434432, 79.999276, 78.532158, 77.02775, 75.449812, 73.823023, 72.176406, 70.472903, 68.718008, 66.958862, 65.136436, 63.233183, 61.321827, 59.397612, 57.405607, 55.372212, 53.344732, 51.283979, 49.176999, 47.05716, 44.92315, 42.768083, 40.577774, 38.367145, 36.162597, 33.921988, 31.66278, 29.433932, 27.208785, 25.003011, 22.846217, 20.749532, 18.705578, 16.740837, 14.852849, 12.993374, 11.230657, 9.571503, 8.026405, 6.6034, 5.317899, 4.165887, 3.161054, 2.300859, 1.572431, 0.977982, 0.51571, 0.198895, 0.033277, 0]\nEsfu_CD = [9.325307, 9.676723, 9.676723, 9.580882, 9.788537, 9.820484, 9.596856, 9.676723, 9.548935, 9.485041, 10.012166, 10.363582, 10.475396, 10.730972, 10.90668, 11.002521, 11.258096, 11.433804, 11.513671, 11.717333, 11.835137, 11.917001, 11.809181, 11.631476, 11.226149, 10.970574, 10.794866, 10.651104, 10.459423, 10.267741, 10.139953, 9.996192, 9.820484, 9.628803, 9.516988, 9.692696, 9.900351, 10.07606, 10.187874, 10.315662, 10.331635, 10.331635, 10.443449, 10.507343, 10.443449, 10.53929, 10.699025, 10.571237, 10.251768, 9.980219, 9.804511, 9.612829, 9.405174, 9.357254, 9.34128, 9.149599, 8.97389, 9.021811, 8.92597, 8.734288, 8.909997, 9.245439, 9.437121, 9.532962, 9.75659, 9.884378, 9.932298, 9.964245, 9.900351, 9.996192, 9.948272, 10.028139, 10.139953, 9.964245, 9.628803, 9.469068, 9.469068, 9.34128, 9.149599, 9.245439, 9.29336, 9.117652, 9.053758, 9.245439, 9.181545, 9.085705, 9.373227, 9.70867, 9.692696, 9.644776, 9.788537, 9.868405, 9.628803, 9.548935, 9.612829, 9.421147, 9.165572, 9.037784, 8.814156, 8.350925, 7.903668, 7.759907, 7.711987, 7.456411, 7.200836, 7.168889, 7.041101, 6.705658, 6.561897, 6.753579, 6.929287, 7.184862, 7.536279, 7.855748, 7.919642, 7.887695, 8.09535, 8.318978, 8.334952, 8.526633, 8.766235, 8.734288, 8.686368, 8.718315, 8.414819, 8.223138, 8.366899, 8.350925, 8.366899, 8.51066, 8.478713, 8.382872, 8.494686, 8.51066, 8.55858, 8.750262, 8.941944, 9.229466, 9.373227, 9.29336]\nNumeroMuestras = Desp_CD.length;//tamaño del vector muestras\nvar DiametroTubing = global.get(\"DataInstalation.DiametroTubing\")||null;\nvar PresionCasing = global.get(\"DataInstalation.PresionCasing\")||0;\n\n\n// variables de contexto\ncontext.set(\"NumeroMuestras\", NumeroMuestras, \"memoryOnly\");\ncontext.set(\"Esfu_CD\", Esfu_CD, \"memoryOnly\");\ncontext.set(\"Desp_CD\", Desp_CD, \"memoryOnly\");\ncontext.set(\"parDinagram\", parDinagram, \"memoryOnly\");\ncontext.set(\"NNodo\", NNodo, \"memoryOnly\");\ncontext.set(\"SPM_Feedback\", SPM_Feedback, \"memoryOnly\");\ncontext.set(\"numSarta\", numSarta, \"memoryOnly\");\ncontext.set(\"PresionCasing\", PresionCasing,\"memoryOnly\");\ncontext.set(\"Grado_API_del_Fluido\", Grado_API_del_Fluido,\"memoryOnly\");\ncontext.set(\"ConstanteAmortiguamiento\", ConstanteAmortiguamiento,\"memoryOnly\");\ncontext.set(\"DiametroTubing\", DiametroTubing,\"memoryOnly\");\ncontext.set(\"PresionCasing\", PresionCasing,\"memoryOnly\");\n// variables de flujo\nflow.set(\"numSarta\", numSarta);\nflow.set(\"parDinagram\", parDinagram);\nflow.set(\"NumeroMuestras\", NumeroMuestras);\nflow.set(\"NNodo\", NNodo);\nflow.set(\"ConstanteAmortiguamiento\", ConstanteAmortiguamiento);\nflow.set(\"SPM_Feedback\", SPM_Feedback);\nflow.set(\"Desp_CD\", Desp_CD);\nflow.set(\"Esfu_CD\", Esfu_CD);\nflow.set(\"DiametroTubing\", DiametroTubing);\nflow.set(\"PresionCasing\", PresionCasing);\nflow.set(\"Grado_API_del_Fluido\", Grado_API_del_Fluido);\n\n// funciones utilizadas\n\nfunction Propiedades(Longitud_Ca_Ft, Diametro_Pulg, Longitud_Tr_Ft, E, Peso_Lb, Peso_Inicial_Ca, Densidad, Resistencia) {\n    this.Longitud_Ca_Ft = Longitud_Ca_Ft;\n    this.Diametro_Pulg = Diametro_Pulg;\n    this.Longitud_Tr_Ft = Longitud_Tr_Ft;\n    this.E = E * 1000000.0;//Elasticicidad\n    this.Peso_Lb = Peso_Lb;//W\n    this.Peso_Inicial_Ca = Peso_Inicial_Ca;//Wo\n    this.Densidad = Densidad;//P\n    this.Resistencia = Resistencia;\n}\nfunction createArray(length) {\n    var arr = new Array(length || 0),\n        i = length;\n\n    if (arguments.length > 1) {\n        var args = Array.prototype.slice.call(arguments, 1);\n        while (i--) arr[length - 1 - i] = createArray.apply(this, args);\n    }\n\n    return arr;\n}",
+        "func": "var numSarta;\n// propiedades de las sartas\nvar parDinagram;\n// variables que vienen desde la interfaz grafica para la configuración de Sartas\nvar parametroSarta = global.get(\"Dinagrama.parametroSarta\") || 0;\nvar Grado_API_del_Fluido = global.get(\"DataProduccion.api\")||30;\nvar x = Object.keys(parametroSarta)\nvar tamano = x.length;\nnumSarta = tamano;\nif(parametroSarta == 0){\n    // sarta no esta configurada\n    node.status({fill:\"red\",shape:\"dot\",text:\"SartaNoConfigurada\"});\n}else{\n    // sarta si esta configurada\n    node.status({fill:\"green\",shape:\"dot\",text:\"SartaConfigurada\"});\n}\n\n// asignando las variables desde la interfaz grafica\nswitch (numSarta) {\n    case 1:\n    // cuando es solo una sarta\n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta3: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta4: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta5: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0)\n        };\n        break;\n    case 2:\n        //Cuando son solo dos sartas\n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(parametroSarta[1].RodL, parametroSarta[1].RodDiameter, parametroSarta[1].TaperL, parametroSarta[1].E, 0, 0, parametroSarta[1].RodDensity, parametroSarta[1].RodResistence),\n            Sarta3: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta4: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta5: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0)\n        };\n        break;\n    case 3:\n        //Cuando son 3 sartas\n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(parametroSarta[1].RodL, parametroSarta[1].RodDiameter, parametroSarta[1].TaperL, parametroSarta[1].E, 0, 0, parametroSarta[1].RodDensity, parametroSarta[1].RodResistence),\n            Sarta3: new Propiedades(parametroSarta[2].RodL, parametroSarta[2].RodDiameter, parametroSarta[2].TaperL, parametroSarta[2].E, 0, 0, parametroSarta[2].RodDensity, parametroSarta[2].RodResistence),\n            Sarta4: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0),\n            Sarta5: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0)\n        };\n        break;\n    case 4:\n        //Cuando son 4 sartas\n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(parametroSarta[1].RodL, parametroSarta[1].RodDiameter, parametroSarta[1].TaperL, parametroSarta[1].E, 0, 0, parametroSarta[1].RodDensity, parametroSarta[1].RodResistence),\n            Sarta3: new Propiedades(parametroSarta[2].RodL, parametroSarta[2].RodDiameter, parametroSarta[2].TaperL, parametroSarta[2].E, 0, 0, parametroSarta[2].RodDensity, parametroSarta[2].RodResistence),\n            Sarta4: new Propiedades(parametroSarta[3].RodL, parametroSarta[3].RodDiameter, parametroSarta[3].TaperL, parametroSarta[3].E, 0, 0, parametroSarta[3].RodDensity, parametroSarta[3].RodResistence),\n            Sarta5: new Propiedades(0, 0, 0, 0, 0, 0, 0, 0)\n        };\n        break;\n    case 5:\n        // cuando son 5 sartas caso que normalmente no aplicable \n        parDinagram = {\n            Sarta1: new Propiedades(parametroSarta[0].RodL, parametroSarta[0].RodDiameter, parametroSarta[0].TaperL, parametroSarta[0].E, 0, 0, parametroSarta[0].RodDensity, parametroSarta[0].RodResistence),\n            Sarta2: new Propiedades(parametroSarta[1].RodL, parametroSarta[1].RodDiameter, parametroSarta[1].TaperL, parametroSarta[1].E, 0, 0, parametroSarta[1].RodDensity, parametroSarta[1].RodResistence),\n            Sarta3: new Propiedades(parametroSarta[2].RodL, parametroSarta[2].RodDiameter, parametroSarta[2].TaperL, parametroSarta[2].E, 0, 0, parametroSarta[2].RodDensity, parametroSarta[2].RodResistence),\n            Sarta4: new Propiedades(parametroSarta[3].RodL, parametroSarta[3].RodDiameter, parametroSarta[3].TaperL, parametroSarta[3].E, 0, 0, parametroSarta[3].RodDensity, parametroSarta[3].RodResistence),\n            Sarta5: new Propiedades(parametroSarta[4].RodL, parametroSarta[4].RodDiameter, parametroSarta[4].TaperL, parametroSarta[4].E, 0, 0, parametroSarta[4].RodDensity, parametroSarta[4].RodResistence)\n        };\n        //Declaraciones ejecutadas cuando el resultado de expresión coincide con valorN\n        break;\n    default:\n        break;\n}\n\n\nvar NumeroMuestras;\nvar NNodo = 0;//Consultar el valor\nvar ConstanteAmortiguamiento = global.get(\"DataProduccion.constanteAmortiguamiento\")||0;//Consultar el valor\nvar SPM_Feedback = 8.6;//Consultar el valor\nvar Desp_CD = createArray(100);//Consultar el valor eje x\nvar Esfu_CD = createArray(100);//Consultar el valor eje y\nDesp_CD = [0.033277, 0.298705, 0.669662, 1.142543, 1.738089, 2.445315, 3.24979, 4.16783, 5.191564, 6.2639, 7.402083, 8.644076, 9.995452, 11.436207, 12.939613, 14.526823, 16.207429, 17.955852, 19.767089, 21.661885, 23.624661, 25.635197, 27.697951, 29.828932, 31.998408, 34.196706, 36.431962, 38.706677, 41.013411, 43.348044, 45.724339, 48.149071, 50.476498, 52.779014, 55.120742, 57.459779, 59.748734, 62.024175, 64.298563, 66.545006, 68.754159, 70.919379, 73.046079, 75.123682, 77.140381, 79.09421, 80.977625, 82.811451, 84.579372, 86.249988, 87.835515, 89.337428, 90.736624, 92.029825, 93.241625, 94.357514, 95.357404, 96.268926, 97.088471, 97.786361, 98.380386, 98.874318, 99.279144, 99.586828, 99.810243, 99.950044, 100, 99.969048, 99.84817, 99.656304, 99.38845, 99.04231, 98.631415, 98.154287, 97.60945, 97.003055, 96.349038, 95.605669, 94.789098, 93.9618, 93.076469, 92.111869, 91.121867, 90.096869, 89.000145, 87.842846, 86.656537, 85.425313, 84.132857, 82.808357, 81.434432, 79.999276, 78.532158, 77.02775, 75.449812, 73.823023, 72.176406, 70.472903, 68.718008, 66.958862, 65.136436, 63.233183, 61.321827, 59.397612, 57.405607, 55.372212, 53.344732, 51.283979, 49.176999, 47.05716, 44.92315, 42.768083, 40.577774, 38.367145, 36.162597, 33.921988, 31.66278, 29.433932, 27.208785, 25.003011, 22.846217, 20.749532, 18.705578, 16.740837, 14.852849, 12.993374, 11.230657, 9.571503, 8.026405, 6.6034, 5.317899, 4.165887, 3.161054, 2.300859, 1.572431, 0.977982, 0.51571, 0.198895, 0.033277, 0]\nEsfu_CD = [9.325307, 9.676723, 9.676723, 9.580882, 9.788537, 9.820484, 9.596856, 9.676723, 9.548935, 9.485041, 10.012166, 10.363582, 10.475396, 10.730972, 10.90668, 11.002521, 11.258096, 11.433804, 11.513671, 11.717333, 11.835137, 11.917001, 11.809181, 11.631476, 11.226149, 10.970574, 10.794866, 10.651104, 10.459423, 10.267741, 10.139953, 9.996192, 9.820484, 9.628803, 9.516988, 9.692696, 9.900351, 10.07606, 10.187874, 10.315662, 10.331635, 10.331635, 10.443449, 10.507343, 10.443449, 10.53929, 10.699025, 10.571237, 10.251768, 9.980219, 9.804511, 9.612829, 9.405174, 9.357254, 9.34128, 9.149599, 8.97389, 9.021811, 8.92597, 8.734288, 8.909997, 9.245439, 9.437121, 9.532962, 9.75659, 9.884378, 9.932298, 9.964245, 9.900351, 9.996192, 9.948272, 10.028139, 10.139953, 9.964245, 9.628803, 9.469068, 9.469068, 9.34128, 9.149599, 9.245439, 9.29336, 9.117652, 9.053758, 9.245439, 9.181545, 9.085705, 9.373227, 9.70867, 9.692696, 9.644776, 9.788537, 9.868405, 9.628803, 9.548935, 9.612829, 9.421147, 9.165572, 9.037784, 8.814156, 8.350925, 7.903668, 7.759907, 7.711987, 7.456411, 7.200836, 7.168889, 7.041101, 6.705658, 6.561897, 6.753579, 6.929287, 7.184862, 7.536279, 7.855748, 7.919642, 7.887695, 8.09535, 8.318978, 8.334952, 8.526633, 8.766235, 8.734288, 8.686368, 8.718315, 8.414819, 8.223138, 8.366899, 8.350925, 8.366899, 8.51066, 8.478713, 8.382872, 8.494686, 8.51066, 8.55858, 8.750262, 8.941944, 9.229466, 9.373227, 9.29336]\nNumeroMuestras = Desp_CD.length;//tamaño del vector muestras\nvar DiametroTubing = global.get(\"DataInstalation.DiametroTubing\")||null;\nvar PresionCasing = global.get(\"DataInstalation.PresionCasing\")||0;\n\n\n// variables de contexto\ncontext.set(\"NumeroMuestras\", NumeroMuestras, \"memoryOnly\");\ncontext.set(\"Esfu_CD\", Esfu_CD, \"memoryOnly\");\ncontext.set(\"Desp_CD\", Desp_CD, \"memoryOnly\");\ncontext.set(\"parDinagram\", parDinagram, \"memoryOnly\");\ncontext.set(\"NNodo\", NNodo, \"memoryOnly\");\ncontext.set(\"SPM_Feedback\", SPM_Feedback, \"memoryOnly\");\ncontext.set(\"numSarta\", numSarta, \"memoryOnly\");\ncontext.set(\"PresionCasing\", PresionCasing,\"memoryOnly\");\ncontext.set(\"Grado_API_del_Fluido\", Grado_API_del_Fluido,\"memoryOnly\");\ncontext.set(\"ConstanteAmortiguamiento\", ConstanteAmortiguamiento,\"memoryOnly\");\ncontext.set(\"DiametroTubing\", DiametroTubing,\"memoryOnly\");\ncontext.set(\"PresionCasing\", PresionCasing,\"memoryOnly\");\n// variables de flujo\nflow.set(\"numSarta\", numSarta);\nflow.set(\"parDinagram\", parDinagram);\nflow.set(\"NumeroMuestras\", NumeroMuestras);\nflow.set(\"NNodo\", NNodo);\nflow.set(\"ConstanteAmortiguamiento\", ConstanteAmortiguamiento);\nflow.set(\"SPM_Feedback\", SPM_Feedback);\nflow.set(\"Desp_CD\", Desp_CD);\nflow.set(\"Esfu_CD\", Esfu_CD);\nflow.set(\"DiametroTubing\", DiametroTubing);\nflow.set(\"PresionCasing\", PresionCasing);\nflow.set(\"Grado_API_del_Fluido\", Grado_API_del_Fluido);\n\n// funciones utilizadas\n\nfunction Propiedades(Longitud_Ca_Ft, Diametro_Pulg, Longitud_Tr_Ft, E, Peso_Lb, Peso_Inicial_Ca, Densidad, Resistencia) {\n    this.Longitud_Ca_Ft = Longitud_Ca_Ft;\n    this.Diametro_Pulg = Diametro_Pulg;\n    this.Longitud_Tr_Ft = Longitud_Tr_Ft;\n    this.E = E * 1000000.0;//Elasticicidad\n    this.Peso_Lb = Peso_Lb;//W\n    this.Peso_Inicial_Ca = Peso_Inicial_Ca;//Wo\n    this.Densidad = Densidad;//P\n    this.Resistencia = Resistencia;\n}\nfunction createArray(length) {\n    var arr = new Array(length || 0),\n        i = length;\n\n    if (arguments.length > 1) {\n        var args = Array.prototype.slice.call(arguments, 1);\n        while (i--) arr[length - 1 - i] = createArray.apply(this, args);\n    }\n\n    return arr;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -83689,7 +83663,9 @@
         "x": 660,
         "y": 840,
         "wires": [
-            []
+            [
+                "984de93babf87b5a"
+            ]
         ]
     },
     {
@@ -83769,6 +83745,114 @@
             [
                 "af9c9eb2f7babf5f"
             ]
+        ]
+    },
+    {
+        "id": "b588b191c866978d",
+        "type": "inject",
+        "z": "0919ca8b08ef5398",
+        "g": "1ec8ef96430984c9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 980,
+        "wires": [
+            [
+                "adfb45cdd7e72ad8"
+            ]
+        ]
+    },
+    {
+        "id": "e7ec24dcc5895e50",
+        "type": "template",
+        "z": "0919ca8b08ef5398",
+        "g": "1ec8ef96430984c9",
+        "name": "Surface1",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n    \n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"x\" ng-bind-html=\"msg.x\" style=\"display:none\"></div>\n    {{!-- <div id=\"xvisual\" ng-bind-html=\"msg.x\" ></div> --}}\n    <div id=\"y\" ng-bind-html=\"msg.y\" style=\"display:none\"></div>\n    <div id=\"demo\" onclick=\"myFunction()\">Mostrar</div>\n     <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n     <script>\n            function myFunction() {\n                var x = document.getElementById(\"x\").innerHTML;//adquision de data desde nodered\n                var y = document.getElementById(\"y\").innerHTML;//adquision de data desde nodered\n                var x1 = x.split(\",\")\n                var y1 = y.split(\",\")\n                for(i = 0; i < x1.length; i++) {\n                    x1[i] = Redondeo(x1[i]);\n                    y1[i] = Redondeo(y1[i]);\n                }\n\n                var trace1  = {\n                    x: x1,\n                    y: y1,\n                    name: 'Dynagrama',\n                    type: 'scatter'\n                };\n                var trace2  = {\n                    x: [60],\n                    y: [8],\n                    name: 'Pump Off',\n                    mode: 'scatter'\n                };\n                var layout = {\n                    title: 'Dinagrama de Fondo',\n                    autosize: false,\n                    width: 720,\n                    height: 520,\n                    yaxis: {\n                        title: 'Carga [Klb]',\n                        tickmode: 'array',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n\n                    xaxis: {\n                        title: 'Posición [in]',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n                    images: [\n                            {\n                                source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                                xref: \"paper\",\n                                yref: \"paper\",\n                                sizing: \"stretch\",\n                                x: 0.25,\n                                y: 0,\n                                sizex: 0.6,\n                                sizey: 1,\n                                opacity: 0.1,\n                                xanchor: \"left\",\n                                yanchor: \"bottom\"\n                            }],\n                };\n\n                var data = [trace1,trace2];\n                Plotly.newPlot('myDiv2', data,layout);\n                \n                //document.getElementById(\"demo\").innerHTML = x1[1];\n                // alert(\"Calculo Completo\");\n                // funciones utilizadas\n                function Redondeo(x) {\n                    return Number.parseFloat(x).toFixed(2);\n                }\n            }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
+        "output": "str",
+        "x": 430,
+        "y": 980,
+        "wires": [
+            [
+                "31ad55c2c2e4aa56"
+            ]
+        ]
+    },
+    {
+        "id": "adfb45cdd7e72ad8",
+        "type": "function",
+        "z": "0919ca8b08ef5398",
+        "g": "1ec8ef96430984c9",
+        "name": "Data",
+        "func": "\n// datos iniciales no borrar\n// var x = [0.033277, 0.298705, 0.669662, 1.142543, 1.738089, 2.445315, 3.24979, 4.16783, 5.191564, 6.2639, 7.402083, 8.644076, 9.995452, 11.436207, 12.939613, 14.526823, 16.207429, 17.955852, 19.767089, 21.661885, 23.624661, 25.635197, 27.697951, 29.828932, 31.998408, 34.196706, 36.431962, 38.706677, 41.013411, 43.348044, 45.724339, 48.149071, 50.476498, 52.779014, 55.120742, 57.459779, 59.748734, 62.024175, 64.298563, 66.545006, 68.754159, 70.919379, 73.046079, 75.123682, 77.140381, 79.09421, 80.977625, 82.811451, 84.579372, 86.249988, 87.835515, 89.337428, 90.736624, 92.029825, 93.241625, 94.357514, 95.357404, 96.268926, 97.088471, 97.786361, 98.380386, 98.874318, 99.279144, 99.586828, 99.810243, 99.950044, 100, 99.969048, 99.84817, 99.656304, 99.38845, 99.04231, 98.631415, 98.154287, 97.60945, 97.003055, 96.349038, 95.605669, 94.789098, 93.9618, 93.076469, 92.111869, 91.121867, 90.096869, 89.000145, 87.842846, 86.656537, 85.425313, 84.132857, 82.808357, 81.434432, 79.999276, 78.532158, 77.02775, 75.449812, 73.823023, 72.176406, 70.472903, 68.718008, 66.958862, 65.136436, 63.233183, 61.321827, 59.397612, 57.405607, 55.372212, 53.344732, 51.283979, 49.176999, 47.05716, 44.92315, 42.768083, 40.577774, 38.367145, 36.162597, 33.921988, 31.66278, 29.433932, 27.208785, 25.003011, 22.846217, 20.749532, 18.705578, 16.740837, 14.852849, 12.993374, 11.230657, 9.571503, 8.026405, 6.6034, 5.317899, 4.165887, 3.161054, 2.300859, 1.572431, 0.977982, 0.51571, 0.198895, 0.033277, 0];\n// var y = [9.325307, 9.676723, 9.676723, 9.580882, 9.788537, 9.820484, 9.596856, 9.676723, 9.548935, 9.485041, 10.012166, 10.363582, 10.475396, 10.730972, 10.90668, 11.002521, 11.258096, 11.433804, 11.513671, 11.717333, 11.835137, 11.917001, 11.809181, 11.631476, 11.226149, 10.970574, 10.794866, 10.651104, 10.459423, 10.267741, 10.139953, 9.996192, 9.820484, 9.628803, 9.516988, 9.692696, 9.900351, 10.07606, 10.187874, 10.315662, 10.331635, 10.331635, 10.443449, 10.507343, 10.443449, 10.53929, 10.699025, 10.571237, 10.251768, 9.980219, 9.804511, 9.612829, 9.405174, 9.357254, 9.34128, 9.149599, 8.97389, 9.021811, 8.92597, 8.734288, 8.909997, 9.245439, 9.437121, 9.532962, 9.75659, 9.884378, 9.932298, 9.964245, 9.900351, 9.996192, 9.948272, 10.028139, 10.139953, 9.964245, 9.628803, 9.469068, 9.469068, 9.34128, 9.149599, 9.245439, 9.29336, 9.117652, 9.053758, 9.245439, 9.181545, 9.085705, 9.373227, 9.70867, 9.692696, 9.644776, 9.788537, 9.868405, 9.628803, 9.548935, 9.612829, 9.421147, 9.165572, 9.037784, 8.814156, 8.350925, 7.903668, 7.759907, 7.711987, 7.456411, 7.200836, 7.168889, 7.041101, 6.705658, 6.561897, 6.753579, 6.929287, 7.184862, 7.536279, 7.855748, 7.919642, 7.887695, 8.09535, 8.318978, 8.334952, 8.526633, 8.766235, 8.734288, 8.686368, 8.718315, 8.414819, 8.223138, 8.366899, 8.350925, 8.366899, 8.51066, 8.478713, 8.382872, 8.494686, 8.51066, 8.55858, 8.750262, 8.941944, 9.229466, 9.373227, 9.29336];\n\nvar x = global.get(\"Dinagrama.fondo.Desp_CD\")||0;\nvar y = global.get(\"Dinagrama.fondo.Esfu_CD\")||0;\ncontext.set(\"x\",x,\"memoryOnly\");\ncontext.set(\"y\",y,\"memoryOnly\");\nif(x != 0 && y != 0){\n    // si esta configurado\n    msg.x = x;\n    msg.y = y;\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"dot\",text:\"NoTieneData\"});\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 980,
+        "wires": [
+            [
+                "e7ec24dcc5895e50"
+            ]
+        ]
+    },
+    {
+        "id": "31ad55c2c2e4aa56",
+        "type": "ui_template",
+        "z": "0919ca8b08ef5398",
+        "g": "1ec8ef96430984c9",
+        "group": "5af9a4c6f04ed9af",
+        "name": "Downhole",
+        "order": 1,
+        "width": 12,
+        "height": 10,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 580,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "984de93babf87b5a",
+        "type": "function",
+        "z": "0919ca8b08ef5398",
+        "g": "7f4726c248df075a",
+        "name": "AcotarVector",
+        "func": "// variables del dinagrama de fondo\nvar Desp_CD_F1 = flow.get(\"Desp_CD_F1\")||0;\nvar Esfu_CD_F1 = flow.get(\"Esfu_CD_F1\")||0;\n// variables acotadas del dinagrama de fondo\nvar Desp_CD=[],Esfu_CD=[];\nvar finalPoint = 0 ; //Define el valor donde acaba los dinagramas\n// tamaños de los vectores\nvar sizex = Desp_CD_F1.length\nvar sizey = Esfu_CD_F1.length\nif ((Desp_CD_F1 != 0) && (Esfu_CD_F1 != 0) && (sizex == sizey)){\n    // existe el vector de desplazamiento y esfuerzo\n    node.status({fill:\"green\",shape:\"dot\",text:\"Calculo\"});\n    // identificar donde se acaba el vector \n    for (let i = 0; i < sizex; i++) {\n        // si los siguientes pasos del vector son cero\n        if (Desp_CD_F1[i] == 0 && Desp_CD_F1[i + 1] == 0 && Desp_CD_F1[i+2] == 0 ){\n            finalPoint = i;\n            break;//Termina el Ciclo For\n        }\n        \n    }\n    for (let i = 0; i < finalPoint; i++) {\n        Desp_CD[i] = Desp_CD_F1[i];\n        Esfu_CD[i] = Esfu_CD_F1[i];\n    }\n    // guardar las variables globales\n    global.set(\"Dinagrama.fondo.Desp_CD\", Desp_CD);\n    global.set(\"Dinagrama.fondo.Esfu_CD\", Esfu_CD);\n}else{\n    // no existen los vectores de desplazamiento y espuerzo\n    node.status({fill:\"red\",shape:\"dot\",text:\"NoCalculo\"});\n}\n\n// visualizacion de variables\ncontext.set(\"sizex\", sizex,\"memoryOnly\");\ncontext.set(\"sizey\", sizey,\"memoryOnly\");\ncontext.set(\"finalPoint\", finalPoint,\"memoryOnly\");\ncontext.set(\"Desp\", Desp_CD,\"memoryOnly\");\ncontext.set(\"Esfu\", Esfu_CD,\"memoryOnly\");\ncontext.set(\"Desp_CD_F1\", Desp_CD_F1,\"memoryOnly\");\ncontext.set(\"Esfu_CD_F1\", Esfu_CD_F1,\"memoryOnly\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 880,
+        "wires": [
+            []
         ]
     }
 ]
