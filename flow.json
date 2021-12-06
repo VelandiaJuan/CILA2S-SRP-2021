@@ -1045,7 +1045,9 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 432,
+        "h": 149.5
     },
     {
         "id": "d929d138.3b512",
@@ -1063,7 +1065,9 @@
             "ebd2954e5785409e"
         ],
         "x": 484,
-        "y": 19
+        "y": 19,
+        "w": 542,
+        "h": 122
     },
     {
         "id": "fcb3da61.429db8",
@@ -1153,7 +1157,9 @@
             "b269ff5b6732d608"
         ],
         "x": 494,
-        "y": 779
+        "y": 779,
+        "w": 2632,
+        "h": 552
     },
     {
         "id": "3cb51855.a66038",
@@ -1168,7 +1174,9 @@
             "ecf98f3f.4a704"
         ],
         "x": 1534,
-        "y": 1379
+        "y": 1379,
+        "w": 232,
+        "h": 82
     },
     {
         "id": "27a0641a.d154dc",
@@ -1280,7 +1288,9 @@
             "b5972fd3.3aeb7"
         ],
         "x": 24,
-        "y": 479
+        "y": 479,
+        "w": 602,
+        "h": 202
     },
     {
         "id": "9132da2c.b8c6b8",
@@ -1301,11 +1311,12 @@
             "8916af0a.61064",
             "5a29608d.08d3",
             "b0a2cd1a.ab273",
-            "fd328934.0ddd18",
-            "8c4c4846.6ea308"
+            "fd328934.0ddd18"
         ],
         "x": 34,
-        "y": 699
+        "y": 699,
+        "w": 602,
+        "h": 202
     },
     {
         "id": "9b538856.60fb38",
@@ -1484,7 +1495,9 @@
             "312d9def.84df32"
         ],
         "x": 34,
-        "y": 959
+        "y": 959,
+        "w": 702,
+        "h": 242
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1896,7 +1909,9 @@
             "c22e3c27600ab315"
         ],
         "x": 794,
-        "y": 179
+        "y": 179,
+        "w": 612,
+        "h": 242
     },
     {
         "id": "d84615.919209e8",
@@ -2023,7 +2038,9 @@
             "c2e9d16562516ea4"
         ],
         "x": 34,
-        "y": 1229
+        "y": 1229,
+        "w": 792,
+        "h": 212
     },
     {
         "id": "06c0dbf1bffe1e21",
@@ -2039,7 +2056,9 @@
             "84eb16f681c366e0"
         ],
         "x": 1534,
-        "y": 1479
+        "y": 1479,
+        "w": 352,
+        "h": 82
     },
     {
         "id": "6202107f.ed9aa",
@@ -2112,7 +2131,9 @@
             "4bc8056a8d8aa493"
         ],
         "x": 504,
-        "y": 99
+        "y": 99,
+        "w": 1992,
+        "h": 642
     },
     {
         "id": "986845c5f7bf4a6e",
@@ -2132,7 +2153,9 @@
             "7a9362a4e974c10e"
         ],
         "x": 3224,
-        "y": 3
+        "y": 3,
+        "w": 1284,
+        "h": 1554
     },
     {
         "id": "9ede9b9e7f6ac7f4",
@@ -2153,7 +2176,9 @@
             "a0eaac952dc20a15"
         ],
         "x": 484,
-        "y": 1379
+        "y": 1379,
+        "w": 782,
+        "h": 182
     },
     {
         "id": "086b9d08c3b68939",
@@ -2183,7 +2208,9 @@
             "a7f9a339831376d8"
         ],
         "x": 484,
-        "y": 1569
+        "y": 1569,
+        "w": 1032,
+        "h": 292
     },
     {
         "id": "6b3fc99d.7d45d8",
@@ -2209,7 +2236,9 @@
             "6e75b5f5657d3a7e"
         ],
         "x": 484,
-        "y": 1889
+        "y": 1889,
+        "w": 1132,
+        "h": 202
     },
     {
         "id": "afdbbb533d628687",
@@ -2225,7 +2254,9 @@
             "756bcd33a6cec802"
         ],
         "x": 1724,
-        "y": 1889
+        "y": 1889,
+        "w": 332,
+        "h": 82
     },
     {
         "id": "ba075c8cc622876a",
@@ -2616,24 +2647,9 @@
             "ca1808e9c0cebc54"
         ],
         "x": 52,
-        "y": 1017
-    },
-    {
-        "id": "30bf9bf9f58a95d5",
-        "type": "group",
-        "z": "edcda77493e16eaa",
-        "name": "Bypass Filtro Armónicos",
-        "style": {
-            "label": true,
-            "fill": "#7f8faf",
-            "color": "#000000"
-        },
-        "nodes": [
-            "3305d8d35ba0e514",
-            "043b7d2efd6242c1"
-        ],
-        "x": 78,
-        "y": 73
+        "y": 1017,
+        "w": 3176,
+        "h": 2556
     },
     {
         "id": "3d603bc8c80c2124",
@@ -2652,8 +2668,10 @@
             "b12f8fad625e93b0",
             "8f311859e2329cb0"
         ],
-        "x": 1364,
-        "y": 369
+        "x": 94,
+        "y": 359,
+        "w": 902,
+        "h": 82
     },
     {
         "id": "4c1b2fd5bfa8819c",
@@ -2669,7 +2687,9 @@
             "af436d3d4e5d33de"
         ],
         "x": 42,
-        "y": 3587
+        "y": 3587,
+        "w": 3010,
+        "h": 1400
     },
     {
         "id": "600556d8bd2ccda4",
@@ -2733,8 +2753,10 @@
             "e6e775f93ad9b13e",
             "72c298a02ef42417"
         ],
-        "x": 1364,
-        "y": 469
+        "x": 74,
+        "y": 459,
+        "w": 2342,
+        "h": 532
     },
     {
         "id": "a9988da34f9622ff",
@@ -2760,8 +2782,10 @@
             "2882d70b0548950d",
             "03552a6ae2d7be66"
         ],
-        "x": 1364,
-        "y": 19
+        "x": 94,
+        "y": 19,
+        "w": 1032,
+        "h": 322
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -2794,7 +2818,9 @@
             "236c6c92.d31584"
         ],
         "x": 14,
-        "y": 179
+        "y": 179,
+        "w": 762,
+        "h": 292
     },
     {
         "id": "82531c262cad7a91",
@@ -2945,7 +2971,9 @@
             "1c4e319074fb108b"
         ],
         "x": 34,
-        "y": 59
+        "y": 59,
+        "w": 592,
+        "h": 142
     },
     {
         "id": "03502219e91ec6ae",
@@ -2968,7 +2996,9 @@
             "0d38acc234ba861f"
         ],
         "x": 794,
-        "y": 479
+        "y": 479,
+        "w": 642,
+        "h": 162
     },
     {
         "id": "ca0533739c948120",
@@ -2990,7 +3020,9 @@
             "f8f18ac4d264c97b"
         ],
         "x": 64,
-        "y": 399
+        "y": 399,
+        "w": 882,
+        "h": 162
     },
     {
         "id": "610861a3f96d22bd",
@@ -3015,7 +3047,9 @@
             "391bfdae0921e15a"
         ],
         "x": 634,
-        "y": 59
+        "y": 59,
+        "w": 682,
+        "h": 222
     },
     {
         "id": "86af7867dc10f4a8",
@@ -3182,7 +3216,9 @@
             "ff83bad55c73ba02"
         ],
         "x": 64,
-        "y": 59
+        "y": 59,
+        "w": 1328,
+        "h": 562
     },
     {
         "id": "dd7f13fcb2eb6556",
@@ -3234,7 +3270,9 @@
             "4f5d99301f0ddb47"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 1472,
+        "h": 522
     },
     {
         "id": "4b071e34b82c9788",
@@ -3255,7 +3293,9 @@
             "119e0a7495894a12"
         ],
         "x": 114,
-        "y": 459
+        "y": 459,
+        "w": 532,
+        "h": 222
     },
     {
         "id": "ad958a10d1d42f2d",
@@ -3284,7 +3324,9 @@
             "3739085ff16c7f98"
         ],
         "x": 794,
-        "y": 479
+        "y": 479,
+        "w": 792,
+        "h": 322
     },
     {
         "id": "bbb49a11a06fc3cc",
@@ -3312,7 +3354,9 @@
             "d0606414f8ca80c0"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 772,
+        "h": 382
     },
     {
         "id": "b2be4076cca48f83",
@@ -3345,7 +3389,9 @@
             "c7ba3bf1ee5adbb8"
         ],
         "x": 854,
-        "y": 39
+        "y": 39,
+        "w": 872,
+        "h": 402
     },
     {
         "id": "195144270361fd25",
@@ -3366,7 +3412,9 @@
             "da50d52e29d86bbc"
         ],
         "x": 34,
-        "y": 1619
+        "y": 1459,
+        "w": 582,
+        "h": 182
     },
     {
         "id": "1e240d9dc44a9691",
@@ -3387,7 +3435,9 @@
             "1983c02b0b940cde"
         ],
         "x": 34,
-        "y": 1819
+        "y": 1659,
+        "w": 582,
+        "h": 182
     },
     {
         "id": "fb3b22eda340148b",
@@ -3403,7 +3453,9 @@
             "5017aa8c7a43b98d"
         ],
         "x": 494,
-        "y": 2119
+        "y": 2119,
+        "w": 532,
+        "h": 82
     },
     {
         "id": "7f4726c248df075a",
@@ -3436,6 +3488,27 @@
         "h": 322
     },
     {
+        "id": "1ec8ef96430984c9",
+        "type": "group",
+        "z": "0919ca8b08ef5398",
+        "name": "Dinagrama de Fondo2D",
+        "style": {
+            "fill": "#000000",
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "b588b191c866978d",
+            "e7ec24dcc5895e50",
+            "adfb45cdd7e72ad8",
+            "31ad55c2c2e4aa56"
+        ],
+        "x": 14,
+        "y": 939,
+        "w": 652,
+        "h": 82
+    },
+    {
         "id": "b079c206d161b62c",
         "type": "group",
         "z": "902fc438.e5d758",
@@ -3458,7 +3531,9 @@
             "8d6f8e22ed531a56"
         ],
         "x": 3434,
-        "y": 29
+        "y": 29,
+        "w": 492,
+        "h": 402
     },
     {
         "id": "f7709059ebe5ad7b",
@@ -3474,7 +3549,9 @@
             "aafad2ba.dcc8b"
         ],
         "x": 3428,
-        "y": 443
+        "y": 443,
+        "w": 1054,
+        "h": 634
     },
     {
         "id": "c483d44b5f6def10",
@@ -3500,7 +3577,9 @@
             "45aad8d3129156ca"
         ],
         "x": 3424,
-        "y": 1089
+        "y": 1089,
+        "w": 472,
+        "h": 442
     },
     {
         "id": "1306de9a.9ba341",
@@ -4225,7 +4304,9 @@
             "1a666ca6835d2d34"
         ],
         "x": 534,
-        "y": 539
+        "y": 539,
+        "w": 852,
+        "h": 132
     },
     {
         "id": "487b4f399a10404b",
@@ -4749,7 +4830,9 @@
             "0d3271d48cdd3dc2"
         ],
         "x": 78,
-        "y": 1053
+        "y": 1053,
+        "w": 1724,
+        "h": 2494
     },
     {
         "id": "ca1808e9c0cebc54",
@@ -4767,76 +4850,9 @@
             "acf6618644660324"
         ],
         "x": 1828,
-        "y": 1043
-    },
-    {
-        "id": "3305d8d35ba0e514",
-        "type": "group",
-        "z": "edcda77493e16eaa",
-        "g": "30bf9bf9f58a95d5",
-        "name": "Configuración",
-        "style": {
-            "label": true,
-            "fill": "#bfc7d7",
-            "color": "#000000"
-        },
-        "nodes": [
-            "7d2ec53245271075",
-            "0b96cedeb897b76f",
-            "8de513f598341d06",
-            "0989aa12c303133b",
-            "60957916675112ad",
-            "34f1a72fea4197ef",
-            "87ad27b0335a023c",
-            "41e76303eaa87860",
-            "6ab6a492d913743f",
-            "6c6618bf3c4daed3",
-            "fe2fdc1a25c58dc0",
-            "199b2afa9b46a853",
-            "db5c6b337f98ed96",
-            "3c05e0eca184660d",
-            "713c7814d0085090",
-            "e663932850162985",
-            "636cbb81a089c5a0",
-            "2224bfd098ea38b0",
-            "5db026d7b1b3b1e6",
-            "0ed6aefbaa3f07ec",
-            "b1a9549ac221e6f6",
-            "3c02634e91287033",
-            "7aef000df040445c",
-            "db0a9f0a7664cfa3",
-            "cbf5e3db4da171e1",
-            "66d0cd6a4c6f2c2b",
-            "778764fc8883ad65",
-            "fb63bdd01be4e6b9",
-            "e913dcf6680dfc81"
-        ],
-        "x": 104,
-        "y": 99
-    },
-    {
-        "id": "043b7d2efd6242c1",
-        "type": "group",
-        "z": "edcda77493e16eaa",
-        "g": "30bf9bf9f58a95d5",
-        "name": "Función de activación Filtro de armónicos",
-        "style": {
-            "label": true,
-            "fill": "#bfc7d7",
-            "color": "#000000"
-        },
-        "nodes": [
-            "d0293aa05b63abf4",
-            "3a7f95677913d72a",
-            "41d6d58a13f91fa5",
-            "b1c81b73cb662ef0",
-            "42e9d0cae12d888c",
-            "e6f7886f185a01b0",
-            "b0ebdc7a4cfed758",
-            "64e79399f67005ea"
-        ],
-        "x": 104,
-        "y": 469
+        "y": 1043,
+        "w": 1374,
+        "h": 1511.5
     },
     {
         "id": "eae7b72d553551bc",
@@ -4853,7 +4869,9 @@
             "7d3d6fba6fb45cf5"
         ],
         "x": 68,
-        "y": 3673
+        "y": 3673,
+        "w": 1284,
+        "h": 739
     },
     {
         "id": "af436d3d4e5d33de",
@@ -4930,7 +4948,9 @@
             "9f7b833ed93f0cc5"
         ],
         "x": 1358,
-        "y": 3613
+        "y": 3613,
+        "w": 1668,
+        "h": 1348
     },
     {
         "id": "b1830307.ee865",
@@ -5009,7 +5029,9 @@
             "e1b2eae20714df85"
         ],
         "x": 1494,
-        "y": 539
+        "y": 539,
+        "w": 632,
+        "h": 172
     },
     {
         "id": "1112a5e0c336769a",
@@ -5036,7 +5058,9 @@
             "bea780155e3ae62b"
         ],
         "x": 714,
-        "y": 119
+        "y": 119,
+        "w": 652,
+        "h": 162
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -5064,7 +5088,9 @@
             "1f3630da2492d4f9"
         ],
         "x": 3454,
-        "y": 839
+        "y": 839,
+        "w": 1002,
+        "h": 212
     },
     {
         "id": "36fa9c99094e8f47",
@@ -5088,7 +5114,9 @@
             "3a1748983f097cb1"
         ],
         "x": 3454,
-        "y": 469
+        "y": 469,
+        "w": 402,
+        "h": 362
     },
     {
         "id": "a80677cf.4274c8",
@@ -5890,7 +5918,9 @@
             "5da923b060b7d724"
         ],
         "x": 104,
-        "y": 1079
+        "y": 1079,
+        "w": 1242,
+        "h": 862
     },
     {
         "id": "b670eeac81e3a4e1",
@@ -5920,7 +5950,9 @@
             "6b6e6135b877d85a"
         ],
         "x": 124,
-        "y": 3339
+        "y": 3339,
+        "w": 862,
+        "h": 182
     },
     {
         "id": "404043e2f2ac38f5",
@@ -5975,7 +6007,9 @@
             "152f2e6794c7d506"
         ],
         "x": 1854,
-        "y": 1069
+        "y": 1069,
+        "w": 1292,
+        "h": 502
     },
     {
         "id": "acf6618644660324",
@@ -6036,7 +6070,9 @@
             "1db2dfd67adbd3b4"
         ],
         "x": 1884,
-        "y": 1989
+        "y": 1989,
+        "w": 1292,
+        "h": 539.5
     },
     {
         "id": "0d3271d48cdd3dc2",
@@ -6243,7 +6279,9 @@
             "42bb07ced8a868c3"
         ],
         "x": 114,
-        "y": 1959
+        "y": 1959,
+        "w": 1662,
+        "h": 1322
     },
     {
         "id": "7d3d6fba6fb45cf5",
@@ -6306,7 +6344,9 @@
             "abc01cdd43776442"
         ],
         "x": 94,
-        "y": 3699
+        "y": 3699,
+        "w": 1232,
+        "h": 687
     },
     {
         "id": "01d2b2ec2f34b6be",
@@ -6345,7 +6385,9 @@
             "d4e43509215bf215"
         ],
         "x": 1384,
-        "y": 3639
+        "y": 3639,
+        "w": 1232,
+        "h": 322
     },
     {
         "id": "b4a46197db30977b",
@@ -6385,28 +6427,9 @@
             "592f8a1403a12574"
         ],
         "x": 1384,
-        "y": 3959
-    },
-    {
-        "id": "1ec8ef96430984c9",
-        "type": "group",
-        "z": "0919ca8b08ef5398",
-        "name": "Dinagrama de Fondo2D",
-        "style": {
-            "fill": "#000000",
-            "label": true,
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "b588b191c866978d",
-            "e7ec24dcc5895e50",
-            "adfb45cdd7e72ad8",
-            "31ad55c2c2e4aa56"
-        ],
-        "x": 14,
-        "y": 939,
-        "w": 652,
-        "h": 82
+        "y": 3959,
+        "w": 722,
+        "h": 442
     },
     {
         "id": "d25d405a.19cff",
@@ -33795,16 +33818,11 @@
                 "t": "eq",
                 "v": "SalidasAnalogicas",
                 "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "FiltroArmonicos",
-                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 5,
+        "outputs": 4,
         "x": 250,
         "y": 800,
         "wires": [
@@ -33819,9 +33837,6 @@
             ],
             [
                 "8916af0a.61064"
-            ],
-            [
-                "8c4c4846.6ea308"
             ]
         ]
     },
@@ -33835,7 +33850,7 @@
         "order": 1,
         "width": 12,
         "height": 1,
-        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Ana.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Ana.</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Ana.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Ana.</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -34015,34 +34030,6 @@
         "wires": [
             [
                 "5a29608d.08d3"
-            ]
-        ]
-    },
-    {
-        "id": "8c4c4846.6ea308",
-        "type": "change",
-        "z": "2e27dea6.c4c362",
-        "g": "9132da2c.b8c6b8",
-        "name": "Filtro armónicos",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Entradas_y_Salidas_Configuración_E.A.\",\t                \"Entradas_y_Salidas_Información_del_canal_E.A.\",\t                \"Entradas_y_Salidas_Configuración_S.D.\",\t                \"Entradas_y_Salidas_Información_del_canal_S.D.\",\t                \"Entradas_y_Salidas_Configuración_E.D.\",\t                \"Entradas_y_Salidas_Información_del_canal_E.D.\",\t                \"Entradas_y_Salidas_Configuración_S.A.\",\t                \"Entradas_y_Salidas_Información_del_canal_S.A.\",                \t                \"Entradas_y_Salidas_Estado_de_entradas_digitales\",\t                \"Entradas_y_Salidas_Estado_de_salidas_digitales\",\t                \"Entradas_y_Salidas_Estado_de_entradas_analógicas\"],\t       \"show\":[ \"Entradas_y_Salidas_Nav_Bar\",\t                \"Entradas_y_Salidas_FiltroArmonicos\"]\t   }\t}",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 410,
-        "y": 900,
-        "wires": [
-            [
-                "b0a2cd1a.ab273"
             ]
         ]
     },
@@ -54325,936 +54312,6 @@
         ]
     },
     {
-        "id": "7d2ec53245271075",
-        "type": "ui_text_input",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "",
-        "label": "Corriente nominal",
-        "tooltip": "",
-        "group": "aa8453cf.6d05a",
-        "order": 1,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "number",
-        "delay": "300",
-        "topic": "",
-        "x": 660,
-        "y": 140,
-        "wires": [
-            [
-                "8de513f598341d06"
-            ]
-        ]
-    },
-    {
-        "id": "0b96cedeb897b76f",
-        "type": "ui_text_input",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "",
-        "label": "% Bypass",
-        "tooltip": "",
-        "group": "aa8453cf.6d05a",
-        "order": 2,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "number",
-        "delay": "300",
-        "topic": "% Bypass",
-        "x": 630,
-        "y": 220,
-        "wires": [
-            [
-                "60957916675112ad"
-            ]
-        ]
-    },
-    {
-        "id": "8de513f598341d06",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "F.A. Corriente nominal",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Filtro_armonicos.Corriente_nominal",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 870,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "0989aa12c303133b",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "F.A. Corriente bypass",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Filtro_armonicos.Corriente_bypass",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 870,
-        "y": 180,
-        "wires": [
-            [
-                "34f1a72fea4197ef"
-            ]
-        ]
-    },
-    {
-        "id": "60957916675112ad",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "F.A. % bypass",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Filtro_armonicos.Porcentaje_bypass",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 850,
-        "y": 220,
-        "wires": [
-            [
-                "87ad27b0335a023c"
-            ]
-        ]
-    },
-    {
-        "id": "34f1a72fea4197ef",
-        "type": "function",
-        "z": "edcda77493e16eaa",
-        "d": true,
-        "g": "3305d8d35ba0e514",
-        "name": "Cálculo %",
-        "func": "var CN          = flow.get('Filtro_armonicos.Corriente_nominal')||0;\n\nif(msg.topic != '% Bypass'){\n    msg.payload = parseInt(100 * msg.payload / CN);\n    msg.topic   = 'Corriente Bypass';\n    return msg;\n}\nreturn;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1110,
-        "y": 180,
-        "wires": [
-            [
-                "778764fc8883ad65"
-            ]
-        ]
-    },
-    {
-        "id": "87ad27b0335a023c",
-        "type": "function",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "Cálculo Corriente",
-        "func": "var CN          = flow.get('Filtro_armonicos.Corriente_nominal')||0;\nif(msg.topic !='Corriente Bypass'){\n    msg.payload = parseInt(CN*msg.payload/100);\n    msg.topic = '% Bypass';\n    return msg;\n}\nreturn;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1080,
-        "y": 220,
-        "wires": [
-            [
-                "fb63bdd01be4e6b9"
-            ]
-        ]
-    },
-    {
-        "id": "41e76303eaa87860",
-        "type": "link in",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "Inicializar F.A",
-        "links": [
-            "ad87cee4.7dbb5"
-        ],
-        "x": 235,
-        "y": 180,
-        "wires": [
-            [
-                "6ab6a492d913743f",
-                "6c6618bf3c4daed3",
-                "fe2fdc1a25c58dc0",
-                "713c7814d0085090"
-            ]
-        ]
-    },
-    {
-        "id": "6ab6a492d913743f",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "F.A. Corriente nominal",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Filtro_armonicos.Corriente_nominal",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 420,
-        "y": 140,
-        "wires": [
-            [
-                "7d2ec53245271075"
-            ]
-        ]
-    },
-    {
-        "id": "6c6618bf3c4daed3",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "F.A. Corriente bypass",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Filtro_armonicos.Corriente_bypass",
-                "tot": "flow"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "% Bypass",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 420,
-        "y": 180,
-        "wires": [
-            [
-                "e913dcf6680dfc81"
-            ]
-        ]
-    },
-    {
-        "id": "fe2fdc1a25c58dc0",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "F.A. Corriente bypass",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Filtro_armonicos.Porcentaje_bypass",
-                "tot": "flow"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "Corriente Bypass",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 420,
-        "y": 220,
-        "wires": [
-            [
-                "0b96cedeb897b76f"
-            ]
-        ]
-    },
-    {
-        "id": "199b2afa9b46a853",
-        "type": "inject",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 200,
-        "y": 220,
-        "wires": [
-            [
-                "6ab6a492d913743f",
-                "6c6618bf3c4daed3",
-                "fe2fdc1a25c58dc0",
-                "713c7814d0085090"
-            ]
-        ]
-    },
-    {
-        "id": "db5c6b337f98ed96",
-        "type": "ui_text_input",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "",
-        "label": "Tiempo muerto Bypass (s)",
-        "tooltip": "",
-        "group": "aa8453cf.6d05a",
-        "order": 4,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "number",
-        "delay": "300",
-        "topic": "",
-        "x": 690,
-        "y": 260,
-        "wires": [
-            [
-                "3c05e0eca184660d"
-            ]
-        ]
-    },
-    {
-        "id": "3c05e0eca184660d",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "F.A. Tiempo muerto",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Filtro_armonicos.Tiempo_muerto",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 920,
-        "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "713c7814d0085090",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "F.A. Corriente bypass",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Filtro_armonicos.Tiempo_muerto",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 420,
-        "y": 260,
-        "wires": [
-            [
-                "db5c6b337f98ed96"
-            ]
-        ]
-    },
-    {
-        "id": "e663932850162985",
-        "type": "ui_button",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "",
-        "group": "aa8453cf.6d05a",
-        "order": 7,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "Habilitar BCFA",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "",
-        "x": 800,
-        "y": 340,
-        "wires": [
-            [
-                "2224bfd098ea38b0"
-            ]
-        ]
-    },
-    {
-        "id": "636cbb81a089c5a0",
-        "type": "ui_button",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "",
-        "group": "aa8453cf.6d05a",
-        "order": 8,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "Deshabilitar BCFA",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "",
-        "x": 810,
-        "y": 380,
-        "wires": [
-            [
-                "5db026d7b1b3b1e6"
-            ]
-        ]
-    },
-    {
-        "id": "2224bfd098ea38b0",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "Habilitar",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Filtro_armonicos.Habilitar",
-                "pt": "flow",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 980,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5db026d7b1b3b1e6",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "Deshabilitar",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Filtro_armonicos.Habilitar",
-                "pt": "flow",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 990,
-        "y": 380,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "0ed6aefbaa3f07ec",
-        "type": "complete",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "",
-        "scope": [
-            "2224bfd098ea38b0",
-            "5db026d7b1b3b1e6"
-        ],
-        "uncaught": false,
-        "x": 320,
-        "y": 340,
-        "wires": [
-            [
-                "b1a9549ac221e6f6"
-            ]
-        ]
-    },
-    {
-        "id": "b1a9549ac221e6f6",
-        "type": "switch",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "",
-        "property": "Filtro_armonicos.Habilitar",
-        "propertyType": "flow",
-        "rules": [
-            {
-                "t": "true"
-            },
-            {
-                "t": "false"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 470,
-        "y": 360,
-        "wires": [
-            [
-                "3c02634e91287033",
-                "7aef000df040445c"
-            ],
-            [
-                "cbf5e3db4da171e1",
-                "db0a9f0a7664cfa3"
-            ]
-        ]
-    },
-    {
-        "id": "3c02634e91287033",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "False",
-        "rules": [
-            {
-                "t": "set",
-                "p": "enabled",
-                "pt": "msg",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 620,
-        "y": 300,
-        "wires": [
-            [
-                "e663932850162985"
-            ]
-        ]
-    },
-    {
-        "id": "7aef000df040445c",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "true",
-        "rules": [
-            {
-                "t": "set",
-                "p": "enabled",
-                "pt": "msg",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 620,
-        "y": 340,
-        "wires": [
-            [
-                "636cbb81a089c5a0"
-            ]
-        ]
-    },
-    {
-        "id": "db0a9f0a7664cfa3",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "true",
-        "rules": [
-            {
-                "t": "set",
-                "p": "enabled",
-                "pt": "msg",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 620,
-        "y": 380,
-        "wires": [
-            [
-                "e663932850162985"
-            ]
-        ]
-    },
-    {
-        "id": "cbf5e3db4da171e1",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "False",
-        "rules": [
-            {
-                "t": "set",
-                "p": "enabled",
-                "pt": "msg",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 620,
-        "y": 420,
-        "wires": [
-            [
-                "636cbb81a089c5a0"
-            ]
-        ]
-    },
-    {
-        "id": "66d0cd6a4c6f2c2b",
-        "type": "link in",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "Bypass filtro armónicos",
-        "links": [
-            "ad87cee4.7dbb5"
-        ],
-        "x": 375,
-        "y": 380,
-        "wires": [
-            [
-                "b1a9549ac221e6f6"
-            ]
-        ]
-    },
-    {
-        "id": "778764fc8883ad65",
-        "type": "rbe",
-        "z": "edcda77493e16eaa",
-        "d": true,
-        "g": "3305d8d35ba0e514",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "property": "payload",
-        "x": 1240,
-        "y": 180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fb63bdd01be4e6b9",
-        "type": "rbe",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "property": "payload",
-        "x": 1240,
-        "y": 220,
-        "wires": [
-            [
-                "0989aa12c303133b",
-                "e913dcf6680dfc81"
-            ]
-        ]
-    },
-    {
-        "id": "e913dcf6680dfc81",
-        "type": "ui_text",
-        "z": "edcda77493e16eaa",
-        "g": "3305d8d35ba0e514",
-        "group": "aa8453cf.6d05a",
-        "order": 5,
-        "width": 4,
-        "height": 1,
-        "name": "",
-        "label": "Corriente Bypass:",
-        "format": "{{msg.payload}}A",
-        "layout": "row-spread",
-        "x": 660,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "d0293aa05b63abf4",
-        "type": "function",
-        "z": "edcda77493e16eaa",
-        "g": "043b7d2efd6242c1",
-        "name": "Filtro de armónicos",
-        "func": "var Corriente = flow.get('Filtro_armonicos.Corriente_bypass')||0;\nvar payload = msg.payload;\nmsg.payload = TON(parseFloat(msg.payload) >= Corriente ? true:false,msg.delay);\nnode.status({fill:msg.payload === true? 'red':'green',shape:\"dot\",text: parseFloat(payload)+\" >= \"+Corriente +\"DT:\"+msg.payload});\nreturn msg;\n\nfunction TON(val,delay){\n    var Ant = context.get(\"Anterior\")||false;\n    // Actualizar el contexto\n    context.set(\"Anterior\", val);\n    //Flanco de subida\n    if(val === true && Ant === false){\n        context.set(\"RefTime\", Date.now());\n    }\n    else if(val === true && Ant === true){\n        if(Date.now() - context.get(\"RefTime\") >= delay*1000){\n            return true;\n        }\n    }\n    return false;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 460,
-        "y": 530,
-        "wires": [
-            [
-                "b1c81b73cb662ef0"
-            ]
-        ]
-    },
-    {
-        "id": "3a7f95677913d72a",
-        "type": "inject",
-        "z": "edcda77493e16eaa",
-        "g": "043b7d2efd6242c1",
-        "name": "Corriente de entrada",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "delay",
-                "v": "Filtro_armonicos.Tiempo_muerto",
-                "vt": "flow"
-            }
-        ],
-        "repeat": "0.5",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "#:(memoryOnly)::C2S.Implicit.Output_Current",
-        "payloadType": "global",
-        "x": 250,
-        "y": 530,
-        "wires": [
-            [
-                "d0293aa05b63abf4",
-                "e6f7886f185a01b0"
-            ]
-        ]
-    },
-    {
-        "id": "41d6d58a13f91fa5",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "043b7d2efd6242c1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::IO.Functions.DO.HF.Status",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 930,
-        "y": 510,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b1c81b73cb662ef0",
-        "type": "switch",
-        "z": "edcda77493e16eaa",
-        "g": "043b7d2efd6242c1",
-        "name": "Filtro Habilitado?",
-        "property": "Filtro_armonicos.Habilitar",
-        "propertyType": "flow",
-        "rules": [
-            {
-                "t": "true"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 660,
-        "y": 530,
-        "wires": [
-            [
-                "41d6d58a13f91fa5"
-            ],
-            [
-                "42e9d0cae12d888c"
-            ]
-        ]
-    },
-    {
-        "id": "42e9d0cae12d888c",
-        "type": "change",
-        "z": "edcda77493e16eaa",
-        "g": "043b7d2efd6242c1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::IO.Functions.DO.HF.Status",
-                "pt": "global",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 930,
-        "y": 550,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e6f7886f185a01b0",
-        "type": "function",
-        "z": "edcda77493e16eaa",
-        "g": "043b7d2efd6242c1",
-        "name": "Limites",
-        "func": "var Load = global.get(\"Protections.Load\");\nmsg.control = {'min':Load.LL.Setpoint, 'max':Load.HH.Setpoint};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 430,
-        "y": 580,
-        "wires": [
-            [
-                "b0ebdc7a4cfed758"
-            ]
-        ]
-    },
-    {
-        "id": "b0ebdc7a4cfed758",
-        "type": "ui_level",
-        "z": "edcda77493e16eaa",
-        "g": "043b7d2efd6242c1",
-        "group": "aa8453cf.6d05a",
-        "order": 3,
-        "width": 4,
-        "height": 2,
-        "name": "Corriente de entrada actual",
-        "label": "Corriente Actual",
-        "colorHi": "#00b33c",
-        "colorWarn": "#00b33c",
-        "colorNormal": "#00b33c",
-        "colorOff": "#595959",
-        "min": 0,
-        "max": 100,
-        "segWarn": "",
-        "segHigh": "",
-        "unit": "A",
-        "layout": "sv",
-        "channelA": "",
-        "channelB": "",
-        "decimals": "2",
-        "animations": "soft",
-        "shape": 2,
-        "colorschema": "valuedriven",
-        "textoptions": "custom",
-        "colorText": "#eeeeee",
-        "fontLabel": "0.9",
-        "fontValue": "3",
-        "fontSmall": "0.9",
-        "colorFromTheme": true,
-        "textAnimations": false,
-        "hideValue": false,
-        "tickmode": "off",
-        "peakmode": false,
-        "property": "payload",
-        "peaktime": 3000,
-        "x": 630,
-        "y": 580,
-        "wires": []
-    },
-    {
         "id": "ee532e0874025574",
         "type": "change",
         "z": "edcda77493e16eaa",
@@ -59467,11 +58524,6 @@
                 "type": "str"
             },
             {
-                "label": "Bypass filtro de armónicos",
-                "value": "Bypass filtro de armónicos",
-                "type": "str"
-            },
-            {
                 "label": "Disparo breaker módulo ESD",
                 "value": "Disparo breaker módulo ESD",
                 "type": "str"
@@ -59479,16 +58531,6 @@
             {
                 "label": "Simulación",
                 "value": "Simulación",
-                "type": "str"
-            },
-            {
-                "label": "Apertura motorizado SDT",
-                "value": "Apertura motorizado SDT",
-                "type": "str"
-            },
-            {
-                "label": "Cierre motorizado SDT",
-                "value": "Cierre motorizado SDT",
                 "type": "str"
             }
         ],
@@ -61236,22 +60278,6 @@
         "wires": []
     },
     {
-        "id": "64e79399f67005ea",
-        "type": "catch",
-        "z": "edcda77493e16eaa",
-        "g": "043b7d2efd6242c1",
-        "name": "",
-        "scope": [
-            "e6f7886f185a01b0"
-        ],
-        "uncaught": false,
-        "x": 200,
-        "y": 580,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "98b2402e12066a9f",
         "type": "function",
         "z": "edcda77493e16eaa",
@@ -61431,7 +60457,7 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 1460,
+        "x": 190,
         "y": 60,
         "wires": [
             [
@@ -61455,7 +60481,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1670,
+        "x": 400,
         "y": 60,
         "wires": [
             []
@@ -61472,7 +60498,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1670,
+        "x": 400,
         "y": 160,
         "wires": [
             []
@@ -61490,7 +60516,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1700,
+        "x": 430,
         "y": 210,
         "wires": [
             []
@@ -61543,8 +60569,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1850,
-        "y": 550,
+        "x": 560,
+        "y": 540,
         "wires": [
             [
                 "72a83f45ed67f1af"
@@ -61562,8 +60588,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1860,
-        "y": 590,
+        "x": 570,
+        "y": 580,
         "wires": [
             [
                 "72a83f45ed67f1af"
@@ -61581,8 +60607,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1870,
-        "y": 630,
+        "x": 580,
+        "y": 620,
         "wires": [
             [
                 "72a83f45ed67f1af"
@@ -61604,8 +60630,8 @@
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
-        "x": 2130,
-        "y": 550,
+        "x": 840,
+        "y": 540,
         "wires": [
             [],
             [
@@ -61625,8 +60651,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2370,
-        "y": 550,
+        "x": 1080,
+        "y": 540,
         "wires": [
             []
         ]
@@ -61645,8 +60671,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2300,
-        "y": 600,
+        "x": 1010,
+        "y": 590,
         "wires": []
     },
     {
@@ -61659,8 +60685,8 @@
             "72a83f45ed67f1af"
         ],
         "uncaught": false,
-        "x": 2130,
-        "y": 600,
+        "x": 840,
+        "y": 590,
         "wires": [
             [
                 "a5172ae4c93ca8ac"
@@ -61685,8 +60711,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 1460,
-        "y": 550,
+        "x": 170,
+        "y": 540,
         "wires": [
             [
                 "e346395fced8f93a"
@@ -61707,8 +60733,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2360,
-        "y": 960,
+        "x": 1070,
+        "y": 950,
         "wires": []
     },
     {
@@ -61722,8 +60748,8 @@
             "476a09cb6e5bfc95"
         ],
         "uncaught": false,
-        "x": 2140,
-        "y": 960,
+        "x": 850,
+        "y": 950,
         "wires": [
             [
                 "e7fea39105a252c6"
@@ -61741,8 +60767,8 @@
         "server": "f630cb55.8d18e8",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
-        "x": 2370,
-        "y": 670,
+        "x": 1080,
+        "y": 660,
         "wires": [
             [],
             []
@@ -61764,8 +60790,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1600,
-        "y": 550,
+        "x": 310,
+        "y": 540,
         "wires": [
             [
                 "b36e480ec442cbed",
@@ -61789,8 +60815,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1600,
-        "y": 590,
+        "x": 310,
+        "y": 580,
         "wires": [
             [
                 "d8d63ec42eab0e54",
@@ -61814,8 +60840,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1600,
-        "y": 630,
+        "x": 310,
+        "y": 620,
         "wires": [
             [
                 "8ef22ac4b3db424a",
@@ -61839,8 +60865,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1600,
-        "y": 670,
+        "x": 310,
+        "y": 660,
         "wires": [
             [
                 "d5fcb5e80a4c8df1",
@@ -61859,8 +60885,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1850,
-        "y": 670,
+        "x": 560,
+        "y": 660,
         "wires": [
             [
                 "476a09cb6e5bfc95"
@@ -61878,8 +60904,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2110,
-        "y": 670,
+        "x": 820,
+        "y": 660,
         "wires": [
             [
                 "e814a141cce81223"
@@ -62424,7 +61450,7 @@
             "515bf075edacdc7f"
         ],
         "uncaught": false,
-        "x": 1440,
+        "x": 170,
         "y": 130,
         "wires": [
             []
@@ -62442,7 +61468,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1650,
+        "x": 380,
         "y": 110,
         "wires": [
             [
@@ -67529,8 +66555,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1860,
-        "y": 710,
+        "x": 570,
+        "y": 700,
         "wires": [
             [
                 "72a83f45ed67f1af"
@@ -67553,8 +66579,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1600,
-        "y": 710,
+        "x": 310,
+        "y": 700,
         "wires": [
             [
                 "a92007eb98343917",
@@ -67580,8 +66606,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2350,
-        "y": 510,
+        "x": 1060,
+        "y": 500,
         "wires": [
             [
                 "6902084ea4b2cbde"
@@ -67599,8 +66625,8 @@
         "start": "",
         "inout": "out",
         "property": "payload.data[0]",
-        "x": 2510,
-        "y": 510,
+        "x": 1220,
+        "y": 500,
         "wires": [
             [
                 "091d586eb31e93bf",
@@ -67635,8 +66661,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2650,
-        "y": 510,
+        "x": 1360,
+        "y": 500,
         "wires": [
             [
                 "772ec0a16fcfa09d"
@@ -67659,8 +66685,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 2650,
-        "y": 550,
+        "x": 1360,
+        "y": 540,
         "wires": [
             [
                 "772ec0a16fcfa09d"
@@ -67685,8 +66711,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 2830,
-        "y": 510,
+        "x": 1540,
+        "y": 500,
         "wires": [
             [
                 "aae2d4b8cf582bf7",
@@ -67714,8 +66740,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3100,
-        "y": 510,
+        "x": 1810,
+        "y": 500,
         "wires": [
             []
         ]
@@ -67738,8 +66764,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2970,
-        "y": 510,
+        "x": 1680,
+        "y": 500,
         "wires": [
             [
                 "4b39b4da3180cdc0"
@@ -67764,8 +66790,8 @@
         "topic": "",
         "payload": "#:(memoryOnly)::IO.Functions.CommSts",
         "payloadType": "global",
-        "x": 1540,
-        "y": 410,
+        "x": 270,
+        "y": 400,
         "wires": [
             [
                 "3d6da299223a8e01"
@@ -67783,8 +66809,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1740,
-        "y": 410,
+        "x": 470,
+        "y": 400,
         "wires": [
             [
                 "c59b8721b00438a3"
@@ -67807,8 +66833,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1860,
-        "y": 410,
+        "x": 590,
+        "y": 400,
         "wires": [
             [
                 "69fea58d721ef436"
@@ -67831,8 +66857,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1990,
-        "y": 410,
+        "x": 720,
+        "y": 400,
         "wires": [
             [
                 "b12f8fad625e93b0"
@@ -67850,8 +66876,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2130,
-        "y": 410,
+        "x": 860,
+        "y": 400,
         "wires": [
             [
                 "8f311859e2329cb0"
@@ -67868,8 +66894,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 2225,
-        "y": 410,
+        "x": 955,
+        "y": 400,
         "wires": []
     },
     {
@@ -67888,8 +66914,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1600,
-        "y": 790,
+        "x": 310,
+        "y": 780,
         "wires": [
             [
                 "a70374374542fecd",
@@ -67913,8 +66939,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1600,
-        "y": 830,
+        "x": 310,
+        "y": 820,
         "wires": [
             [
                 "ae5acc2b90608d1c"
@@ -67937,8 +66963,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1600,
-        "y": 870,
+        "x": 310,
+        "y": 860,
         "wires": [
             [
                 "5f2d6dfc65e8da58",
@@ -67962,8 +66988,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1600,
-        "y": 910,
+        "x": 310,
+        "y": 900,
         "wires": [
             [
                 "87cce1528d9a85ef",
@@ -67987,8 +67013,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1600,
-        "y": 950,
+        "x": 310,
+        "y": 940,
         "wires": [
             [
                 "7b050333dc5443c7"
@@ -68007,8 +67033,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1830,
-        "y": 950,
+        "x": 540,
+        "y": 940,
         "wires": [
             [
                 "e814a141cce81223"
@@ -68027,8 +67053,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1840,
-        "y": 870,
+        "x": 550,
+        "y": 860,
         "wires": [
             [
                 "e814a141cce81223"
@@ -68044,8 +67070,8 @@
         "links": [
             "597fb86ead37ce75"
         ],
-        "x": 1735,
-        "y": 910,
+        "x": 445,
+        "y": 900,
         "wires": []
     },
     {
@@ -68064,8 +67090,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1600,
-        "y": 750,
+        "x": 310,
+        "y": 740,
         "wires": [
             [
                 "b2c6db902f138ca6",
@@ -68082,8 +67108,8 @@
         "links": [
             "036ae70fa8b4a7d7"
         ],
-        "x": 1735,
-        "y": 750,
+        "x": 445,
+        "y": 740,
         "wires": []
     },
     {
@@ -68096,8 +67122,8 @@
             "025e44e56c51c4d2",
             "cbed23389bd10c6d"
         ],
-        "x": 1735,
-        "y": 790,
+        "x": 445,
+        "y": 780,
         "wires": []
     },
     {
@@ -68109,8 +67135,8 @@
         "links": [
             "75850562133f138f"
         ],
-        "x": 2235,
-        "y": 730,
+        "x": 945,
+        "y": 720,
         "wires": [
             [
                 "e814a141cce81223"
@@ -68128,8 +67154,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2950,
-        "y": 560,
+        "x": 1660,
+        "y": 550,
         "wires": [
             [
                 "f339b976e17001e2"
@@ -68147,8 +67173,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 3100,
-        "y": 560,
+        "x": 1810,
+        "y": 550,
         "wires": [
             [
                 "13ae2db66a6609f2",
@@ -68177,8 +67203,8 @@
         "onceDelay": "4",
         "topic": "",
         "payloadType": "date",
-        "x": 2770,
-        "y": 670,
+        "x": 1480,
+        "y": 660,
         "wires": [
             [
                 "13ae2db66a6609f2",
@@ -68196,8 +67222,8 @@
             "ced2df423e7eb2d8",
             "b0a6daf8cc767b13"
         ],
-        "x": 2875,
-        "y": 600,
+        "x": 1585,
+        "y": 590,
         "wires": [
             [
                 "13ae2db66a6609f2"
@@ -68216,8 +67242,8 @@
             "b0a6daf8cc767b13",
             "e06c7275b16258b0"
         ],
-        "x": 2915,
-        "y": 780,
+        "x": 1625,
+        "y": 770,
         "wires": [
             [
                 "ba79778827ca94cb"
@@ -68235,8 +67261,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3300,
-        "y": 590,
+        "x": 2010,
+        "y": 580,
         "wires": [
             [
                 "e8d27af8dbb53b1f"
@@ -68259,8 +67285,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 2750,
-        "y": 730,
+        "x": 1460,
+        "y": 720,
         "wires": [
             [
                 "ba79778827ca94cb"
@@ -68279,8 +67305,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3030,
-        "y": 730,
+        "x": 1740,
+        "y": 720,
         "wires": [
             [
                 "3507a3fb5aa75b2f",
@@ -68306,8 +67332,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 3290,
-        "y": 650,
+        "x": 2000,
+        "y": 640,
         "wires": [
             [
                 "3507a3fb5aa75b2f"
@@ -68327,8 +67353,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3280,
-        "y": 690,
+        "x": 1990,
+        "y": 680,
         "wires": [
             [
                 "cda9368e27f8907a"
@@ -68347,8 +67373,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3360,
-        "y": 760,
+        "x": 2070,
+        "y": 750,
         "wires": [
             [
                 "e8d27af8dbb53b1f"
@@ -68366,8 +67392,8 @@
         "server": "f630cb55.8d18e8",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
-        "x": 3570,
-        "y": 670,
+        "x": 2280,
+        "y": 660,
         "wires": [
             [],
             []
@@ -68464,36 +67490,6 @@
                 "type": "str"
             },
             {
-                "label": "Disparo alto nivel de aceite SUT",
-                "value": "Disparo alto nivel de aceite SUT",
-                "type": "str"
-            },
-            {
-                "label": "Disparo alta temperatura SUT",
-                "value": "Disparo alta temperatura SUT",
-                "type": "str"
-            },
-            {
-                "label": "Alarma alta temperatura SUT",
-                "value": "Alarma alta temperatura SUT",
-                "type": "str"
-            },
-            {
-                "label": "Alarma bajo nivel de aceite SUT",
-                "value": "Alarma bajo nivel de aceite SUT",
-                "type": "str"
-            },
-            {
-                "label": "Disparo bajo bajo nivel de aceite SUT",
-                "value": "Disparo bajo bajo nivel de aceite SUT",
-                "type": "str"
-            },
-            {
-                "label": "Disparo Valvula sobrepresión SUT",
-                "value": "Disparo válvula sobre-presión SUT",
-                "type": "str"
-            },
-            {
                 "label": "Alarma DPS",
                 "value": "Alarma DPS",
                 "type": "str"
@@ -68506,11 +67502,6 @@
             {
                 "label": "Disparo alta presión THP",
                 "value": "Disparo alta presión THP",
-                "type": "str"
-            },
-            {
-                "label": "Disparo sobre tensión SUT",
-                "value": "Disparo sobre-tensión SUT",
                 "type": "str"
             },
             {
@@ -68541,36 +67532,6 @@
             {
                 "label": "Disparo baja presión en la troncal",
                 "value": "Disparo baja presión en la troncal",
-                "type": "str"
-            },
-            {
-                "label": "Alarma bajo nivel de aceite SDT",
-                "value": "Alarma bajo nivel de aceite SDT",
-                "type": "str"
-            },
-            {
-                "label": "Disparo bajo bajo nivel de aceite SDT",
-                "value": "Disparo bajo bajo nivel de aceite SDT",
-                "type": "str"
-            },
-            {
-                "label": "Disparo alta temperatura SDT",
-                "value": "Disparo alta temperatura SDT",
-                "type": "str"
-            },
-            {
-                "label": "Alarma alta temperatura SDT",
-                "value": "Alarma alta temperatura SDT",
-                "type": "str"
-            },
-            {
-                "label": "Disparo Valvula sobrepresión SDT",
-                "value": "Disparo Valvula sobrepresión SDT",
-                "type": "str"
-            },
-            {
-                "label": "Estado motorizado SDT",
-                "value": "Estado motorizado SDT",
                 "type": "str"
             },
             {
@@ -68984,7 +67945,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1680,
+        "x": 410,
         "y": 260,
         "wires": [
             [
@@ -69011,7 +67972,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1990,
+        "x": 720,
         "y": 260,
         "wires": [
             [
@@ -69030,7 +67991,7 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1860,
+        "x": 590,
         "y": 260,
         "wires": [
             [
@@ -69065,7 +68026,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2150,
+        "x": 880,
         "y": 260,
         "wires": [
             [
@@ -69086,7 +68047,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1640,
+        "x": 370,
         "y": 300,
         "wires": [
             []
@@ -69109,8 +68070,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 3180,
-        "y": 760,
+        "x": 1890,
+        "y": 750,
         "wires": [
             [
                 "8d784be063f1d4db"
@@ -71619,7 +70580,7 @@
         "z": "edcda77493e16eaa",
         "g": "a9988da34f9622ff",
         "name": "",
-        "x": 2310,
+        "x": 1040,
         "y": 260,
         "wires": [
             [],
@@ -71971,7 +70932,7 @@
         "g": "a9988da34f9622ff",
         "name": "Falla General",
         "links": [],
-        "x": 1865,
+        "x": 595,
         "y": 120,
         "wires": []
     },
@@ -82791,7 +81752,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 130,
-        "y": 1720,
+        "y": 1560,
         "wires": [
             [
                 "e4da5c5e600ca46f"
@@ -82827,7 +81788,7 @@
         "repair": false,
         "outputs": 3,
         "x": 290,
-        "y": 1720,
+        "y": 1560,
         "wires": [
             [
                 "779ed00460cea713"
@@ -82851,7 +81812,7 @@
             "805762db.d27b7"
         ],
         "x": 575,
-        "y": 1720,
+        "y": 1560,
         "wires": []
     },
     {
@@ -82875,7 +81836,7 @@
         "to": "",
         "reg": false,
         "x": 430,
-        "y": 1680,
+        "y": 1520,
         "wires": [
             [
                 "344543481edddc1d"
@@ -82903,7 +81864,7 @@
         "to": "",
         "reg": false,
         "x": 440,
-        "y": 1720,
+        "y": 1560,
         "wires": [
             [
                 "344543481edddc1d"
@@ -82931,7 +81892,7 @@
         "to": "",
         "reg": false,
         "x": 430,
-        "y": 1760,
+        "y": 1600,
         "wires": [
             [
                 "344543481edddc1d"
@@ -82957,7 +81918,7 @@
         "repair": false,
         "outputs": 1,
         "x": 300,
-        "y": 1660,
+        "y": 1500,
         "wires": [
             [
                 "779ed00460cea713"
@@ -82975,7 +81936,7 @@
             "4372d5a0.d338dc"
         ],
         "x": 175,
-        "y": 1660,
+        "y": 1500,
         "wires": [
             [
                 "540d4b48853d68b8"
@@ -82998,7 +81959,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 130,
-        "y": 1920,
+        "y": 1760,
         "wires": [
             [
                 "7fa5ce876a67cae6"
@@ -83034,7 +81995,7 @@
         "repair": false,
         "outputs": 3,
         "x": 290,
-        "y": 1920,
+        "y": 1760,
         "wires": [
             [
                 "fe6b99e8d29f8ce5"
@@ -83058,7 +82019,7 @@
             "805762db.d27b7"
         ],
         "x": 575,
-        "y": 1920,
+        "y": 1760,
         "wires": []
     },
     {
@@ -83082,7 +82043,7 @@
         "to": "",
         "reg": false,
         "x": 440,
-        "y": 1880,
+        "y": 1720,
         "wires": [
             [
                 "b256c2d139b6f282"
@@ -83110,7 +82071,7 @@
         "to": "",
         "reg": false,
         "x": 440,
-        "y": 1920,
+        "y": 1760,
         "wires": [
             [
                 "b256c2d139b6f282"
@@ -83138,7 +82099,7 @@
         "to": "",
         "reg": false,
         "x": 460,
-        "y": 1960,
+        "y": 1800,
         "wires": [
             [
                 "b256c2d139b6f282"
@@ -83164,7 +82125,7 @@
         "repair": false,
         "outputs": 1,
         "x": 290,
-        "y": 1860,
+        "y": 1700,
         "wires": [
             [
                 "fe6b99e8d29f8ce5"
@@ -83182,7 +82143,7 @@
             "4372d5a0.d338dc"
         ],
         "x": 175,
-        "y": 1860,
+        "y": 1700,
         "wires": [
             [
                 "669fd9eeec84c9f1"
