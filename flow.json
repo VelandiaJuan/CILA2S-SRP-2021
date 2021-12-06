@@ -1232,7 +1232,9 @@
             "eb91dac5.690838"
         ],
         "x": -12,
-        "y": 13
+        "y": 13,
+        "w": 1664,
+        "h": 1200
     },
     {
         "id": "e98dc6a9.24ece8",
@@ -3685,7 +3687,9 @@
             "b045615539735b86"
         ],
         "x": 14,
-        "y": 463
+        "y": 463,
+        "w": 958,
+        "h": 724
     },
     {
         "id": "eb91dac5.690838",
@@ -3739,7 +3743,9 @@
             "e9b1c7933c86ffa9"
         ],
         "x": 44,
-        "y": 39
+        "y": 39,
+        "w": 1582,
+        "h": 402
     },
     {
         "id": "8ed62712.fe2018",
@@ -4983,7 +4989,9 @@
             "ecd73acb6f9a9a0a"
         ],
         "x": 584,
-        "y": 959
+        "y": 959,
+        "w": 362,
+        "h": 202
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -5003,7 +5011,9 @@
             "c1672804cba19e98"
         ],
         "x": 574,
-        "y": 489
+        "y": 489,
+        "w": 172,
+        "h": 212
     },
     {
         "id": "be55ea76.ed4478",
@@ -5024,7 +5034,9 @@
             "41b82348a8ab40a8"
         ],
         "x": 564,
-        "y": 719
+        "y": 719,
+        "w": 372,
+        "h": 202
     },
     {
         "id": "1d477816.993308",
@@ -71230,7 +71242,7 @@
         "type": "function",
         "z": "3af652c9.6f9bee",
         "name": "login?",
-        "func": "var estado = global.get(\"UserStatus\", \"memoryOnly\") || 0;\nvar flag = context.get(\"flag\",\"memoryOnly\")||0;\n    if(estado==0) flag<2? msg.payload = \"<font color= red>Para operar debe ingresar User\":msg.payload = \"\"; else msg.payload=\"\";\nflag < 3 ? flag++:flag=0;\ncontext.set(\"flag\", flag, \"memoryOnly\");\nreturn msg;",
+        "func": "var estado = global.get(\"UserStatus\", \"memoryOnly\") || 0;\nvar flag = context.get(\"flag\",\"memoryOnly\")||0;\n    if(estado==0) flag<2? msg.payload = \"<font color= grey>Para operar debe ingresar User\":msg.payload = \"\"; else msg.payload=\"\";\nflag < 3 ? flag++:flag=0;\ncontext.set(\"flag\", flag, \"memoryOnly\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -82932,7 +82944,7 @@
         "z": "a84e803f031d5b6d",
         "g": "e065ae938a7e78bf",
         "name": "Trends_1",
-        "func": "var requestTrend = flow.get(\"trends\", \"memoryOnly\") || {};\nvar C2S = global.get(\"C2S\", \"memoryOnly\") || {};\nvar time = msg.payload;\n\nvar datos = context.get(\"trend\", \"memoryOnly\") || null;\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\n\nvar MtrVoltage = C2S.Implicit.Output_Voltage * Rtx;\nvar MtrCurrent = C2S.Implicit.Output_Current / Rtx;\n\nvar LL = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Voltage\", 'memoryOnly') || 0;\nvar LN = global.get(\"PQA.Real_Time_Parameters.Average_Line_Voltage\", 'memoryOnly') || 0;\nvar THDV = global.get(\"PQA.Harmonics.Power_Quality.THD_avg\", 'memoryOnly') || 0;\nvar THDI = global.get(\"PQA.Harmonics.Power_Quality.THD_Iavg\", 'memoryOnly') || 0;\nvar Corriente = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Current\", 'memoryOnly') || 0;\nvar Potencia = global.get(\"PQA.Real_Time_Parameters.Total_System_Power\", 'memoryOnly') || 0;\nvar FP = global.get(\"PQA.Real_Time_Parameters.Total_Power_Factor\", 'memoryOnly') || 0;\n\n\nif (datos == null) {\n    datos = {   //Datos de suministro de agua\n        \n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Implicit.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Implicit.Output_Current || 0 }],\n        'Output_Voltage': [{ \"x\": time, \"y\": C2S.Implicit.Output_Voltage || 0 }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Implicit.Output_Power || 0 }],\n        'Bus_DC_Volts': [{ \"x\": time, \"y\": C2S.Implicit.Bus_DC_Volts || 0 }],\n        'Power_Factor': [{ \"x\": time, \"y\": C2S.Implicit.Power_Factor || 0 }],\n        'MtrVoltage': [{ \"x\": time, \"y\": MtrVoltage || 0 }],\n        'MtrCurrent': [{ \"x\": time, \"y\": MtrCurrent || 0 }],\n        'LL': [{ \"x\": time, \"y\": LL || 0 }],\n        'LN': [{ \"x\": time, \"y\": LN || 0 }],\n        'THDV': [{ \"x\": time, \"y\": THDV || 0 }],\n        'THDI': [{ \"x\": time, \"y\": THDI || 0 }],\n        'Corriente': [{ \"x\": time, \"y\": Corriente || 0 }],\n        'Potencia': [{ \"x\": time, \"y\": Potencia || 0 }],\n        'FP': [{ \"x\": time, \"y\": FP || 0 }]\n    };\n}\nelse {\n    if (datos.Output_Frequency.length > 59) {\n        datos.Output_Frequency.shift();\n        datos.Output_Current.shift();\n        datos.Output_Voltage.shift();\n        datos.Output_Power.shift();\n        datos.Bus_DC_Volts.shift();\n        datos.Power_Factor.shift();\n        datos.MtrVoltage.shift();\n        datos.MtrCurrent.shift();\n\n        datos.LL.shift();\n        datos.LN.shift();\n        datos.THDV.shift();\n        datos.THDI.shift();\n        datos.Corriente.shift();\n        datos.Potencia.shift();\n        datos.FP.shift();\n    }\n\n\n    datos.Output_Frequency.push({ \"x\": time, \"y\": C2S.Implicit.Output_Frequency || 0 });\n    datos.Output_Current.push({ \"x\": time, \"y\": C2S.Implicit.Output_Current || 0 });\n    datos.Output_Voltage.push({ \"x\": time, \"y\": C2S.Implicit.Output_Voltage || 0 });\n    datos.Output_Power.push({ \"x\": time, \"y\": C2S.Implicit.Output_Power || 0 });\n    datos.Bus_DC_Volts.push({ \"x\": time, \"y\": C2S.Implicit.Bus_DC_Volts || 0 });\n    datos.Power_Factor.push({ \"x\": time, \"y\": C2S.Implicit.Power_Factor || 0 });\n    datos.MtrVoltage.push({ \"x\": time, \"y\": MtrVoltage || 0 });\n    datos.MtrCurrent.push({ \"x\": time, \"y\": MtrCurrent || 0 });\n\n    datos.LL.push({ \"x\": time,          \"y\": LL || 0 });\n    datos.LN.push({ \"x\": time,          \"y\": LN || 0 });\n    datos.THDV.push({ \"x\": time,        \"y\": THDV || 0 });\n    datos.THDI.push({ \"x\": time,        \"y\": THDI || 0 });\n    datos.Corriente.push({ \"x\": time,   \"y\": Corriente || 0 });\n    datos.Potencia.push({ \"x\": time,    \"y\": Potencia || 0 });\n    datos.FP.push({ \"x\": time,          \"y\": FP || 0 });\n}\n\ncontext.set(\"trend\", datos, \"memoryOnly\");\n\nvar series = [];\n\nif (requestTrend.Output_Frequency == true) series.push(\"Frequency (Hz)\");\nif (requestTrend.Output_Current == true) series.push(\"Current (A)\");\nif (requestTrend.Output_Voltage == true) series.push(\"Voltaje Salida(V)\");\nif (requestTrend.Output_Power == true) series.push(\"Potencia Salida(kW)\");\nif (requestTrend.Bus_DC_Volts == true) series.push(\"Voltaje Bus(V)\");\nif (requestTrend.Power_Factor == true) series.push(\"Factor de potencia\");\nif (requestTrend.MtrVoltage == true) series.push(\"Voltaje Mtr(V)\");\nif (requestTrend.MtrCurrent == true) series.push(\"Corriente Mtr(A)\");\n\n\n\n\nvar data = [];\n\nif (requestTrend.Output_Frequency == true) data.push(datos.Output_Frequency);\nif (requestTrend.Output_Current == true) data.push(datos.Output_Current);\nif (requestTrend.Output_Voltage == true) data.push(datos.Output_Voltage);\nif (requestTrend.Output_Power == true) data.push(datos.Output_Power);\nif (requestTrend.Bus_DC_Volts == true) data.push(datos.Bus_DC_Volts);\nif (requestTrend.Power_Factor == true) data.push(datos.Power_Factor);\nif (requestTrend.MtrVoltage == true) data.push(datos.MtrVoltage);\nif (requestTrend.MtrCurrent == true) data.push(datos.MtrCurrent);\n\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
+        "func": "var requestTrend = flow.get(\"trends\", \"memoryOnly\") || {};\nvar C2S = global.get(\"C2S\", \"memoryOnly\") || {};\nvar time = msg.payload;\n\nvar datos = context.get(\"trend\", \"memoryOnly\") || null;\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\n\nvar MtrVoltage = C2S.Implicit.Output_Voltage * Rtx;\nvar MtrCurrent = C2S.Implicit.Output_Current / Rtx;\n\nvar LL = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Voltage\", 'memoryOnly') || 0;\nvar LN = global.get(\"PQA.Real_Time_Parameters.Average_Line_Voltage\", 'memoryOnly') || 0;\nvar THDV = global.get(\"PQA.Harmonics.Power_Quality.THD_avg\", 'memoryOnly') || 0;\nvar THDI = global.get(\"PQA.Harmonics.Power_Quality.THD_Iavg\", 'memoryOnly') || 0;\nvar Corriente = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Current\", 'memoryOnly') || 0;\nvar Potencia = global.get(\"PQA.Real_Time_Parameters.Total_System_Power\", 'memoryOnly') || 0;\nvar FP = global.get(\"PQA.Real_Time_Parameters.Total_Power_Factor\", 'memoryOnly') || 0;\n\n\nif (datos == null) {\n    datos = {   //Datos de suministro de agua\n        \n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Implicit.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Implicit.Output_Current || 0 }],\n        'Output_Voltage': [{ \"x\": time, \"y\": C2S.Implicit.Output_Voltage || 0 }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Implicit.Output_Power || 0 }],\n        'Bus_DC_Volts': [{ \"x\": time, \"y\": C2S.Implicit.Bus_DC_Volts || 0 }],\n        'Power_Factor': [{ \"x\": time, \"y\": C2S.Implicit.Power_Factor || 0 }],\n        'MtrVoltage': [{ \"x\": time, \"y\": MtrVoltage || 0 }],\n        'MtrCurrent': [{ \"x\": time, \"y\": MtrCurrent || 0 }],\n        'LL': [{ \"x\": time, \"y\": LL || 0 }],\n        'LN': [{ \"x\": time, \"y\": LN || 0 }],\n        'THDV': [{ \"x\": time, \"y\": THDV || 0 }],\n        'THDI': [{ \"x\": time, \"y\": THDI || 0 }],\n        'Corriente': [{ \"x\": time, \"y\": Corriente || 0 }],\n        'Potencia': [{ \"x\": time, \"y\": Potencia || 0 }],\n        'FP': [{ \"x\": time, \"y\": FP || 0 }],\n        'spm': [{ \"x\": time, \"y\": C2S.Implicit.spm || 0 }]\n    };\n}\nelse {\n    if (datos.Output_Frequency.length > 59) {\n        datos.Output_Frequency.shift();\n        datos.Output_Current.shift();\n        datos.Output_Voltage.shift();\n        datos.Output_Power.shift();\n        datos.Bus_DC_Volts.shift();\n        datos.Power_Factor.shift();\n        datos.MtrVoltage.shift();\n        datos.MtrCurrent.shift();\n\n        datos.LL.shift();\n        datos.LN.shift();\n        datos.THDV.shift();\n        datos.THDI.shift();\n        datos.Corriente.shift();\n        datos.Potencia.shift();\n        datos.FP.shift();\n        datos.spm.shift();\n    }\n\n\n    datos.Output_Frequency.push({ \"x\": time, \"y\": C2S.Implicit.Output_Frequency || 0 });\n    datos.Output_Current.push({ \"x\": time, \"y\": C2S.Implicit.Output_Current || 0 });\n    datos.Output_Voltage.push({ \"x\": time, \"y\": C2S.Implicit.Output_Voltage || 0 });\n    datos.Output_Power.push({ \"x\": time, \"y\": C2S.Implicit.Output_Power || 0 });\n    datos.Bus_DC_Volts.push({ \"x\": time, \"y\": C2S.Implicit.Bus_DC_Volts || 0 });\n    datos.Power_Factor.push({ \"x\": time, \"y\": C2S.Implicit.Power_Factor || 0 });\n    datos.spm.push({ \"x\": time, \"y\": C2S.Implicit.spm || 0 });\n    datos.MtrVoltage.push({ \"x\": time, \"y\": MtrVoltage || 0 });\n    datos.MtrCurrent.push({ \"x\": time, \"y\": MtrCurrent || 0 });\n\n    datos.LL.push({ \"x\": time,          \"y\": LL || 0 });\n    datos.LN.push({ \"x\": time,          \"y\": LN || 0 });\n    datos.THDV.push({ \"x\": time,        \"y\": THDV || 0 });\n    datos.THDI.push({ \"x\": time,        \"y\": THDI || 0 });\n    datos.Corriente.push({ \"x\": time,   \"y\": Corriente || 0 });\n    datos.Potencia.push({ \"x\": time,    \"y\": Potencia || 0 });\n    datos.FP.push({ \"x\": time,          \"y\": FP || 0 });\n    datos.spm.push({ \"x\": time, \"y\": C2S.Implicit.spm || 0 });\n}\n\ncontext.set(\"trend\", datos, \"memoryOnly\");\n\nvar series = [];\n\nif (requestTrend.Output_Frequency == true) series.push(\"Frequency (Hz)\");\nif (requestTrend.Output_Current == true) series.push(\"Current (A)\");\nif (requestTrend.Output_Voltage == true) series.push(\"Voltaje Salida(V)\");\nif (requestTrend.Output_Power == true) series.push(\"Potencia Salida(kW)\");\nif (requestTrend.Bus_DC_Volts == true) series.push(\"Voltaje Bus(V)\");\nif (requestTrend.Power_Factor == true) series.push(\"Factor de potencia\");\nif (requestTrend.MtrVoltage == true) series.push(\"Voltaje Mtr(V)\");\nif (requestTrend.MtrCurrent == true) series.push(\"Corriente Mtr(A)\");\nif (requestTrend.spm == true) series.push(\"spm\");\n\nvar data = [];\n\nif (requestTrend.Output_Frequency == true) data.push(datos.Output_Frequency);\nif (requestTrend.Output_Current == true) data.push(datos.Output_Current);\nif (requestTrend.Output_Voltage == true) data.push(datos.Output_Voltage);\nif (requestTrend.Output_Power == true) data.push(datos.Output_Power);\nif (requestTrend.Bus_DC_Volts == true) data.push(datos.Bus_DC_Volts);\nif (requestTrend.Power_Factor == true) data.push(datos.Power_Factor);\nif (requestTrend.MtrVoltage == true) data.push(datos.MtrVoltage);\nif (requestTrend.MtrCurrent == true) data.push(datos.MtrCurrent);\nif (requestTrend.spm == true) data.push(datos.spm);\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
