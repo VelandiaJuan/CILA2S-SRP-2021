@@ -1284,7 +1284,9 @@
             "996a9142c814ab39"
         ],
         "x": 24,
-        "y": 429
+        "y": 429,
+        "w": 712,
+        "h": 242
     },
     {
         "id": "6abd418f.d175b",
@@ -1299,7 +1301,9 @@
             "b2f2659a.67f648"
         ],
         "x": 18,
-        "y": 23
+        "y": 23,
+        "w": 1754,
+        "h": 394
     },
     {
         "id": "8c207e440fb46f33",
@@ -1315,7 +1319,9 @@
             "9f77b0d829ad914b"
         ],
         "x": 514,
-        "y": 769
+        "y": 769,
+        "w": 282,
+        "h": 82
     },
     {
         "id": "38940f8.c9c27f",
@@ -2119,7 +2125,9 @@
             "b88575ca75fdb4f5"
         ],
         "x": 754,
-        "y": 429
+        "y": 429,
+        "w": 922,
+        "h": 82
     },
     {
         "id": "d175fb986dc9e991",
@@ -2139,7 +2147,9 @@
             "36c70d85dac8cd26"
         ],
         "x": 754,
-        "y": 519
+        "y": 519,
+        "w": 922,
+        "h": 82
     },
     {
         "id": "b97e1be50a47bba6",
@@ -2672,9 +2682,6 @@
             "8922c43ad20938eb",
             "4c27e6b08edf0ffc",
             "5a403bee88f4887f",
-            "1a9479c0c148315d",
-            "57b5faf0f037b042",
-            "f4501448d9191b7b",
             "4ca8e0820f935840",
             "082a723ceab423ec",
             "27d4bdc826a2723e",
@@ -2682,9 +2689,6 @@
             "c993389e6e990cfd",
             "70ad2919de1ae077",
             "202cf8054adfc6b7",
-            "1fe5c77b3dcf541a",
-            "d39ad64818549a08",
-            "e2e69505cf885090",
             "9ad45e910407f2fc",
             "3c93f37a8a56e69f",
             "b1565b6948288f5a",
@@ -2700,20 +2704,6 @@
         ],
         "x": 34,
         "y": 393
-    },
-    {
-        "id": "99b24e0896cf0f0c",
-        "type": "group",
-        "z": "a84e803f031d5b6d",
-        "name": "Multi Chart ",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "825a31a31582b84f"
-        ],
-        "x": 94,
-        "y": 39
     },
     {
         "id": "03502219e91ec6ae",
@@ -2758,7 +2748,9 @@
             "f8f18ac4d264c97b"
         ],
         "x": 64,
-        "y": 399
+        "y": 399,
+        "w": 882,
+        "h": 162
     },
     {
         "id": "610861a3f96d22bd",
@@ -2783,7 +2775,9 @@
             "391bfdae0921e15a"
         ],
         "x": 734,
-        "y": 119
+        "y": 119,
+        "w": 672,
+        "h": 222
     },
     {
         "id": "86af7867dc10f4a8",
@@ -2849,7 +2843,9 @@
             "3f59808d6a892b13"
         ],
         "x": 614,
-        "y": 239
+        "y": 239,
+        "w": 652,
+        "h": 242
     },
     {
         "id": "535ea85babd47e44",
@@ -2869,7 +2865,9 @@
             "6f994e137afcc579"
         ],
         "x": 14,
-        "y": 239
+        "y": 239,
+        "w": 372,
+        "h": 162
     },
     {
         "id": "8330e7a653863e55",
@@ -2887,7 +2885,9 @@
             "8b3d9fac296bfda2"
         ],
         "x": 14,
-        "y": 419
+        "y": 419,
+        "w": 482,
+        "h": 142
     },
     {
         "id": "b1331148614d9c76",
@@ -2908,7 +2908,9 @@
             "14d8b1dac83383c6"
         ],
         "x": 14,
-        "y": 59
+        "y": 59,
+        "w": 582,
+        "h": 162
     },
     {
         "id": "6c6732761a2613b5",
@@ -2994,7 +2996,9 @@
             "4f5d99301f0ddb47"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 1472,
+        "h": 522
     },
     {
         "id": "4b071e34b82c9788",
@@ -3193,7 +3197,9 @@
             "984de93babf87b5a"
         ],
         "x": 14,
-        "y": 599
+        "y": 599,
+        "w": 772,
+        "h": 322
     },
     {
         "id": "1ec8ef96430984c9",
@@ -3212,26 +3218,148 @@
             "31ad55c2c2e4aa56"
         ],
         "x": 14,
-        "y": 939
+        "y": 939,
+        "w": 652,
+        "h": 82
     },
     {
-        "id": "469a0d59a63c5b5f",
+        "id": "8870e62778de8f03",
         "type": "group",
-        "z": "a84e803f031d5b6d",
-        "name": "Multi Chart ",
+        "z": "b2e86c3dcf7c9876",
+        "name": "Adquision de Referencia",
         "style": {
             "label": true
         },
         "nodes": [
-            "a0f1bd1d31181faa",
-            "b196cb5205127cf5",
-            "483050174a6fe2fc",
-            "63387712451c2503",
-            "e4e2866f59345615",
-            "94c4ebb017a67ab8"
+            "7e00f2809a79dcd3",
+            "60b3994948c900fa",
+            "2a32f6f87647030f",
+            "9dffd061987ea7df",
+            "7b837e2e34207d72"
         ],
-        "x": 34,
-        "y": 159
+        "x": 754,
+        "y": 639,
+        "w": 812,
+        "h": 142
+    },
+    {
+        "id": "1cae295565edf7af",
+        "type": "group",
+        "z": "b2e86c3dcf7c9876",
+        "name": "Logica Control",
+        "style": {
+            "fill": "#000000",
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "00c14000ccdd06a6",
+            "f2f7d44d0416da88",
+            "6424221f57d30975",
+            "de462900b7d6577a",
+            "32d90f009b218331",
+            "c12a09b38de360d2",
+            "26427ddc34e1b785",
+            "37f28d19fe8185b7",
+            "fd04cc06bb71ad13",
+            "a5c9957e5e62d3cc",
+            "e338f68f5e5d4716"
+        ],
+        "x": 754,
+        "y": 799,
+        "w": 912,
+        "h": 282
+    },
+    {
+        "id": "0b448965687c5c73",
+        "type": "group",
+        "z": "b2e86c3dcf7c9876",
+        "name": "habilitar y notificaciones",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "208a65a85195d3c7",
+            "3b7ca42f6538e0c3",
+            "9356ff96a2dc8b4e",
+            "af5d5981a0c668f3",
+            "5a9821564feeb914",
+            "68d9735753df6e05",
+            "0a54853d8bd0648e",
+            "e0c079cfca1f68cf",
+            "d76c3b9a7c1e2c69",
+            "011982c32a1b942e",
+            "d0b608b531a87df4",
+            "6aa7336cdef0e0ed",
+            "8f93fdb9cb631807",
+            "8d6c9f1a4f1271bc",
+            "7b393b3c8ea98aaa",
+            "3d2c53ee80a4a3ea",
+            "993806b36938196c",
+            "5db543134b4df65f",
+            "993fbf3702263095",
+            "abff3daea87c3b04"
+        ],
+        "x": 754,
+        "y": 1099,
+        "w": 1392,
+        "h": 282
+    },
+    {
+        "id": "7bfaa88e76cb60c8",
+        "type": "group",
+        "z": "b2e86c3dcf7c9876",
+        "name": "ADQUISICIÓN TIEMPO",
+        "style": {
+            "stroke": "#3f93cf",
+            "label": true,
+            "color": "#bfdbef"
+        },
+        "nodes": [
+            "8881a6f1e319eebb",
+            "392614ea7066bf4f",
+            "da158ec4797f6af8",
+            "2cd90f67fb543d86",
+            "13faf83c9dc68007",
+            "fa4b448abb23ef6e",
+            "f7f68d507a83a177",
+            "6b8d6eb4cdf6bc2d",
+            "ba6e9891a40624a5",
+            "f600ef5f82a7658d",
+            "f494e3dc4eeafaae",
+            "17fa7f98b979dfd4",
+            "73ce523357c2a207",
+            "6b55e412f17b88b0"
+        ],
+        "x": 754,
+        "y": 339,
+        "w": 1172,
+        "h": 282
+    },
+    {
+        "id": "d666abbc9772bff6",
+        "type": "group",
+        "z": "b2e86c3dcf7c9876",
+        "name": "Actualizacion de Datos",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "67ccd4f03ab7af0e",
+            "963db184464ac56d",
+            "c48001e52239166d",
+            "e62fa1b8fdb7b6e0",
+            "22e6d29815a41524",
+            "3368c51d65b2b7fa",
+            "72181ec1ec038e76",
+            "44bdec8ee321a6cc",
+            "286d84c15baf1910",
+            "c8daea77c5255980"
+        ],
+        "x": 754,
+        "y": 139,
+        "w": 1572,
+        "h": 162
     },
     {
         "id": "b079c206d161b62c",
@@ -3644,7 +3772,9 @@
             "c30439cc.4bcb68"
         ],
         "x": 44,
-        "y": 49
+        "y": 49,
+        "w": 1422,
+        "h": 212
     },
     {
         "id": "b2f2659a.67f648",
@@ -3669,11 +3799,12 @@
             "ebf423611202c084",
             "d2bf0a88cc35bf5f",
             "e92736fb1766d1e0",
-            "de16ee9e71fc7646",
-            "2c9d8d63e1dd0fbe"
+            "de16ee9e71fc7646"
         ],
         "x": 44,
-        "y": 269
+        "y": 269,
+        "w": 1702,
+        "h": 122
     },
     {
         "id": "70a63b74.44894c",
@@ -6131,143 +6262,26 @@
         "y": 3959
     },
     {
-        "id": "8870e62778de8f03",
+        "id": "e065ae938a7e78bf",
         "type": "group",
-        "z": "b2e86c3dcf7c9876",
-        "name": "Adquision de Referencia",
+        "z": "a84e803f031d5b6d",
+        "name": "Multi Chart ",
         "style": {
             "label": true
         },
         "nodes": [
-            "7e00f2809a79dcd3",
-            "60b3994948c900fa",
-            "2a32f6f87647030f",
-            "9dffd061987ea7df",
-            "7b837e2e34207d72"
+            "452481a74b5f49ab",
+            "0e7459efc046b457",
+            "f957ffa12b1778e8",
+            "361ccdbf704203c1",
+            "46b5f3cc37d9b869",
+            "d2569f935e8013cd",
+            "547472794cb37ef4"
         ],
-        "x": 754,
-        "y": 639,
-        "w": 812,
-        "h": 142
-    },
-    {
-        "id": "1cae295565edf7af",
-        "type": "group",
-        "z": "b2e86c3dcf7c9876",
-        "name": "Logica Control",
-        "style": {
-            "fill": "#000000",
-            "label": true,
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "00c14000ccdd06a6",
-            "f2f7d44d0416da88",
-            "6424221f57d30975",
-            "de462900b7d6577a",
-            "32d90f009b218331",
-            "c12a09b38de360d2",
-            "26427ddc34e1b785",
-            "37f28d19fe8185b7",
-            "fd04cc06bb71ad13",
-            "a5c9957e5e62d3cc",
-            "e338f68f5e5d4716"
-        ],
-        "x": 754,
-        "y": 799,
-        "w": 912,
-        "h": 282
-    },
-    {
-        "id": "0b448965687c5c73",
-        "type": "group",
-        "z": "b2e86c3dcf7c9876",
-        "name": "habilitar y notificaciones",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "208a65a85195d3c7",
-            "3b7ca42f6538e0c3",
-            "9356ff96a2dc8b4e",
-            "af5d5981a0c668f3",
-            "5a9821564feeb914",
-            "68d9735753df6e05",
-            "0a54853d8bd0648e",
-            "e0c079cfca1f68cf",
-            "d76c3b9a7c1e2c69",
-            "011982c32a1b942e",
-            "d0b608b531a87df4",
-            "6aa7336cdef0e0ed",
-            "8f93fdb9cb631807",
-            "8d6c9f1a4f1271bc",
-            "7b393b3c8ea98aaa",
-            "3d2c53ee80a4a3ea",
-            "993806b36938196c",
-            "5db543134b4df65f",
-            "993fbf3702263095",
-            "abff3daea87c3b04"
-        ],
-        "x": 754,
-        "y": 1099,
-        "w": 1392,
-        "h": 282
-    },
-    {
-        "id": "7bfaa88e76cb60c8",
-        "type": "group",
-        "z": "b2e86c3dcf7c9876",
-        "name": "ADQUISICIÓN TIEMPO",
-        "style": {
-            "stroke": "#3f93cf",
-            "label": true,
-            "color": "#bfdbef"
-        },
-        "nodes": [
-            "8881a6f1e319eebb",
-            "392614ea7066bf4f",
-            "da158ec4797f6af8",
-            "2cd90f67fb543d86",
-            "13faf83c9dc68007",
-            "fa4b448abb23ef6e",
-            "f7f68d507a83a177",
-            "6b8d6eb4cdf6bc2d",
-            "ba6e9891a40624a5",
-            "f600ef5f82a7658d",
-            "f494e3dc4eeafaae",
-            "17fa7f98b979dfd4",
-            "73ce523357c2a207",
-            "6b55e412f17b88b0"
-        ],
-        "x": 754,
-        "y": 339,
-        "w": 1172,
-        "h": 282
-    },
-    {
-        "id": "d666abbc9772bff6",
-        "type": "group",
-        "z": "b2e86c3dcf7c9876",
-        "name": "Actualizacion de Datos",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "67ccd4f03ab7af0e",
-            "963db184464ac56d",
-            "c48001e52239166d",
-            "e62fa1b8fdb7b6e0",
-            "22e6d29815a41524",
-            "3368c51d65b2b7fa",
-            "72181ec1ec038e76",
-            "44bdec8ee321a6cc",
-            "286d84c15baf1910",
-            "c8daea77c5255980"
-        ],
-        "x": 754,
-        "y": 139,
-        "w": 1572,
-        "h": 162
+        "x": 34,
+        "y": 179,
+        "w": 572,
+        "h": 182
     },
     {
         "id": "d25d405a.19cff",
@@ -34989,8 +35003,7 @@
         "y": 310,
         "wires": [
             [
-                "d105f996.05fde8",
-                "2c9d8d63e1dd0fbe"
+                "d105f996.05fde8"
             ]
         ]
     },
@@ -70762,24 +70775,6 @@
         "wires": []
     },
     {
-        "id": "2c9d8d63e1dd0fbe",
-        "type": "debug",
-        "z": "dd18d94e.4b1408",
-        "g": "b2f2659a.67f648",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 360,
-        "y": 360,
-        "wires": []
-    },
-    {
         "id": "f7651d3e303762b8",
         "type": "pccc out",
         "z": "9941a439.4b17c8",
@@ -71277,24 +71272,6 @@
         "x": 3395,
         "y": 620,
         "wires": []
-    },
-    {
-        "id": "825a31a31582b84f",
-        "type": "function",
-        "z": "a84e803f031d5b6d",
-        "g": "99b24e0896cf0f0c",
-        "name": "Trends",
-        "func": "var requestTrend = flow.get(\"trends\", \"memoryOnly\") || {};\nvar C2S = global.get(\"C2S\", \"memoryOnly\") || {};\nvar time = msg.payload;\n\nvar datos = context.get(\"trend\", \"memoryOnly\") || null;\n\nif (datos == null) {\n    datos = {   //Datos de suministro de agua\n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Implicit.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Implicit.Output_Current || 0 }],\n        \n    };\n}\nelse {\n    if (datos.Output_Frequency.length > 59) {\n        datos.Output_Frequency.shift();\n        datos.Output_Current.shift();\n        \n    }\n\n\n    datos.Output_Frequency.push({ \"x\": time, \"y\": C2S.Implicit.Output_Frequency || 0 });\n    datos.Output_Current.push({ \"x\": time, \"y\": C2S.Implicit.Output_Current || 0 });\n   \n}\n\ncontext.set(\"trend\", datos, \"memoryOnly\");\n\nvar series = [];\n\nif (requestTrend.Output_Frequency == true) series.push(\"Frequency (Hz)\");\nif (requestTrend.Output_Current == true) series.push(\"Current (A)\");\n\n\n\nvar data = [];\n\nif (requestTrend.Output_Frequency == true) data.push(datos.Output_Frequency);\nif (requestTrend.Output_Current == true) data.push(datos.Output_Current);\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 170,
-        "y": 80,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "6680e78d1da32967",
@@ -81144,246 +81121,6 @@
         ]
     },
     {
-        "id": "a0f1bd1d31181faa",
-        "type": "inject",
-        "z": "a84e803f031d5b6d",
-        "g": "469a0d59a63c5b5f",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payloadType": "date",
-        "x": 150,
-        "y": 260,
-        "wires": [
-            [
-                "b196cb5205127cf5"
-            ]
-        ]
-    },
-    {
-        "id": "b196cb5205127cf5",
-        "type": "function",
-        "z": "a84e803f031d5b6d",
-        "g": "469a0d59a63c5b5f",
-        "name": "Trends_1",
-        "func": "var requestTrend = flow.get(\"trends\", \"memoryOnly\") || {};\nvar C2S = global.get(\"C2S\", \"memoryOnly\") || {};\nvar time = msg.payload;\n\nvar datos = context.get(\"trend\", \"memoryOnly\") || null;\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\n\nvar MtrVoltage = C2S.Implicit.Output_Voltage * Rtx;\nvar MtrCurrent = C2S.Implicit.Output_Current / Rtx;\n\nvar LL = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Voltage\", 'memoryOnly') || 0;\nvar LN = global.get(\"PQA.Real_Time_Parameters.Average_Line_Voltage\", 'memoryOnly') || 0;\nvar THDV = global.get(\"PQA.Harmonics.Power_Quality.THD_avg\", 'memoryOnly') || 0;\nvar THDI = global.get(\"PQA.Harmonics.Power_Quality.THD_Iavg\", 'memoryOnly') || 0;\nvar Corriente = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Current\", 'memoryOnly') || 0;\nvar Potencia = global.get(\"PQA.Real_Time_Parameters.Total_System_Power\", 'memoryOnly') || 0;\nvar FP = global.get(\"PQA.Real_Time_Parameters.Total_Power_Factor\", 'memoryOnly') || 0;\n\n\nif (datos == null) {\n    datos = {   //Datos de suministro de agua\n        \n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Implicit.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Implicit.Output_Current || 0 }],\n        'Output_Voltage': [{ \"x\": time, \"y\": C2S.Implicit.Output_Voltage || 0 }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Implicit.Output_Power || 0 }],\n        'Bus_DC_Volts': [{ \"x\": time, \"y\": C2S.Implicit.Bus_DC_Volts || 0 }],\n        'Power_Factor': [{ \"x\": time, \"y\": C2S.Implicit.Power_Factor || 0 }],\n        'MtrVoltage': [{ \"x\": time, \"y\": MtrVoltage || 0 }],\n        'MtrCurrent': [{ \"x\": time, \"y\": MtrCurrent || 0 }],\n        'LL': [{ \"x\": time, \"y\": LL || 0 }],\n        'LN': [{ \"x\": time, \"y\": LN || 0 }],\n        'THDV': [{ \"x\": time, \"y\": THDV || 0 }],\n        'THDI': [{ \"x\": time, \"y\": THDI || 0 }],\n        'Corriente': [{ \"x\": time, \"y\": Corriente || 0 }],\n        'Potencia': [{ \"x\": time, \"y\": Potencia || 0 }],\n        'FP': [{ \"x\": time, \"y\": FP || 0 }]\n    };\n}\nelse {\n    if (datos.Output_Frequency.length > 59) {\n        datos.Output_Frequency.shift();\n        datos.Output_Current.shift();\n        datos.Output_Voltage.shift();\n        datos.Output_Power.shift();\n        datos.Bus_DC_Volts.shift();\n        datos.Power_Factor.shift();\n        datos.MtrVoltage.shift();\n        datos.MtrCurrent.shift();\n\n        datos.LL.shift();\n        datos.LN.shift();\n        datos.THDV.shift();\n        datos.THDI.shift();\n        datos.Corriente.shift();\n        datos.Potencia.shift();\n        datos.FP.shift();\n    }\n\n\n    datos.Output_Frequency.push({ \"x\": time, \"y\": C2S.Implicit.Output_Frequency || 0 });\n    datos.Output_Current.push({ \"x\": time, \"y\": C2S.Implicit.Output_Current || 0 });\n    datos.Output_Voltage.push({ \"x\": time, \"y\": C2S.Implicit.Output_Voltage || 0 });\n    datos.Output_Power.push({ \"x\": time, \"y\": C2S.Implicit.Output_Power || 0 });\n    datos.Bus_DC_Volts.push({ \"x\": time, \"y\": C2S.Implicit.Bus_DC_Volts || 0 });\n    datos.Power_Factor.push({ \"x\": time, \"y\": C2S.Implicit.Power_Factor || 0 });\n    datos.MtrVoltage.push({ \"x\": time, \"y\": MtrVoltage || 0 });\n    datos.MtrCurrent.push({ \"x\": time, \"y\": MtrCurrent || 0 });\n\n    datos.LL.push({ \"x\": time,          \"y\": LL || 0 });\n    datos.LN.push({ \"x\": time,          \"y\": LN || 0 });\n    datos.THDV.push({ \"x\": time,        \"y\": THDV || 0 });\n    datos.THDI.push({ \"x\": time,        \"y\": THDI || 0 });\n    datos.Corriente.push({ \"x\": time,   \"y\": Corriente || 0 });\n    datos.Potencia.push({ \"x\": time,    \"y\": Potencia || 0 });\n    datos.FP.push({ \"x\": time,          \"y\": FP || 0 });\n}\n\ncontext.set(\"trend\", datos, \"memoryOnly\");\n\nvar series = [];\n\nif (requestTrend.Output_Frequency == true) series.push(\"Frequency (Hz)\");\nif (requestTrend.Output_Current == true) series.push(\"Current (A)\");\nif (requestTrend.Output_Voltage == true) series.push(\"Voltaje Salida(V)\");\nif (requestTrend.Output_Power == true) series.push(\"Potencia Salida(kW)\");\nif (requestTrend.Bus_DC_Volts == true) series.push(\"Voltaje Bus(V)\");\nif (requestTrend.Power_Factor == true) series.push(\"Factor de potencia\");\nif (requestTrend.MtrVoltage == true) series.push(\"Voltaje Mtr(V)\");\nif (requestTrend.MtrCurrent == true) series.push(\"Corriente Mtr(A)\");\n\n\n\n\nvar data = [];\n\nif (requestTrend.Output_Frequency == true) data.push(datos.Output_Frequency);\nif (requestTrend.Output_Current == true) data.push(datos.Output_Current);\nif (requestTrend.Output_Voltage == true) data.push(datos.Output_Voltage);\nif (requestTrend.Output_Power == true) data.push(datos.Output_Power);\nif (requestTrend.Bus_DC_Volts == true) data.push(datos.Bus_DC_Volts);\nif (requestTrend.Power_Factor == true) data.push(datos.Power_Factor);\nif (requestTrend.MtrVoltage == true) data.push(datos.MtrVoltage);\nif (requestTrend.MtrCurrent == true) data.push(datos.MtrCurrent);\n\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 300,
-        "y": 260,
-        "wires": [
-            [
-                "483050174a6fe2fc"
-            ]
-        ]
-    },
-    {
-        "id": "483050174a6fe2fc",
-        "type": "ui_chart",
-        "z": "a84e803f031d5b6d",
-        "g": "469a0d59a63c5b5f",
-        "name": "",
-        "group": "94e450d3bce1686e",
-        "order": 2,
-        "width": 12,
-        "height": 10,
-        "label": "Tendencias Multivariables",
-        "chartType": "line",
-        "legend": "true",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "No available data",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "",
-        "removeOlder": "10",
-        "removeOlderPoints": "60",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#194b0c",
-            "#ff7f0e",
-            "#282a28",
-            "#9f0961",
-            "#d62728",
-            "#f6b7b6",
-            "#d8db39",
-            "#8ad098"
-        ],
-        "outputs": 1,
-        "x": 490,
-        "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "63387712451c2503",
-        "type": "change",
-        "z": "a84e803f031d5b6d",
-        "g": "469a0d59a63c5b5f",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::trends",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 460,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e4e2866f59345615",
-        "type": "function",
-        "z": "a84e803f031d5b6d",
-        "g": "469a0d59a63c5b5f",
-        "name": "request",
-        "func": "var i,request={};\nfor (i = 0; i < msg.payload.length ;i++){\n    if (msg.payload[i] == \"Output_Frequency\") request.Output_Frequency=true;\n    if (msg.payload[i] == \"Output_Current\") request.Output_Current=true;\n    if (msg.payload[i] == \"Voltaje_Salida\") request.Output_Voltage = true;\n    if (msg.payload[i] == \"Potencia_Salida\") request.Output_Power = true;\n    if (msg.payload[i] == \"Bus_DC_Volts\") request.Bus_DC_Volts = true;\n    if (msg.payload[i] == \"Power_Factor\") request.Power_Factor = true;\n    if (msg.payload[i] == \"MtrVoltage\") request.MtrVoltage = true;\n    if (msg.payload[i] == \"MtrCurrent\") request.MtrCurrent = true;\n\n    if (msg.payload[i] == \"LL\") request.LL = true;\n    if (msg.payload[i] == \"LN\") request.LN = true;\n    if (msg.payload[i] == \"THDV\") request.THDV = true;\n    if (msg.payload[i] == \"THDI\") request.THDI = true;\n    if (msg.payload[i] == \"Corriente\") request.Corriente = true;\n    if (msg.payload[i] == \"Potencia\") request.Potencia = true;\n    if (msg.payload[i] == \"FP\") request.FP = true;\n        \n}\n\nmsg.payload = request;\nnode.status({ fill: \"red\", shape: \"ring\", text: msg.payload });\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 300,
-        "y": 200,
-        "wires": [
-            [
-                "63387712451c2503"
-            ]
-        ]
-    },
-    {
-        "id": "94c4ebb017a67ab8",
-        "type": "ui_dropdown",
-        "z": "a84e803f031d5b6d",
-        "g": "469a0d59a63c5b5f",
-        "name": "",
-        "label": "",
-        "tooltip": "",
-        "place": "Select trends (multiple variable options)",
-        "group": "94e450d3bce1686e",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "multiple": true,
-        "options": [
-            {
-                "label": "Frecuencia de salida",
-                "value": "Output_Frequency",
-                "type": "str"
-            },
-            {
-                "label": "Corriente de salida VSD",
-                "value": "Output_Current",
-                "type": "str"
-            },
-            {
-                "label": "Voltaje salida VSD",
-                "value": "Voltaje_Salida",
-                "type": "str"
-            },
-            {
-                "label": "Potencia Salida",
-                "value": "Potencia_Salida",
-                "type": "str"
-            },
-            {
-                "label": "Bus DC",
-                "value": "Bus_DC_Volts",
-                "type": "str"
-            },
-            {
-                "label": "Factor de Potencia",
-                "value": "Power_Factor",
-                "type": "str"
-            },
-            {
-                "label": "Voltaje Motor",
-                "value": "MtrVoltage",
-                "type": "str"
-            },
-            {
-                "label": "Corriente Motor",
-                "value": "MtrCurrent",
-                "type": "str"
-            },
-            {
-                "label": "LL",
-                "value": "LL",
-                "type": "str"
-            },
-            {
-                "label": "LN",
-                "value": "LN",
-                "type": "str"
-            },
-            {
-                "label": "THDV",
-                "value": "THDV",
-                "type": "str"
-            },
-            {
-                "label": "THDI",
-                "value": "THDI",
-                "type": "str"
-            },
-            {
-                "label": "Corriente",
-                "value": "Corriente",
-                "type": "str"
-            },
-            {
-                "label": "Potencia",
-                "value": "Potencia",
-                "type": "str"
-            },
-            {
-                "label": "Factor de potencia",
-                "value": "FP",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "",
-        "x": 140,
-        "y": 200,
-        "wires": [
-            [
-                "e4e2866f59345615"
-            ]
-        ]
-    },
-    {
         "id": "6b55e412f17b88b0",
         "type": "ui_button",
         "z": "b2e86c3dcf7c9876",
@@ -82936,6 +82673,277 @@
         "wires": [
             [],
             []
+        ]
+    },
+    {
+        "id": "452481a74b5f49ab",
+        "type": "inject",
+        "z": "a84e803f031d5b6d",
+        "g": "e065ae938a7e78bf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 280,
+        "wires": [
+            [
+                "d2569f935e8013cd"
+            ]
+        ]
+    },
+    {
+        "id": "0e7459efc046b457",
+        "type": "ui_chart",
+        "z": "a84e803f031d5b6d",
+        "g": "e065ae938a7e78bf",
+        "name": "",
+        "group": "94e450d3bce1686e",
+        "order": 2,
+        "width": 12,
+        "height": 10,
+        "label": "Tendencias Multivariables",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No available data",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "60",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#194b0c",
+            "#ff7f0e",
+            "#282a28",
+            "#9f0961",
+            "#d62728",
+            "#f6b7b6",
+            "#d8db39",
+            "#8ad098"
+        ],
+        "outputs": 1,
+        "x": 470,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f957ffa12b1778e8",
+        "type": "change",
+        "z": "a84e803f031d5b6d",
+        "g": "e065ae938a7e78bf",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::trends",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "361ccdbf704203c1",
+        "type": "function",
+        "z": "a84e803f031d5b6d",
+        "g": "e065ae938a7e78bf",
+        "name": "request",
+        "func": "var i,request={};\nfor (i = 0; i < msg.payload.length ;i++){\n    if (msg.payload[i] == \"Output_Frequency\") request.Output_Frequency=true;\n    if (msg.payload[i] == \"Output_Current\") request.Output_Current=true;\n    if (msg.payload[i] == \"Voltaje_Salida\") request.Output_Voltage = true;\n    if (msg.payload[i] == \"Potencia_Salida\") request.Output_Power = true;\n    if (msg.payload[i] == \"Bus_DC_Volts\") request.Bus_DC_Volts = true;\n    if (msg.payload[i] == \"Power_Factor\") request.Power_Factor = true;\n    if (msg.payload[i] == \"MtrVoltage\") request.MtrVoltage = true;\n    if (msg.payload[i] == \"MtrCurrent\") request.MtrCurrent = true;\n\n    if (msg.payload[i] == \"LL\") request.LL = true;\n    if (msg.payload[i] == \"LN\") request.LN = true;\n    if (msg.payload[i] == \"THDV\") request.THDV = true;\n    if (msg.payload[i] == \"THDI\") request.THDI = true;\n    if (msg.payload[i] == \"Corriente\") request.Corriente = true;\n    if (msg.payload[i] == \"Potencia\") request.Potencia = true;\n    if (msg.payload[i] == \"FP\") request.FP = true;\n    if (msg.payload[i] == \"spm\") request.spm = true;\n        \n}\n\nmsg.payload = request;\nnode.status({ fill: \"red\", shape: \"ring\", text: msg.payload });\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 220,
+        "wires": [
+            [
+                "f957ffa12b1778e8"
+            ]
+        ]
+    },
+    {
+        "id": "46b5f3cc37d9b869",
+        "type": "ui_dropdown",
+        "z": "a84e803f031d5b6d",
+        "g": "e065ae938a7e78bf",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Select trends (multiple variable options)",
+        "group": "94e450d3bce1686e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": true,
+        "options": [
+            {
+                "label": "SPM",
+                "value": "spm",
+                "type": "str"
+            },
+            {
+                "label": "Frecuencia de salida",
+                "value": "Output_Frequency",
+                "type": "str"
+            },
+            {
+                "label": "Corriente de salida VSD",
+                "value": "Output_Current",
+                "type": "str"
+            },
+            {
+                "label": "Voltaje salida VSD",
+                "value": "Voltaje_Salida",
+                "type": "str"
+            },
+            {
+                "label": "Potencia Salida",
+                "value": "Potencia_Salida",
+                "type": "str"
+            },
+            {
+                "label": "Bus DC",
+                "value": "Bus_DC_Volts",
+                "type": "str"
+            },
+            {
+                "label": "Factor de Potencia",
+                "value": "Power_Factor",
+                "type": "str"
+            },
+            {
+                "label": "Voltaje Motor",
+                "value": "MtrVoltage",
+                "type": "str"
+            },
+            {
+                "label": "Corriente Motor",
+                "value": "MtrCurrent",
+                "type": "str"
+            },
+            {
+                "label": "LL",
+                "value": "LL",
+                "type": "str"
+            },
+            {
+                "label": "LN",
+                "value": "LN",
+                "type": "str"
+            },
+            {
+                "label": "THDV",
+                "value": "THDV",
+                "type": "str"
+            },
+            {
+                "label": "THDI",
+                "value": "THDI",
+                "type": "str"
+            },
+            {
+                "label": "Corriente",
+                "value": "Corriente",
+                "type": "str"
+            },
+            {
+                "label": "Potencia",
+                "value": "Potencia",
+                "type": "str"
+            },
+            {
+                "label": "Factor de potencia",
+                "value": "FP",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "x": 140,
+        "y": 220,
+        "wires": [
+            [
+                "361ccdbf704203c1"
+            ]
+        ]
+    },
+    {
+        "id": "d2569f935e8013cd",
+        "type": "switch",
+        "z": "a84e803f031d5b6d",
+        "g": "e065ae938a7e78bf",
+        "name": "Pantalla",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Trends",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 300,
+        "y": 260,
+        "wires": [
+            [
+                "547472794cb37ef4"
+            ]
+        ]
+    },
+    {
+        "id": "547472794cb37ef4",
+        "type": "function",
+        "z": "a84e803f031d5b6d",
+        "g": "e065ae938a7e78bf",
+        "name": "Trends_1",
+        "func": "var requestTrend = flow.get(\"trends\", \"memoryOnly\") || {};\nvar C2S = global.get(\"C2S\", \"memoryOnly\") || {};\nvar time = msg.payload;\n\nvar datos = context.get(\"trend\", \"memoryOnly\") || null;\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\n\nvar MtrVoltage = C2S.Implicit.Output_Voltage * Rtx;\nvar MtrCurrent = C2S.Implicit.Output_Current / Rtx;\n\nvar LL = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Voltage\", 'memoryOnly') || 0;\nvar LN = global.get(\"PQA.Real_Time_Parameters.Average_Line_Voltage\", 'memoryOnly') || 0;\nvar THDV = global.get(\"PQA.Harmonics.Power_Quality.THD_avg\", 'memoryOnly') || 0;\nvar THDI = global.get(\"PQA.Harmonics.Power_Quality.THD_Iavg\", 'memoryOnly') || 0;\nvar Corriente = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Current\", 'memoryOnly') || 0;\nvar Potencia = global.get(\"PQA.Real_Time_Parameters.Total_System_Power\", 'memoryOnly') || 0;\nvar FP = global.get(\"PQA.Real_Time_Parameters.Total_Power_Factor\", 'memoryOnly') || 0;\n\n\nif (datos == null) {\n    datos = {   //Datos de suministro de agua\n        \n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Implicit.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Implicit.Output_Current || 0 }],\n        'Output_Voltage': [{ \"x\": time, \"y\": C2S.Implicit.Output_Voltage || 0 }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Implicit.Output_Power || 0 }],\n        'Bus_DC_Volts': [{ \"x\": time, \"y\": C2S.Implicit.Bus_DC_Volts || 0 }],\n        'Power_Factor': [{ \"x\": time, \"y\": C2S.Implicit.Power_Factor || 0 }],\n        'MtrVoltage': [{ \"x\": time, \"y\": MtrVoltage || 0 }],\n        'MtrCurrent': [{ \"x\": time, \"y\": MtrCurrent || 0 }],\n        'LL': [{ \"x\": time, \"y\": LL || 0 }],\n        'LN': [{ \"x\": time, \"y\": LN || 0 }],\n        'THDV': [{ \"x\": time, \"y\": THDV || 0 }],\n        'THDI': [{ \"x\": time, \"y\": THDI || 0 }],\n        'Corriente': [{ \"x\": time, \"y\": Corriente || 0 }],\n        'Potencia': [{ \"x\": time, \"y\": Potencia || 0 }],\n        'FP': [{ \"x\": time, \"y\": FP || 0 }]\n    };\n}\nelse {\n    if (datos.Output_Frequency.length > 59) {\n        datos.Output_Frequency.shift();\n        datos.Output_Current.shift();\n        datos.Output_Voltage.shift();\n        datos.Output_Power.shift();\n        datos.Bus_DC_Volts.shift();\n        datos.Power_Factor.shift();\n        datos.MtrVoltage.shift();\n        datos.MtrCurrent.shift();\n\n        datos.LL.shift();\n        datos.LN.shift();\n        datos.THDV.shift();\n        datos.THDI.shift();\n        datos.Corriente.shift();\n        datos.Potencia.shift();\n        datos.FP.shift();\n    }\n\n\n    datos.Output_Frequency.push({ \"x\": time, \"y\": C2S.Implicit.Output_Frequency || 0 });\n    datos.Output_Current.push({ \"x\": time, \"y\": C2S.Implicit.Output_Current || 0 });\n    datos.Output_Voltage.push({ \"x\": time, \"y\": C2S.Implicit.Output_Voltage || 0 });\n    datos.Output_Power.push({ \"x\": time, \"y\": C2S.Implicit.Output_Power || 0 });\n    datos.Bus_DC_Volts.push({ \"x\": time, \"y\": C2S.Implicit.Bus_DC_Volts || 0 });\n    datos.Power_Factor.push({ \"x\": time, \"y\": C2S.Implicit.Power_Factor || 0 });\n    datos.MtrVoltage.push({ \"x\": time, \"y\": MtrVoltage || 0 });\n    datos.MtrCurrent.push({ \"x\": time, \"y\": MtrCurrent || 0 });\n\n    datos.LL.push({ \"x\": time,          \"y\": LL || 0 });\n    datos.LN.push({ \"x\": time,          \"y\": LN || 0 });\n    datos.THDV.push({ \"x\": time,        \"y\": THDV || 0 });\n    datos.THDI.push({ \"x\": time,        \"y\": THDI || 0 });\n    datos.Corriente.push({ \"x\": time,   \"y\": Corriente || 0 });\n    datos.Potencia.push({ \"x\": time,    \"y\": Potencia || 0 });\n    datos.FP.push({ \"x\": time,          \"y\": FP || 0 });\n}\n\ncontext.set(\"trend\", datos, \"memoryOnly\");\n\nvar series = [];\n\nif (requestTrend.Output_Frequency == true) series.push(\"Frequency (Hz)\");\nif (requestTrend.Output_Current == true) series.push(\"Current (A)\");\nif (requestTrend.Output_Voltage == true) series.push(\"Voltaje Salida(V)\");\nif (requestTrend.Output_Power == true) series.push(\"Potencia Salida(kW)\");\nif (requestTrend.Bus_DC_Volts == true) series.push(\"Voltaje Bus(V)\");\nif (requestTrend.Power_Factor == true) series.push(\"Factor de potencia\");\nif (requestTrend.MtrVoltage == true) series.push(\"Voltaje Mtr(V)\");\nif (requestTrend.MtrCurrent == true) series.push(\"Corriente Mtr(A)\");\n\n\n\n\nvar data = [];\n\nif (requestTrend.Output_Frequency == true) data.push(datos.Output_Frequency);\nif (requestTrend.Output_Current == true) data.push(datos.Output_Current);\nif (requestTrend.Output_Voltage == true) data.push(datos.Output_Voltage);\nif (requestTrend.Output_Power == true) data.push(datos.Output_Power);\nif (requestTrend.Bus_DC_Volts == true) data.push(datos.Bus_DC_Volts);\nif (requestTrend.Power_Factor == true) data.push(datos.Power_Factor);\nif (requestTrend.MtrVoltage == true) data.push(datos.MtrVoltage);\nif (requestTrend.MtrCurrent == true) data.push(datos.MtrCurrent);\n\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 260,
+        "wires": [
+            [
+                "0e7459efc046b457"
+            ]
         ]
     }
 ]
