@@ -729,180 +729,6 @@
         "icon": "node-red/parser-csv.svg"
     },
     {
-        "id": "ab86e94738aa1aef",
-        "type": "subflow",
-        "name": "VSDBasic (2)",
-        "info": "",
-        "category": "VSD",
-        "in": [
-            {
-                "x": 90,
-                "y": 200,
-                "wires": [
-                    {
-                        "id": "fd1f4341548ecd31"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 1090,
-                "y": 220,
-                "wires": [
-                    {
-                        "id": "49bc183e27eb4d0b",
-                        "port": 0
-                    }
-                ]
-            },
-            {
-                "x": 2190,
-                "y": 190,
-                "wires": [
-                    {
-                        "id": "b0b4b2348867f14a",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [],
-        "color": "#E9967A",
-        "icon": "font-awesome/fa-mail-forward",
-        "status": {
-            "x": 1270,
-            "y": 270,
-            "wires": [
-                {
-                    "id": "b9590d824e9d5d35",
-                    "port": 0
-                }
-            ]
-        }
-    },
-    {
-        "id": "980d1b733485cd67",
-        "type": "subflow",
-        "name": "Drive Reference (2)",
-        "info": "",
-        "category": "VSD",
-        "in": [
-            {
-                "x": 170,
-                "y": 60,
-                "wires": [
-                    {
-                        "id": "132e9ce0236b3daf"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 520,
-                "y": 150,
-                "wires": [
-                    {
-                        "id": "9c9fa66cf61f7acf",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [],
-        "color": "#E9967A",
-        "icon": "node-red-dashboard/ui_gauge.png",
-        "status": {
-            "x": 230,
-            "y": 110,
-            "wires": [
-                {
-                    "id": "980d1b733485cd67",
-                    "port": 0
-                }
-            ]
-        }
-    },
-    {
-        "id": "e3435d35df5fc5eb",
-        "type": "subflow",
-        "name": "VSDWrite (2)",
-        "info": "",
-        "category": "VSD",
-        "in": [
-            {
-                "x": 60,
-                "y": 60,
-                "wires": [
-                    {
-                        "id": "714954d2d2ee579e"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 640,
-                "y": 40,
-                "wires": [
-                    {
-                        "id": "bd9619609c119084",
-                        "port": 0
-                    }
-                ]
-            },
-            {
-                "x": 640,
-                "y": 90,
-                "wires": [
-                    {
-                        "id": "bd9619609c119084",
-                        "port": 2
-                    }
-                ]
-            }
-        ],
-        "env": [
-            {
-                "name": "Parameter",
-                "type": "num",
-                "value": "0",
-                "ui": {
-                    "icon": "font-awesome/fa-sort-numeric-asc",
-                    "label": {
-                        "en-US": "Parámetro:"
-                    },
-                    "type": "input",
-                    "opts": {
-                        "types": [
-                            "num"
-                        ]
-                    }
-                }
-            },
-            {
-                "name": "Datatype",
-                "type": "str",
-                "value": "REAL",
-                "ui": {
-                    "icon": "font-awesome/fa-file-text-o",
-                    "label": {
-                        "en-US": "Tipo de dato:"
-                    },
-                    "type": "input",
-                    "opts": {
-                        "types": [
-                            "str"
-                        ]
-                    }
-                }
-            }
-        ],
-        "color": "#E9967A",
-        "icon": "font-awesome/fa-cogs"
-    },
-    {
         "id": "777220ba7e70bcf9",
         "type": "subflow",
         "name": "S0_FOR_STOP",
@@ -977,59 +803,6 @@
                 ]
             }
         ]
-    },
-    {
-        "id": "dede01fd738b74fb",
-        "type": "subflow",
-        "name": "VSDBasic (3)",
-        "info": "",
-        "category": "VSD",
-        "in": [
-            {
-                "x": 90,
-                "y": 200,
-                "wires": [
-                    {
-                        "id": "73487ba243ec76e5"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 1090,
-                "y": 220,
-                "wires": [
-                    {
-                        "id": "05e19853d114c047",
-                        "port": 0
-                    }
-                ]
-            },
-            {
-                "x": 2190,
-                "y": 190,
-                "wires": [
-                    {
-                        "id": "915078d527ef8b9c",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [],
-        "color": "#E9967A",
-        "icon": "font-awesome/fa-mail-forward",
-        "status": {
-            "x": 1270,
-            "y": 270,
-            "wires": [
-                {
-                    "id": "b2a15dd6797ee5fd",
-                    "port": 0
-                }
-            ]
-        }
     },
     {
         "id": "1d0c3cb2.7129f3",
@@ -6361,14 +6134,9 @@
         "id": "8870e62778de8f03",
         "type": "group",
         "z": "b2e86c3dcf7c9876",
+        "name": "Adquision de Referencia",
         "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
+            "label": true
         },
         "nodes": [
             "7e00f2809a79dcd3",
@@ -6377,8 +6145,8 @@
             "9dffd061987ea7df",
             "7b837e2e34207d72"
         ],
-        "x": 1514,
-        "y": 659,
+        "x": 754,
+        "y": 639,
         "w": 812,
         "h": 142
     },
@@ -6386,14 +6154,11 @@
         "id": "1cae295565edf7af",
         "type": "group",
         "z": "b2e86c3dcf7c9876",
+        "name": "Logica Control",
         "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
+            "fill": "#000000",
             "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
+            "color": "#ffffff"
         },
         "nodes": [
             "00c14000ccdd06a6",
@@ -6405,25 +6170,21 @@
             "26427ddc34e1b785",
             "37f28d19fe8185b7",
             "fd04cc06bb71ad13",
-            "a5c9957e5e62d3cc"
+            "a5c9957e5e62d3cc",
+            "e338f68f5e5d4716"
         ],
-        "x": 1474,
-        "y": 839,
-        "w": 852,
+        "x": 754,
+        "y": 799,
+        "w": 912,
         "h": 282
     },
     {
         "id": "0b448965687c5c73",
         "type": "group",
         "z": "b2e86c3dcf7c9876",
+        "name": "habilitar y notificaciones",
         "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
+            "label": true
         },
         "nodes": [
             "208a65a85195d3c7",
@@ -6447,8 +6208,8 @@
             "993fbf3702263095",
             "abff3daea87c3b04"
         ],
-        "x": 934,
-        "y": 1139,
+        "x": 754,
+        "y": 1099,
         "w": 1392,
         "h": 282
     },
@@ -6474,25 +6235,22 @@
             "ba6e9891a40624a5",
             "f600ef5f82a7658d",
             "f494e3dc4eeafaae",
-            "17fa7f98b979dfd4"
+            "17fa7f98b979dfd4",
+            "73ce523357c2a207",
+            "6b55e412f17b88b0"
         ],
-        "x": 1674,
-        "y": 319,
-        "w": 652,
+        "x": 754,
+        "y": 339,
+        "w": 1172,
         "h": 282
     },
     {
         "id": "d666abbc9772bff6",
         "type": "group",
         "z": "b2e86c3dcf7c9876",
+        "name": "Actualizacion de Datos",
         "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
+            "label": true
         },
         "nodes": [
             "67ccd4f03ab7af0e",
@@ -71657,862 +71415,6 @@
         "wires": []
     },
     {
-        "id": "9c4f888c1aaa6513",
-        "type": "change",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(file)::C2S.Command.Run",
-                "pt": "global",
-                "to": "true",
-                "tot": "bool"
-            },
-            {
-                "t": "set",
-                "p": "#:(file)::C2S.Command.Reset",
-                "pt": "global",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 490,
-        "y": 440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e308c4a245c408c3",
-        "type": "change",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(file)::C2S.Command.Run",
-                "pt": "global",
-                "to": "false",
-                "tot": "bool"
-            },
-            {
-                "t": "set",
-                "p": "#:(file)::C2S.Command.Reset",
-                "pt": "global",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 490,
-        "y": 480,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d2d78424213e3bac",
-        "type": "change",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "C2S.Command.Reset",
-                "pt": "global",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 540,
-        "y": 520,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "49bc183e27eb4d0b",
-        "type": "function",
-        "z": "ab86e94738aa1aef",
-        "name": "LogicCommand",
-        "func": "var Direction = global.get(\"C2S.Drive_Status.Command_dir\",\"memoryOnly\");\n\n//Mensaje de salida\nif(msg.payload == 'Start'){\n    if(Direction == 0){\n        msg.command = \"Arranque 'Reverse'\";\n    }\n    else{\n        msg.command = \"Arranque 'Forward'\";\n    }\n    msg.payload = 2;\n}\nelse if(msg.payload == 'Stop'){\n    msg.command = \"Parada del equipo\";\n    msg.payload = 1\n}\nelse if(msg.payload == 'Reset'){\n    msg.command = \"Reset del equipo\";\n    msg.payload = 8;\n    \n}\nelse if(msg.payload == 'Forward'){\n    msg.command = \"Cambio sentido de giro a 'Forward'\";\n    msg.payload = 16;\n}\nelse if(msg.payload == 'Reverse'){\n    msg.command = \"Cambio sentido de giro a 'Reverse'\";\n    msg.payload = 32;\n}\nreturn msg",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 920,
-        "y": 190,
-        "wires": [
-            [
-                "b9590d824e9d5d35",
-                "b72b1bb1676fc39d",
-                "85a7e9a1f33daa9f",
-                "8438018a059c273a"
-            ]
-        ]
-    },
-    {
-        "id": "d73e742979f6ca9c",
-        "type": "switch",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Start",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Stop",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Reset",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 340,
-        "y": 150,
-        "wires": [
-            [
-                "d6f692e4402e98dc"
-            ],
-            [
-                "6b4e7120d94c7ad2"
-            ],
-            [
-                "6580c16826334f78"
-            ]
-        ]
-    },
-    {
-        "id": "fd1f4341548ecd31",
-        "type": "switch",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "property": "topic",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Basic",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Direction",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 180,
-        "y": 200,
-        "wires": [
-            [
-                "d73e742979f6ca9c"
-            ],
-            [
-                "37f44a1b11df2833"
-            ]
-        ]
-    },
-    {
-        "id": "37f44a1b11df2833",
-        "type": "switch",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 340,
-        "y": 250,
-        "wires": [
-            [
-                "997df4712a2a594c"
-            ],
-            [
-                "a1a9263a35872661"
-            ]
-        ]
-    },
-    {
-        "id": "997df4712a2a594c",
-        "type": "change",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Forward",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 510,
-        "y": 230,
-        "wires": [
-            [
-                "49bc183e27eb4d0b"
-            ]
-        ]
-    },
-    {
-        "id": "a1a9263a35872661",
-        "type": "change",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Reverse",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 510,
-        "y": 270,
-        "wires": [
-            [
-                "49bc183e27eb4d0b"
-            ]
-        ]
-    },
-    {
-        "id": "b9590d824e9d5d35",
-        "type": "change",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "command",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1150,
-        "y": 270,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5af488f2566569b9",
-        "type": "pccc out",
-        "z": "ab86e94738aa1aef",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "CommandWord",
-        "name": "",
-        "x": 1460,
-        "y": 110,
-        "wires": []
-    },
-    {
-        "id": "b72b1bb1676fc39d",
-        "type": "delay",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "500",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 1090,
-        "y": 110,
-        "wires": [
-            [
-                "c46fd46383499020"
-            ]
-        ]
-    },
-    {
-        "id": "c46fd46383499020",
-        "type": "change",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "0",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1260,
-        "y": 110,
-        "wires": [
-            [
-                "5af488f2566569b9"
-            ]
-        ]
-    },
-    {
-        "id": "896109b37da4afa2",
-        "type": "delay",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "1",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 1640,
-        "y": 190,
-        "wires": [
-            [
-                "ed751715d54c69a6"
-            ]
-        ]
-    },
-    {
-        "id": "e75650ad7437d6e5",
-        "type": "change",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::Active0",
-                "pt": "flow",
-                "to": "#:(memoryOnly)::C2S.Drive_Status.Active",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1420,
-        "y": 190,
-        "wires": [
-            [
-                "896109b37da4afa2"
-            ]
-        ]
-    },
-    {
-        "id": "ed751715d54c69a6",
-        "type": "change",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::Active1",
-                "pt": "flow",
-                "to": "#:(memoryOnly)::C2S.Drive_Status.Active",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1860,
-        "y": 190,
-        "wires": [
-            [
-                "b0b4b2348867f14a"
-            ]
-        ]
-    },
-    {
-        "id": "b0b4b2348867f14a",
-        "type": "function",
-        "z": "ab86e94738aa1aef",
-        "name": "Arranque/Parada",
-        "func": "var Active0     = flow.get(\"Active0\",'memoryOnly');\nvar Active1     = flow.get(\"Active1\",'memoryOnly');\nvar Arranque    = ((msg.command == \"Arranque 'Forward'\") || (msg.command==\"Arranque 'Reverse'\")) ? true:false;\nvar Parada      = msg.command == \"Parada del equipo\" ? true:false;\ndelete msg.topic;\n// Arranque exitoso\nif(Arranque && Active0 == 0 && Active0 != Active1){\n    msg.payload =\"Arranque exitoso\";\n    global.set(\"C2S.FlagStatus\",true);\n}\n// Arranque fallido\nelse if(Arranque && Active0 == 0 && Active0 == Active1){\n    msg.payload = \"Arranque fallido\";\n}\n// Parada Exitosa\nelse if (Parada && Active0 == 1 && Active0 != Active1){\n    msg.payload = \"Parada exitosa\";\n    global.set(\"C2S.FlagStatus\", false);\n}\n// Parada Fallida\nelse if (Parada && Active0 == 1 && Active0 == Active1){\n    msg.payload = \"Parada fallida\";\n}\nelse{\n    return;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 2050,
-        "y": 190,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "707e0d1fb9344ad0",
-        "type": "inject",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "10",
-        "topic": "",
-        "payload": "0",
-        "payloadType": "num",
-        "x": 1290,
-        "y": 70,
-        "wires": [
-            [
-                "5af488f2566569b9"
-            ]
-        ]
-    },
-    {
-        "id": "8438018a059c273a",
-        "type": "function",
-        "z": "ab86e94738aa1aef",
-        "name": "Bloque de arranque por protección",
-        "func": "var Prot = global.get(\"Protections.General\",'memoryOnly')||false;\nvar FallaGeneral = global.get(\"IO.Functions.DO['Falla general']\",\"memoryOnly\")||false;\nif ((Prot || FallaGeneral) &&  ((msg.command == \"Arranque 'Reverse'\") || (msg.command == \"Arranque 'Forward'\")) ){return;}\nelse{return msg;}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1520,
-        "y": 150,
-        "wires": [
-            [
-                "5af488f2566569b9"
-            ]
-        ]
-    },
-    {
-        "id": "85a7e9a1f33daa9f",
-        "type": "switch",
-        "z": "ab86e94738aa1aef",
-        "name": "comando",
-        "property": "command",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "cont",
-                "v": "Arranque",
-                "vt": "str"
-            },
-            {
-                "t": "cont",
-                "v": "Parada",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1250,
-        "y": 190,
-        "wires": [
-            [
-                "e75650ad7437d6e5"
-            ],
-            [
-                "89b2294b67d338a6"
-            ]
-        ]
-    },
-    {
-        "id": "89b2294b67d338a6",
-        "type": "change",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::Active0",
-                "pt": "flow",
-                "to": "#:(memoryOnly)::C2S.Drive_Status.Active",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1420,
-        "y": 230,
-        "wires": [
-            [
-                "90c599dde167dfd6"
-            ]
-        ]
-    },
-    {
-        "id": "90c599dde167dfd6",
-        "type": "function",
-        "z": "ab86e94738aa1aef",
-        "name": "time",
-        "func": "var rampadesc = global.get(\"C2S.Speed_Control.Decel\")||0;\nvar hzmotor = global.get(\"C2S.Motor_Control.Nameplate.Hertz\")||60;\nvar frecact = global.get(\"C2S.Implicit.Output_Frequency\",\"memoryOnly\")||0;\nmsg.delay = parseInt((Math.abs(frecact/hzmotor)*rampadesc)*1000+500);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1580,
-        "y": 230,
-        "wires": [
-            [
-                "2b79d9f207bbf91f"
-            ]
-        ]
-    },
-    {
-        "id": "2b79d9f207bbf91f",
-        "type": "delay",
-        "z": "ab86e94738aa1aef",
-        "name": "",
-        "pauseType": "delayv",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 1710,
-        "y": 230,
-        "wires": [
-            [
-                "ed751715d54c69a6"
-            ]
-        ]
-    },
-    {
-        "id": "d6f692e4402e98dc",
-        "type": "change",
-        "z": "ab86e94738aa1aef",
-        "name": "Arranque",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Start",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 520,
-        "y": 110,
-        "wires": [
-            [
-                "49bc183e27eb4d0b"
-            ]
-        ]
-    },
-    {
-        "id": "6b4e7120d94c7ad2",
-        "type": "change",
-        "z": "ab86e94738aa1aef",
-        "name": "Parada",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Stop",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 520,
-        "y": 150,
-        "wires": [
-            [
-                "49bc183e27eb4d0b"
-            ]
-        ]
-    },
-    {
-        "id": "6580c16826334f78",
-        "type": "change",
-        "z": "ab86e94738aa1aef",
-        "name": "Reset",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Reset",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 510,
-        "y": 190,
-        "wires": [
-            [
-                "49bc183e27eb4d0b"
-            ]
-        ]
-    },
-    {
-        "id": "7297916d6b74b374",
-        "type": "pccc out",
-        "z": "980d1b733485cd67",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "PF755T_SpeedReference",
-        "name": "",
-        "x": 460,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "132e9ce0236b3daf",
-        "type": "function",
-        "z": "980d1b733485cd67",
-        "name": "Scale",
-        "func": "msg.payload = Math.abs(msg.payload*10000);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 270,
-        "y": 60,
-        "wires": [
-            [
-                "7297916d6b74b374",
-                "7525dc06eae78e8e"
-            ]
-        ]
-    },
-    {
-        "id": "7525dc06eae78e8e",
-        "type": "change",
-        "z": "980d1b733485cd67",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "C2S.Last_Reference.Source",
-                "pt": "global",
-                "to": "Topic",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 490,
-        "y": 100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9c9fa66cf61f7acf",
-        "type": "complete",
-        "z": "980d1b733485cd67",
-        "name": "",
-        "scope": [
-            "7297916d6b74b374"
-        ],
-        "uncaught": false,
-        "x": 410,
-        "y": 150,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "bd9619609c119084",
-        "type": "exec",
-        "z": "e3435d35df5fc5eb",
-        "command": "",
-        "addpay": true,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Exec Escribir Par",
-        "x": 510,
-        "y": 60,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "781b0edddd549723",
-        "type": "change",
-        "z": "e3435d35df5fc5eb",
-        "name": "Command",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "python3 -m cpppo.server.enip.get_attribute '@0x93/++/09=(---)###' '@0x93/++/09' -S -a IP",
-                "tot": "str"
-            },
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "###",
-                "fromt": "str",
-                "to": "Dato",
-                "tot": "flow"
-            },
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "++",
-                "fromt": "str",
-                "to": "Parameter",
-                "tot": "env"
-            },
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "---",
-                "fromt": "str",
-                "to": "Datatype",
-                "tot": "env"
-            },
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "IP",
-                "fromt": "str",
-                "to": "C2S.IP",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 330,
-        "y": 60,
-        "wires": [
-            [
-                "bd9619609c119084"
-            ]
-        ]
-    },
-    {
-        "id": "714954d2d2ee579e",
-        "type": "change",
-        "z": "e3435d35df5fc5eb",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Dato",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 170,
-        "y": 60,
-        "wires": [
-            [
-                "781b0edddd549723"
-            ]
-        ]
-    },
-    {
         "id": "76816c65d8649c2e",
         "type": "change",
         "z": "b298b5921bced6f2",
@@ -73591,8 +72493,7 @@
         "y": 700,
         "wires": [
             [
-                "11ed343b2599c14d",
-                "1fe5c77b3dcf541a"
+                "11ed343b2599c14d"
             ]
         ]
     },
@@ -73894,8 +72795,7 @@
         "y": 1000,
         "wires": [
             [
-                "11ed343b2599c14d",
-                "d39ad64818549a08"
+                "11ed343b2599c14d"
             ]
         ]
     },
@@ -73980,7 +72880,6 @@
         "y": 1100,
         "wires": [
             [
-                "f4501448d9191b7b",
                 "082a723ceab423ec"
             ]
         ]
@@ -74072,9 +72971,7 @@
         "x": 370,
         "y": 640,
         "wires": [
-            [
-                "1a9479c0c148315d"
-            ]
+            []
         ]
     },
     {
@@ -74091,9 +72988,7 @@
         "x": 370,
         "y": 940,
         "wires": [
-            [
-                "57b5faf0f037b042"
-            ]
+            []
         ]
     },
     {
@@ -74199,72 +73094,6 @@
         "wires": [
             [
                 "dc0d356916f70d48"
-            ]
-        ]
-    },
-    {
-        "id": "1a9479c0c148315d",
-        "type": "subflow:e3435d35df5fc5eb",
-        "z": "b298b5921bced6f2",
-        "g": "f2ce71497366a377",
-        "name": "AcT1",
-        "env": [
-            {
-                "name": "Parameter",
-                "value": "535",
-                "type": "num"
-            }
-        ],
-        "x": 490,
-        "y": 640,
-        "wires": [
-            [],
-            [
-                "202a11668a256453"
-            ]
-        ]
-    },
-    {
-        "id": "57b5faf0f037b042",
-        "type": "subflow:e3435d35df5fc5eb",
-        "z": "b298b5921bced6f2",
-        "g": "f2ce71497366a377",
-        "name": "AcT2",
-        "env": [
-            {
-                "name": "Parameter",
-                "value": "535",
-                "type": "num"
-            }
-        ],
-        "x": 490,
-        "y": 940,
-        "wires": [
-            [],
-            [
-                "b499f7c17a18e1a5"
-            ]
-        ]
-    },
-    {
-        "id": "f4501448d9191b7b",
-        "type": "subflow:e3435d35df5fc5eb",
-        "z": "b298b5921bced6f2",
-        "g": "f2ce71497366a377",
-        "name": "Accel",
-        "env": [
-            {
-                "name": "Parameter",
-                "value": "535",
-                "type": "num"
-            }
-        ],
-        "x": 490,
-        "y": 1100,
-        "wires": [
-            [],
-            [
-                "78775a1f38e0926e"
             ]
         ]
     },
@@ -74681,52 +73510,6 @@
         ]
     },
     {
-        "id": "1fe5c77b3dcf541a",
-        "type": "subflow:980d1b733485cd67",
-        "z": "b298b5921bced6f2",
-        "g": "f2ce71497366a377",
-        "name": "",
-        "env": [],
-        "x": 580,
-        "y": 730,
-        "wires": [
-            [
-                "b1565b6948288f5a"
-            ]
-        ]
-    },
-    {
-        "id": "d39ad64818549a08",
-        "type": "subflow:980d1b733485cd67",
-        "z": "b298b5921bced6f2",
-        "g": "f2ce71497366a377",
-        "name": "",
-        "env": [],
-        "x": 580,
-        "y": 1000,
-        "wires": [
-            [
-                "a2e092e673896433"
-            ]
-        ]
-    },
-    {
-        "id": "e2e69505cf885090",
-        "type": "subflow:ab86e94738aa1aef",
-        "z": "b298b5921bced6f2",
-        "g": "f2ce71497366a377",
-        "name": "",
-        "env": [],
-        "x": 560,
-        "y": 790,
-        "wires": [
-            [],
-            [
-                "5a403bee88f4887f"
-            ]
-        ]
-    },
-    {
         "id": "9ad45e910407f2fc",
         "type": "change",
         "z": "b298b5921bced6f2",
@@ -74756,9 +73539,7 @@
         "x": 400,
         "y": 790,
         "wires": [
-            [
-                "e2e69505cf885090"
-            ]
+            []
         ]
     },
     {
@@ -76372,610 +75153,6 @@
         "y": 1270,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "b2a15dd6797ee5fd",
-        "type": "change",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "command",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1150,
-        "y": 270,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6d9d9db4249e0786",
-        "type": "pccc out",
-        "z": "dede01fd738b74fb",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "CommandWord",
-        "name": "",
-        "x": 1660,
-        "y": 110,
-        "wires": []
-    },
-    {
-        "id": "ffb3a850b00b7999",
-        "type": "delay",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "500",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 1090,
-        "y": 110,
-        "wires": [
-            [
-                "968f88110e4c7fd5"
-            ]
-        ]
-    },
-    {
-        "id": "968f88110e4c7fd5",
-        "type": "change",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "0",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1260,
-        "y": 110,
-        "wires": [
-            [
-                "3b19e625fe821089"
-            ]
-        ]
-    },
-    {
-        "id": "8bfe355ce8853389",
-        "type": "delay",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "1",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 1640,
-        "y": 190,
-        "wires": [
-            [
-                "823e72c33813a82b"
-            ]
-        ]
-    },
-    {
-        "id": "fcb4ac7f1b9dae47",
-        "type": "change",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::Active0",
-                "pt": "flow",
-                "to": "#:(memoryOnly)::C2S.Drive_Status.Active",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1420,
-        "y": 190,
-        "wires": [
-            [
-                "8bfe355ce8853389"
-            ]
-        ]
-    },
-    {
-        "id": "823e72c33813a82b",
-        "type": "change",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::Active1",
-                "pt": "flow",
-                "to": "#:(memoryOnly)::C2S.Drive_Status.Active",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1860,
-        "y": 190,
-        "wires": [
-            [
-                "915078d527ef8b9c"
-            ]
-        ]
-    },
-    {
-        "id": "915078d527ef8b9c",
-        "type": "function",
-        "z": "dede01fd738b74fb",
-        "name": "Arranque/Parada",
-        "func": "var Active0     = flow.get(\"Active0\",'memoryOnly');\nvar Active1     = flow.get(\"Active1\",'memoryOnly');\nvar Arranque    = ((msg.command == \"Arranque 'Forward'\") || (msg.command==\"Arranque 'Reverse'\")) ? true:false;\nvar Parada      = msg.command == \"Parada del equipo\" ? true:false;\ndelete msg.topic;\n// Arranque exitoso\nif(Arranque && Active0 == 0 && Active0 != Active1){\n    msg.payload =\"Arranque exitoso\";\n    global.set(\"C2S.FlagStatus\",true);\n}\n// Arranque fallido\nelse if(Arranque && Active0 == 0 && Active0 == Active1){\n    msg.payload = \"Arranque fallido\";\n}\n// Parada Exitosa\nelse if (Parada && Active0 == 1 && Active0 != Active1){\n    msg.payload = \"Parada exitosa\";\n    global.set(\"C2S.FlagStatus\", false);\n}\n// Parada Fallida\nelse if (Parada && Active0 == 1 && Active0 == Active1){\n    msg.payload = \"Parada fallida\";\n}\nelse{\n    return;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 2050,
-        "y": 190,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a5e8864573dddfb3",
-        "type": "inject",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "10",
-        "topic": "",
-        "payload": "0",
-        "payloadType": "num",
-        "x": 1490,
-        "y": 70,
-        "wires": [
-            [
-                "6d9d9db4249e0786"
-            ]
-        ]
-    },
-    {
-        "id": "c971c8e2c6bae865",
-        "type": "function",
-        "z": "dede01fd738b74fb",
-        "name": "Bloque de arranque por protección",
-        "func": "var Prot = global.get(\"Protections.General\",'memoryOnly')||false;\nvar FallaGeneral = global.get(\"IO.Functions.DO['Falla general']\",\"memoryOnly\")||false;\nif ((Prot || FallaGeneral) &&  ((msg.command == \"Arranque 'Reverse'\") || (msg.command == \"Arranque 'Forward'\")) ){return;}\nelse{return msg;}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1520,
-        "y": 150,
-        "wires": [
-            [
-                "3b19e625fe821089"
-            ]
-        ]
-    },
-    {
-        "id": "ed7580e54c037f83",
-        "type": "switch",
-        "z": "dede01fd738b74fb",
-        "name": "comando",
-        "property": "command",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "cont",
-                "v": "Arranque",
-                "vt": "str"
-            },
-            {
-                "t": "cont",
-                "v": "Parada",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1250,
-        "y": 190,
-        "wires": [
-            [
-                "fcb4ac7f1b9dae47"
-            ],
-            [
-                "40ae9c7cdf5ae153"
-            ]
-        ]
-    },
-    {
-        "id": "40ae9c7cdf5ae153",
-        "type": "change",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::Active0",
-                "pt": "flow",
-                "to": "#:(memoryOnly)::C2S.Drive_Status.Active",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1420,
-        "y": 230,
-        "wires": [
-            [
-                "ba925ffdcdeff873"
-            ]
-        ]
-    },
-    {
-        "id": "ba925ffdcdeff873",
-        "type": "function",
-        "z": "dede01fd738b74fb",
-        "name": "time",
-        "func": "var rampadesc = global.get(\"C2S.Speed_Control.Decel\")||0;\nvar hzmotor = global.get(\"C2S.Motor_Control.Nameplate.Hertz\")||60;\nvar frecact = global.get(\"C2S.Implicit.Output_Frequency\",\"memoryOnly\")||0;\n msg.delay = parseInt(((frecact/hzmotor)*rampadesc)*1000+500);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1580,
-        "y": 230,
-        "wires": [
-            [
-                "f96e627385a1291d"
-            ]
-        ]
-    },
-    {
-        "id": "f96e627385a1291d",
-        "type": "delay",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "pauseType": "delayv",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 1710,
-        "y": 230,
-        "wires": [
-            [
-                "823e72c33813a82b"
-            ]
-        ]
-    },
-    {
-        "id": "3b19e625fe821089",
-        "type": "function",
-        "z": "dede01fd738b74fb",
-        "name": "Int to IEEE 754",
-        "func": "v = new DataView(new ArrayBuffer(4));\nmsg.payload = msg.payload.toString(16);\nv.setUint32(0, '0x'+ msg.payload);\nnode.status({fill:\"green\",shape:\"dot\",text:v.getFloat32(0)});\n\nmsg.payload = v.getFloat32(0);\n\nreturn msg;\n\n// Fuentes:\n// https://stackoverflow.com/questions/41635908/node-red-parsing-json-data-and-converting-it-into-binary\n// https://stackoverflow.com/questions/49221045/javascript-hexadecimal-string-to-ieee-754-floating-point",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1460,
-        "y": 110,
-        "wires": [
-            [
-                "6d9d9db4249e0786"
-            ]
-        ]
-    },
-    {
-        "id": "73487ba243ec76e5",
-        "type": "switch",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "property": "topic",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Basic",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Direction",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 180,
-        "y": 200,
-        "wires": [
-            [
-                "bcb7509aed349ad1"
-            ],
-            [
-                "e1057bbb456536d5"
-            ]
-        ]
-    },
-    {
-        "id": "bcb7509aed349ad1",
-        "type": "switch",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Start",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Stop",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Reset",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 340,
-        "y": 150,
-        "wires": [
-            [
-                "f9d939f50334d556"
-            ],
-            [
-                "4069f4f53d39f180"
-            ],
-            [
-                "830eaa9cdf7f22a8"
-            ]
-        ]
-    },
-    {
-        "id": "e1057bbb456536d5",
-        "type": "switch",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 340,
-        "y": 250,
-        "wires": [
-            [
-                "f3496130126c37ca"
-            ],
-            [
-                "60c94bde0682a390"
-            ]
-        ]
-    },
-    {
-        "id": "60c94bde0682a390",
-        "type": "change",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Reverse",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 510,
-        "y": 270,
-        "wires": [
-            [
-                "05e19853d114c047"
-            ]
-        ]
-    },
-    {
-        "id": "f3496130126c37ca",
-        "type": "change",
-        "z": "dede01fd738b74fb",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Forward",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 510,
-        "y": 230,
-        "wires": [
-            [
-                "05e19853d114c047"
-            ]
-        ]
-    },
-    {
-        "id": "830eaa9cdf7f22a8",
-        "type": "change",
-        "z": "dede01fd738b74fb",
-        "name": "Reset",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Reset",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 510,
-        "y": 190,
-        "wires": [
-            [
-                "05e19853d114c047"
-            ]
-        ]
-    },
-    {
-        "id": "4069f4f53d39f180",
-        "type": "change",
-        "z": "dede01fd738b74fb",
-        "name": "Parada",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Stop",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 520,
-        "y": 150,
-        "wires": [
-            [
-                "05e19853d114c047"
-            ]
-        ]
-    },
-    {
-        "id": "f9d939f50334d556",
-        "type": "change",
-        "z": "dede01fd738b74fb",
-        "name": "Arranque",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Start",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 520,
-        "y": 110,
-        "wires": [
-            [
-                "05e19853d114c047"
-            ]
-        ]
-    },
-    {
-        "id": "05e19853d114c047",
-        "type": "function",
-        "z": "dede01fd738b74fb",
-        "name": "LogicCommand",
-        "func": "var Direction = global.get(\"C2S.Drive_Status.Command_dir\",\"memoryOnly\");\n\n//Mensaje de salida\nif(msg.payload == 'Start'){\n    if(Direction == 0){\n        msg.command = \"Arranque 'Reverse'\";\n    }\n    else{\n        msg.command = \"Arranque 'Forward'\";\n    }\n    msg.payload = 2;\n}\nelse if(msg.payload == 'Stop'){\n    msg.command = \"Parada del equipo\";\n    msg.payload = 1;\n}\nelse if(msg.payload == 'Reset'){\n    msg.command = \"Reset del equipo\";\n    msg.payload = 8;\n    \n}\nelse if(msg.payload == 'Forward'){\n    msg.command = \"Cambio sentido de giro a 'Forward'\";\n    msg.payload = 16;\n}\nelse if(msg.payload == 'Reverse'){\n    msg.command = \"Cambio sentido de giro a 'Reverse'\";\n    msg.payload = 32;\n}\nreturn msg",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 920,
-        "y": 190,
-        "wires": [
-            [
-                "ffb3a850b00b7999",
-                "c971c8e2c6bae865",
-                "ed7580e54c037f83",
-                "b2a15dd6797ee5fd"
-            ]
         ]
     },
     {
@@ -83207,41 +81384,10 @@
         ]
     },
     {
-        "id": "30db43ad4951c15a",
-        "type": "ui_text",
-        "z": "b2e86c3dcf7c9876",
-        "group": "c08a59e0a040b178",
-        "order": 1,
-        "width": 12,
-        "height": 1,
-        "name": "",
-        "label": "PumpOffDashBoard",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 390,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "e5107baacc751050",
-        "type": "ui_text",
-        "z": "b2e86c3dcf7c9876",
-        "group": "c08a59e0a040b178",
-        "order": 1,
-        "width": 12,
-        "height": 1,
-        "name": "",
-        "label": "PumpOffDashBoard",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 980,
-        "y": 440,
-        "wires": []
-    },
-    {
         "id": "6b55e412f17b88b0",
         "type": "ui_button",
         "z": "b2e86c3dcf7c9876",
+        "g": "7bfaa88e76cb60c8",
         "name": "",
         "group": "c08a59e0a040b178",
         "order": 33,
@@ -83256,8 +81402,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "topic",
-        "x": 960,
-        "y": 580,
+        "x": 860,
+        "y": 480,
         "wires": [
             [
                 "73ce523357c2a207"
@@ -83268,6 +81414,7 @@
         "id": "73ce523357c2a207",
         "type": "function",
         "z": "b2e86c3dcf7c9876",
+        "g": "7bfaa88e76cb60c8",
         "name": "Set Parametros de Tiempo",
         "func": "var ton = global.get(\"Control.Controlon_off.ton\") || 0;\nvar toff = global.get(\"Control.Controlon_off.toff\") || 0;\nvar Frecuencia = global.get(\"controlSRP.Variador.Frecuencia\")||0;\nvar Dc = global.get(\"controlSRP.Variador.Dc\") || 0;\nvar nPolosMotor = global.get(\"controlSRP.Variador.nPolosMotor\") || 0;\nvar Dm = global.get(\"controlSRP.Variador.Dm\") || 0;\nvar rgb = global.get(\"controlSRP.Variador.rgb\") || 0;\nif(msg.payload == true){\n    //conversión ton\n    var InputSeconds = ton;\n    var Days = parseInt(InputSeconds / 86400);\n    var Hours = parseInt((InputSeconds - (Days) * 86400) / 3600);\n    var SegRest = parseInt(InputSeconds - (Hours * 3600) - (Days * 86400));\n    var min = parseInt(SegRest / 60);\n    var seconds = parseInt(SegRest - (min * 60));\n    context.set(\"Days\", (Days));\n    context.set(\"InputSeconds\", InputSeconds);\n    context.set(\"Hours\", Hours);\n    context.set(\"SegRest\", SegRest);\n    context.set(\"min\", min);\n    context.set(\"seconds\", seconds);\n    Days = { payload: Days };\n    Hours = { payload: Hours };\n    min = { payload: min };\n    seconds = { payload: seconds };\n    //Conversión toff\n    var InputSeconds2 = toff;\n    var Days2 = parseInt(InputSeconds2 / 86400);\n    var Hours2 = parseInt((InputSeconds2 - (Days2) * 86400) / 3600);\n    var SegRest2 = parseInt(InputSeconds2 - (Hours2 * 3600) - (Days2 * 86400));\n    var min2 = parseInt(SegRest2 / 60);\n    var seconds2 = parseInt(SegRest2 - (min2 * 60));\n    context.set(\"Days2\", (Days2));\n    context.set(\"InputSeconds2\", InputSeconds2);\n    context.set(\"Hours2\", Hours2);\n    context.set(\"SegRest2\", SegRest2);\n    context.set(\"min2\", min2);\n    context.set(\"seconds2\", seconds2);\n    //conversión Hz a SPM\n    var spm = (Frecuencia * 60 * Dm) / (rgb * nPolosMotor * Dc);\n    context.set(\"Dc\", Dc, \"memoryOnly\")\n    context.set(\"nPolosMotor\", nPolosMotor, \"memoryOnly\")\n    context.set(\"Dm\", Dm, \"memoryOnly\")\n    context.set(\"spm\", spm, \"memoryOnly\")\n// Declaración de parametros en msg.\n    Days2 = { payload: Days2 };\n    Hours2 = { payload: Hours2 };\n    min2 = { payload: min2 };\n    seconds2 = { payload: seconds2 };\n    spm = {payload:spm};\n    return [Hours, min, seconds,Hours2, min2, seconds2,spm];\n}\n",
         "outputs": 7,
@@ -83275,8 +81422,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1240,
-        "y": 580,
+        "x": 1100,
+        "y": 480,
         "wires": [
             [
                 "f7f68d507a83a177"
@@ -83297,27 +81444,9 @@
                 "17fa7f98b979dfd4"
             ],
             [
-                "11a9be3b9ec03219",
                 "9dffd061987ea7df"
             ]
         ]
-    },
-    {
-        "id": "11a9be3b9ec03219",
-        "type": "debug",
-        "z": "b2e86c3dcf7c9876",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1340,
-        "y": 700,
-        "wires": []
     },
     {
         "id": "67ccd4f03ab7af0e",
@@ -83605,8 +81734,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2070,
-        "y": 360,
+        "x": 1670,
+        "y": 380,
         "wires": [
             []
         ]
@@ -83631,8 +81760,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2100,
-        "y": 400,
+        "x": 1700,
+        "y": 420,
         "wires": [
             []
         ]
@@ -83657,8 +81786,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2110,
-        "y": 440,
+        "x": 1710,
+        "y": 460,
         "wires": [
             []
         ]
@@ -83683,8 +81812,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2070,
-        "y": 480,
+        "x": 1670,
+        "y": 500,
         "wires": [
             []
         ]
@@ -83709,8 +81838,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2100,
-        "y": 520,
+        "x": 1700,
+        "y": 540,
         "wires": [
             []
         ]
@@ -83735,8 +81864,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2100,
-        "y": 560,
+        "x": 1700,
+        "y": 580,
         "wires": [
             []
         ]
@@ -83757,8 +81886,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1780,
-        "y": 360,
+        "x": 1380,
+        "y": 380,
         "wires": [
             [
                 "8881a6f1e319eebb"
@@ -83781,8 +81910,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1790,
-        "y": 400,
+        "x": 1390,
+        "y": 420,
         "wires": [
             [
                 "392614ea7066bf4f"
@@ -83805,8 +81934,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1790,
-        "y": 440,
+        "x": 1390,
+        "y": 460,
         "wires": [
             [
                 "da158ec4797f6af8"
@@ -83829,8 +81958,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1780,
-        "y": 480,
+        "x": 1380,
+        "y": 500,
         "wires": [
             [
                 "2cd90f67fb543d86"
@@ -83853,8 +81982,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1780,
-        "y": 520,
+        "x": 1380,
+        "y": 540,
         "wires": [
             [
                 "13faf83c9dc68007"
@@ -83877,8 +82006,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1790,
-        "y": 560,
+        "x": 1390,
+        "y": 580,
         "wires": [
             [
                 "fa4b448abb23ef6e"
@@ -83899,8 +82028,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 2220,
-        "y": 1080,
+        "x": 1500,
+        "y": 1040,
         "wires": []
     },
     {
@@ -83915,8 +82044,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2030,
-        "y": 1040,
+        "x": 1310,
+        "y": 1000,
         "wires": [
             [
                 "00c14000ccdd06a6",
@@ -83938,8 +82067,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 2000,
-        "y": 980,
+        "x": 1280,
+        "y": 940,
         "wires": []
     },
     {
@@ -83954,8 +82083,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1790,
-        "y": 1000,
+        "x": 1070,
+        "y": 960,
         "wires": [
             [
                 "26427ddc34e1b785",
@@ -83988,8 +82117,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "date",
-        "x": 1590,
-        "y": 1000,
+        "x": 870,
+        "y": 960,
         "wires": [
             [
                 "de462900b7d6577a"
@@ -84001,7 +82130,7 @@
         "type": "change",
         "z": "b2e86c3dcf7c9876",
         "g": "1cae295565edf7af",
-        "name": "conf",
+        "name": "Arranque",
         "rules": [
             {
                 "t": "set",
@@ -84023,10 +82152,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2130,
-        "y": 880,
+        "x": 1420,
+        "y": 840,
         "wires": [
-            []
+            [
+                "e338f68f5e5d4716"
+            ]
         ]
     },
     {
@@ -84048,8 +82179,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1990,
-        "y": 900,
+        "x": 1270,
+        "y": 860,
         "wires": [
             [
                 "c12a09b38de360d2"
@@ -84064,7 +82195,7 @@
         "type": "change",
         "z": "b2e86c3dcf7c9876",
         "g": "1cae295565edf7af",
-        "name": "conf",
+        "name": "Pare",
         "rules": [
             {
                 "t": "set",
@@ -84086,10 +82217,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2130,
-        "y": 920,
+        "x": 1410,
+        "y": 880,
         "wires": [
-            []
+            [
+                "e338f68f5e5d4716"
+            ]
         ]
     },
     {
@@ -84105,8 +82238,8 @@
         "label": "Tiempo:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 2220,
-        "y": 1000,
+        "x": 1500,
+        "y": 960,
         "wires": []
     },
     {
@@ -84137,8 +82270,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 1850,
-        "y": 1080,
+        "x": 1130,
+        "y": 1040,
         "wires": []
     },
     {
@@ -84161,8 +82294,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2210,
-        "y": 1260,
+        "x": 2030,
+        "y": 1220,
         "wires": [
             []
         ]
@@ -84179,8 +82312,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1570,
-        "y": 1300,
+        "x": 1390,
+        "y": 1260,
         "wires": [
             [
                 "5a9821564feeb914"
@@ -84202,8 +82335,8 @@
         "raw": false,
         "topic": "",
         "name": "confirm",
-        "x": 1900,
-        "y": 1280,
+        "x": 1720,
+        "y": 1240,
         "wires": [
             [
                 "af5d5981a0c668f3"
@@ -84233,8 +82366,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2030,
-        "y": 1280,
+        "x": 1850,
+        "y": 1240,
         "wires": [
             [
                 "208a65a85195d3c7"
@@ -84261,8 +82394,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1770,
-        "y": 1300,
+        "x": 1590,
+        "y": 1260,
         "wires": [
             [
                 "9356ff96a2dc8b4e"
@@ -84287,8 +82420,8 @@
         "raw": false,
         "topic": "",
         "name": "confirm",
-        "x": 1900,
-        "y": 1320,
+        "x": 1720,
+        "y": 1280,
         "wires": [
             [
                 "0a54853d8bd0648e"
@@ -84318,8 +82451,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2030,
-        "y": 1320,
+        "x": 1850,
+        "y": 1280,
         "wires": [
             [
                 "e0c079cfca1f68cf"
@@ -84349,8 +82482,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2220,
-        "y": 1300,
+        "x": 2040,
+        "y": 1260,
         "wires": [
             []
         ]
@@ -84367,8 +82500,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1520,
-        "y": 1220,
+        "x": 1340,
+        "y": 1180,
         "wires": [
             [
                 "011982c32a1b942e"
@@ -84398,8 +82531,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
-        "y": 1220,
+        "x": 1490,
+        "y": 1180,
         "wires": [
             [
                 "6aa7336cdef0e0ed"
@@ -84424,8 +82557,8 @@
         "raw": false,
         "topic": "",
         "name": "SPM",
-        "x": 1810,
-        "y": 1240,
+        "x": 1630,
+        "y": 1200,
         "wires": []
     },
     {
@@ -84443,8 +82576,8 @@
         "raw": false,
         "topic": "",
         "name": "SPM",
-        "x": 1810,
-        "y": 1200,
+        "x": 1630,
+        "y": 1160,
         "wires": []
     },
     {
@@ -84467,8 +82600,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1570,
-        "y": 1180,
+        "x": 1390,
+        "y": 1140,
         "wires": [
             []
         ]
@@ -84485,8 +82618,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1130,
-        "y": 1380,
+        "x": 950,
+        "y": 1340,
         "wires": [
             [
                 "7b393b3c8ea98aaa"
@@ -84508,8 +82641,8 @@
         "raw": false,
         "topic": "",
         "name": "ON/OFF",
-        "x": 1340,
-        "y": 1340,
+        "x": 1160,
+        "y": 1300,
         "wires": []
     },
     {
@@ -84536,8 +82669,8 @@
         "offvalueType": "num",
         "officon": "",
         "offcolor": "",
-        "x": 1090,
-        "y": 1300,
+        "x": 910,
+        "y": 1260,
         "wires": [
             [
                 "3b7ca42f6538e0c3",
@@ -84566,8 +82699,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1240,
-        "y": 1240,
+        "x": 1060,
+        "y": 1200,
         "wires": [
             []
         ]
@@ -84591,8 +82724,8 @@
         "payload": "true",
         "payloadType": "bool",
         "topic": "topic",
-        "x": 1250,
-        "y": 1200,
+        "x": 1070,
+        "y": 1160,
         "wires": [
             [
                 "8f93fdb9cb631807",
@@ -84620,8 +82753,8 @@
         "payload": "false",
         "payloadType": "bool",
         "topic": "topic",
-        "x": 1420,
-        "y": 1380,
+        "x": 1240,
+        "y": 1340,
         "wires": [
             [
                 "3b7ca42f6538e0c3"
@@ -84669,8 +82802,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1860,
-        "y": 700,
+        "x": 1100,
+        "y": 680,
         "wires": [
             []
         ]
@@ -84687,8 +82820,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1860,
-        "y": 740,
+        "x": 1100,
+        "y": 720,
         "wires": [
             [
                 "2a32f6f87647030f",
@@ -84716,8 +82849,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2140,
-        "y": 760,
+        "x": 1380,
+        "y": 740,
         "wires": [
             []
         ]
@@ -84738,8 +82871,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1630,
-        "y": 720,
+        "x": 870,
+        "y": 700,
         "wires": [
             [
                 "7e00f2809a79dcd3",
@@ -84760,8 +82893,8 @@
         "label": "Frecuencia de Salida (Hz)",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 2130,
-        "y": 700,
+        "x": 1370,
+        "y": 680,
         "wires": []
     },
     {
@@ -84784,12 +82917,25 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2200,
-        "y": 1340,
+        "x": 2020,
+        "y": 1300,
         "wires": [
             [
                 "3d2c53ee80a4a3ea"
             ]
+        ]
+    },
+    {
+        "id": "e338f68f5e5d4716",
+        "type": "subflow:c8b77ff3.ab501",
+        "z": "b2e86c3dcf7c9876",
+        "g": "1cae295565edf7af",
+        "name": "",
+        "x": 1580,
+        "y": 860,
+        "wires": [
+            [],
+            []
         ]
     }
 ]
